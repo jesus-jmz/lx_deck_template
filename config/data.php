@@ -854,7 +854,7 @@ $act2_instructions = [
 /*
     FORMATO:
    * Cada paso completo es un arreglo
-   * "introduction" ->
+   * "introduction" -> Un párrafo de introducción a la actividad (opcional)
    * "text" -> Determina si el texto es normal o negritas
    * "type" -> Determina el tipo de inciso (letra o número)
    * "extra" -> Agrega un hipervínculo después del paso
@@ -1334,13 +1334,8 @@ $act3_instructions = [
    * "img" -> Indica la ruta de la imagen
         * Ruta del archivo -> img/act/nombre-del-archivo
 
-   * "instruction" -> Indica el link o la ruta de la herramienta
-        * Ruta del archivo -> assets/docs/tools/autoval/nombre-del-archivo
-   
-   EJEMPLO:
-   * "Transcripción del ejemplo<br><br> <--- Salto de línea
-     <strong>Ejemplo de texto en negritas</strong>", <-- Termina en ,
- */
+   * "instruction" -> Breve indicación de la imagen
+    */
 $act3_finalization = 
 [
     //Slab 1
