@@ -153,6 +153,34 @@ $currentSlab = getDeckData("current_slab");
                 </div>
               </div>
               <!--END: Diagnóstico-->
+              <!--BEGIN: Experto-->
+              <button id="tracker_2" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#expertosModal">
+                Experto
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="expertosModal" tabindex="-1" aria-labelledby="expertosModalLabel" aria-hidden="true">
+                <div class="modal-dialog mw-75">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-5 profile-col">
+                          <img class="exp-img" src="<?= $exp_pic ?>" alt="" srcset="">
+                          <a href="<?= $exp_linkedin ?>" class="btn linkedin btn-primary"> 
+                            Para saber más
+                          </a>
+                        </div>
+                        <div class="col-7">
+                          <h5 class="exp-name"><?= $exp_name ?></h5>
+                          <p class="mb-0 mt-4">
+                            <?= $exp_desc ?>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--END: Diagnóstico-->
             </div>
             <!--END: Botones-->
           </div>

@@ -166,6 +166,29 @@ main .container{
     height: 0.75rem;
 }
 
+.profile-col{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    justify-content: center;
+}
+
+.profile-col .exp-img {
+    aspect-ratio: 1/1;
+}
+
+.linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.exp-name{
+    font-size: 1.75vw;
+    font-weight: bold;
+}
+
 @media only screen and (max-width:768px){
     .timeline ul li {
         position: relative;

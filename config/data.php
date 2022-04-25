@@ -19,6 +19,16 @@ $focus = "Metodología activa";
 $learningExp = "Autodirigido";
 $requirements = "Ninguno";
 
+//-- Experto --
+$exp_name = "Nombre del experto";
+$exp_desc = "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, eligendi illo quasi ex ab eaque? Nemo aliquam non pariatur, placeat error at fugit culpa voluptates reprehenderit repudiandae, nulla earum consequatur<br><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati repellendus, ipsum praesentium laborum asperiores quibusdam sapiente maxime tempore dolor similique debitis sed vitae a ut optio accusamus consequatur ex magnam!";
+$exp_linkedin = "#";
+/*
+   FORMATO:
+   * Ruta del archivo -> img/nombre-del-archivo
+ */
+$exp_pic = "img/exp_placeholder.png";
+
 // -- Imagen Home --
 /*
    FORMATO:
