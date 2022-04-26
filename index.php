@@ -46,6 +46,10 @@ $currentSlab = getDeckData("current_slab");
     }
   }
 
+  echo "<br>Longitud máxima de bio: ".strlen($exp_desc);
+  echo "<br>Longitud máxima del nombre: ".strlen($exp_name);
+  echo "<br>Longitud máxima de la posición: ".strlen($exp_position);
+
 ?>
 
 <!DOCTYPE html>
@@ -165,15 +169,42 @@ $currentSlab = getDeckData("current_slab");
                       <div class="row">
                         <div class="col-5 profile-col">
                           <img class="exp-img" src="<?= $exp_pic ?>" alt="" srcset="">
-                          <a href="<?= $exp_linkedin ?>" class="btn linkedin btn-primary"> 
-                            Para saber más
-                          </a>
                         </div>
                         <div class="col-7">
                           <h5 class="exp-name"><?= $exp_name ?></h5>
-                          <p class="mb-0 mt-4">
-                            <?= $exp_desc ?>
-                          </p>
+                          <h6 class="exp-position"><?= $exp_position ?></h6>
+                          <!--Opción bullets-->
+                          <!--
+                            <p>Con experiencia en:</p>
+                            <ul>
+                              <?php 
+                                foreach($exp_competences as $competence) { ?>
+                                  <li> <?=$competence?> </li>
+                              <?php }?>
+                            </ul>
+                            -->
+                            <!--Opción texto-->
+                            <p class="mt-4"><?= $exp_desc ?></p>
+                            <?php if($exp_has_portfolio===true || $exp_linkedin===true){?>
+                              
+                              <div class="exp-btns">
+                                  <?php if($exp_has_linkedin===true){?>
+                                    <a href="<?= $exp_linkedin ?>" class="btn linkedin btn-primary "> 
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                                      </svg>
+                                    </a>
+                                  <?php } ?>
+                                  <?php if($exp_has_portfolio===true){?>
+                                    <a href="<?= $exp_portfolio ?>" class="btn linkedin btn-primary "> 
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-folder" viewBox="0 0 16 16">
+                                      <path d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"/>
+                                    </svg>
+                                    </a>
+                                  <?php } ?>
+                                </div>
+                                
+                            <?php } ?>
                         </div>
                       </div>
                     </div>

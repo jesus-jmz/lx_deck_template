@@ -21,13 +21,24 @@ $requirements = "Ninguno";
 
 //-- Experto --
 $exp_name = "Nombre del experto";
-$exp_desc = "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, eligendi illo quasi ex ab eaque? Nemo aliquam non pariatur, placeat error at fugit culpa voluptates reprehenderit repudiandae, nulla earum consequatur<br><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati repellendus, ipsum praesentium laborum asperiores quibusdam sapiente maxime tempore dolor similique debitis sed vitae a ut optio accusamus consequatur ex magnam!";
-$exp_linkedin = "#";
+$exp_desc = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ratione, quo voluptatem magnam enim jk architecto labore consequuntur deserunt impedit soluta dignissimos vero atque aperiam amet autem numquam veritatis, est nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor.";
+$exp_position = "Posición del experto";
+$exp_linkedin = "https://stackoverflow.com/questions/13955667/disabled-href-tag";
+$exp_has_linkedin = true;
+$exp_portfolio = "https://stackoverflow.com/questions/13955667/disabled-href-tag";
+$exp_has_portfolio = true;
 /*
    FORMATO:
    * Ruta del archivo -> img/nombre-del-archivo
  */
 $exp_pic = "img/exp_placeholder.png";
+$exp_competences = [
+    "Competence #1",
+    "Competence #2",
+    "Competence #3",
+    "Competence #4",
+    "Competence #5"
+];
 
 // -- Imagen Home --
 /*
