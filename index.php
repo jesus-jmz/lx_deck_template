@@ -46,10 +46,6 @@ $currentSlab = getDeckData("current_slab");
     }
   }
 
-  echo "<br>Longitud máxima de bio: ".strlen($exp_desc);
-  echo "<br>Longitud máxima del nombre: ".strlen($exp_name);
-  echo "<br>Longitud máxima de la posición: ".strlen($exp_position);
-
 ?>
 
 <!DOCTYPE html>

@@ -6,7 +6,7 @@
 
     if(!isset($_COOKIE["user_id"])){
         init();
-        //header("Refresh:0");
+        header("Refresh:0");
     }
 
     //echo "Hay cookie id";
