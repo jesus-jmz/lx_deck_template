@@ -66,7 +66,7 @@ $currentSlab = getDeckData("current_slab");
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/deck.css" />
     
-    <title>Deck</title>
+    <title>Deck Excel</title>
   </head>
   <body>
     <input id="value_tracker_1" type="hidden"  name="value_tracker_1" value=<?php echo $tracker_1; ?>>
@@ -103,7 +103,7 @@ $currentSlab = getDeckData("current_slab");
           </div>
           <div class="col-lg align-self-center intro intro-video">
             <div class="heading-img">
-              <img class="video-block" src="img/intro.jpg" alt="video" />
+              <img class="video-block" src="img/home.jpg" alt="video" />
               <img class="bg-img" src="img/shapes/heading.png" alt="heading png">
             </div>
             <!--BEGIN: Botones-->
@@ -147,67 +147,69 @@ $currentSlab = getDeckData("current_slab");
                 <div class="modal-dialog mw-75">
                   <div class="modal-content">
                     <div class="modal-body typeform-body">
-                      <div data-tf-widget="Q9w20G65" data-tf-iframe-props="title=Diagnostico-SCRUM" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+                    <div data-tf-widget="WIQjHJgv" data-tf-iframe-props="title=Diagnostico inicio EXCEL" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
                     </div>
                   </div>
                 </div>
               </div>
               <!--END: Diagnóstico-->
               <!--BEGIN: Experto-->
-              <button id="tracker_2" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#expertosModal">
+              <button id="tracker_2" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newExpertosModal">
                 Experto
               </button>
-              <!-- Modal -->
-              <div class="modal fade" id="expertosModal" tabindex="-1" aria-labelledby="expertosModalLabel" aria-hidden="true">
+              <!-- New Modal -->
+              <div class="modal fade exp-modal" id="newExpertosModal" tabindex="-1" aria-labelledby="newExpertosModalLabel" aria-hidden="true">
                 <div class="modal-dialog mw-75">
                   <div class="modal-content">
                     <div class="modal-body">
                       <div class="row">
-                        <div class="col-5 profile-col">
-                          <img class="exp-img" src="<?= $exp_pic ?>" alt="" srcset="">
+                        <div class="col-md-4 profile-col">
+                          <div class="profile">
+                            <img class="modal-bg" src="img/shapes/modal/background.png" alt="modal-bg">
+                            <div class="exp-title">
+                              <h5 class="pink-text heading">*</h5>
+                              <h5 class="heading exp-name"><?= $exp_name ?></h5>
+                              <h6 class="exp-position"><?= $exp_position ?></h6>
+                              <h5 class="pink-text heading">.</h5>
+                            </div>
+                            <img src="img/shapes/modal/shape1.png" class="modal-shape-1" alt="shape-1">
+                            <img src="img/shapes/modal/shape2.png" class="modal-shape-2" alt="shape-1">
+                          </div>
                         </div>
-                        <div class="col-7">
-                          <h5 class="exp-name"><?= $exp_name ?></h5>
-                          <h6 class="exp-position"><?= $exp_position ?></h6>
-                          <!--Opción bullets-->
-                          <!--
-                            <p>Con experiencia en:</p>
-                            <ul>
-                              <?php 
-                                foreach($exp_competences as $competence) { ?>
-                                  <li> <?=$competence?> </li>
-                              <?php }?>
-                            </ul>
-                            -->
-                            <!--Opción texto-->
-                            <p class="mt-4"><?= $exp_desc ?></p>
-                            <?php if($exp_has_portfolio===true || $exp_linkedin===true){?>
-                              
-                              <div class="exp-btns">
+                        <div class="col-md-8 exp-desc-col">
+                            <!--Bio-->
+                            <p class="body exp-desc"><?= $exp_desc ?></p>
+                                <!--Botones redes sociales-->
+                                <div class="exp-sn-btns">
+                                  <!--Btn LinkedIn-->
                                   <?php if($exp_has_linkedin===true){?>
-                                    <a href="<?= $exp_linkedin ?>" class="btn linkedin btn-primary "> 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                    <a href="<?= $exp_linkedin ?>" class="btn sn-btn btn-primary "> 
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-linkedin" viewBox="0 0 16 16">
                                         <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
                                       </svg>
                                     </a>
                                   <?php } ?>
+                                  <!--Btn Portafolio-->
                                   <?php if($exp_has_portfolio===true){?>
-                                    <a href="<?= $exp_portfolio ?>" class="btn linkedin btn-primary "> 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-folder" viewBox="0 0 16 16">
-                                      <path d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"/>
-                                    </svg>
+                                    <a href="<?= $exp_portfolio ?>" class="btn sn-btn btn-primary "> 
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-folder" viewBox="0 0 16 16">
+                                        <path d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"/>
+                                      </svg>
                                     </a>
                                   <?php } ?>
+                                  <!--Chevron-->
+                                  <img class="modal-chev" src="img/shapes/chevrones.png" alt="modal-chev">
                                 </div>
-                                
-                            <?php } ?>
                         </div>
                       </div>
+                      <button type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close">
+                        <span class="closing-modal-x" aria-hidden="true">&times;</span>
+                      </button> 
                     </div>
                   </div>
                 </div>
               </div>
-              <!--END: Diagnóstico-->
+              <!--END: Experto-->
             </div>
             <!--END: Botones-->
           </div>
@@ -241,14 +243,19 @@ $currentSlab = getDeckData("current_slab");
                         <!--Actividad: Descubre-->
                         <button <?php if($currentSlab < $i) { echo "disabled"; }?> class="no-btn" type="submit" name="submit" value="descubre">
                           <div class="actividad d-flex align-items-center gap-2 mr-75 <?php if($currentSlab >= $i) { echo "available"; }?>">
-                            <svg class="icon line" id="note-book" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path id="primary" d="M20,21H5a1,1,0,0,1-1-1V4A1,1,0,0,1,5,3H20a1,1,0,0,1,1,1V20A1,1,0,0,1,20,21ZM5,8H3m2,4H3m2,4H3M17,7H9v4h8Z" style="fill: none; stroke: rgb(50, 50, 50); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"></path></svg>
+                          <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                            <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+                            <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                          </svg>
                             <div class="body">Descubre</div>
                           </div>
                         </button>
                         <!--Actividad: Demuestra-->
                         <button <?php if($slab_act1[$i-1] == 0) { echo "disabled";}?> class="no-btn" type="submit" name="submit" value="demuestra">
                           <div class="actividad d-flex align-items-center gap-2 <?php if($slab_act1[$i-1] > 0) { echo "available";}?>">
-                            <svg class="icon line" id="note-book" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path id="primary" d="M20,21H5a1,1,0,0,1-1-1V4A1,1,0,0,1,5,3H20a1,1,0,0,1,1,1V20A1,1,0,0,1,20,21ZM5,8H3m2,4H3m2,4H3M17,7H9v4h8Z" style="fill: none; stroke: rgb(50, 50, 50); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"></path></svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                            <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+                          </svg>
                             <div class="body">Demuestra</div>
                           </div>
                         </button>
@@ -256,7 +263,11 @@ $currentSlab = getDeckData("current_slab");
                         <!--Actividad: Autovaloración-->
                         <button <?php if($slab_act2[$i-1] == 0) { echo "disabled";}?> class="no-btn" type="submit" name="submit" value="autoval">
                           <div class="actividad d-flex align-items-center gap-2 <?php if($slab_act2[$i-1] > 0) { echo "available";}?>">
-                            <svg class="icon line" id="note-book" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path id="primary" d="M20,21H5a1,1,0,0,1-1-1V4A1,1,0,0,1,5,3H20a1,1,0,0,1,1,1V20A1,1,0,0,1,20,21ZM5,8H3m2,4H3m2,4H3M17,7H9v4h8Z" style="fill: none; stroke: rgb(50, 50, 50); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"></path></svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                            <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                            <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+                          </svg>
                             <div class="body">Autovaloración</div>
                           </div>
                         </button>

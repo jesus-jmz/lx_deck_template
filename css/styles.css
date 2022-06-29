@@ -20,7 +20,7 @@ footer {
 
 /*BEGIN: Heading styles */
 .heading{
-    font-family: Baskervville, Arial;
+    font-family: "Baskervville", Arial;
     font-weight:900;
     font-size: 40px;
 }
@@ -45,6 +45,10 @@ footer {
 
 .blue-text {
     color:#0000AF;
+}
+
+.pink-text {
+    color:#FF758F;
 }
 
 .blue-bg, .btn, .progress-bar{
@@ -115,7 +119,7 @@ nav{
 }
 
 .mw-75{
-    max-width: 750px;
+    max-width: 70%;
 }
 
 .modal-header{
@@ -135,6 +139,10 @@ nav{
     padding: 0 !important;
     border: none !important;
     background: none !important;
+}
+
+.exp-btns-indicator{
+    color: #fff;
 }
 
 @media only screen and (max-width:768px){
@@ -164,8 +172,37 @@ nav{
     .status{
         padding-right: 1rem;
     }
+
+    .exp-name, .exp-position{
+        text-align: center;
+    }
+
+    .exp-name {
+        font-size: 6vw!important;
+        margin-top: 0.75rem;
+    }
+
+    .mw-75{
+        max-width: 90%;
+        margin: 5% auto;
+    }
+
 }
 
 .btn{
     border-radius: 1.5rem;
+}
+
+.closing-modal-x{
+    color:#fff;
+}
+
+.center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-content .embed-responsive-item {
+    overflow-y: hidden;
 }

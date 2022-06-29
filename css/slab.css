@@ -13,6 +13,34 @@
     border-radius: 10px;
 }
 
+.estilo-x {
+    font-size: calc(.55em + .55vw);
+}
+
+.estilo-ref {
+    font-size: calc(.6em + .6vw);
+}
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.modal-body {
+    position:relative;
+    padding:0px;
+}
+.close {
+    position:absolute;
+    right:-30px;
+    top:0;
+    z-index:999;
+    font-size:2rem;
+    font-weight: normal;
+    color:#fff;
+    opacity:1;
+}
+
 header{
     background:#FCF7EE;
 }
@@ -119,8 +147,8 @@ a i {
 
 .act-card a {
     position: absolute;
-    left: 20px;
-    bottom:15px;
+    left: -5px;
+    bottom:-35px;
 }
 
 .act {
@@ -176,6 +204,23 @@ a i {
     right:1.5rem;
 }
 
+/*Text*/
+.text-container {
+    font-family: "Hind Madurai", Arial;
+    font-size: 16px;
+    overflow:hidden; 
+    height:auto;
+}
+
+.btn i {
+    color: #fff;
+}
+
+.text-container iframe {
+    border-radius: .75rem!important;
+    height: auto;
+}
+
 /*Normal screen size*/
 @media only screen and (min-width:768px){
     main {
@@ -188,14 +233,12 @@ a i {
     }*/
 
     .materiales img {
-        width: 50%;
+        width: 100%;
     }
 
     .materiales-video img {
         width: 100%;;
     }
-
-    /*Text*/
 
     .text-col{
         min-height: 1px;
@@ -289,4 +332,56 @@ a i {
 
 .hidden{
     display: none !important;
+}
+
+@media (max-width: 1300px) {
+    .btn-responsive{
+        display: block !important;
+    }
+    .btn-responsive a{
+        margin: 10px !important;
+    }
+    .btn-responsive a, .btn-responsive button{
+        font-size: calc(.35em + .40vw);
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+    .card{
+        width: 100% !important;
+    }
+    .btn-responsive a, .btn-responsive button{
+        font-size: calc(.7em + .7vw);
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
 }

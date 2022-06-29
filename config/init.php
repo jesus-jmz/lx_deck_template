@@ -5,7 +5,7 @@
         define("USER_ID", getMetricId());
         //echo "El id que se usará es: ".USER_ID;
         //Se hace la cookie qu durará 10 días
-        setcookie("user_id", USER_ID, time() + (60 * 60 * 24 * 10)); 
+        setcookie("user_id", USER_ID, time() + (60 * 60 * 24 * 30)); 
         createDeck(USER_ID);
         createSlabs();
         addSlabsToDeck();
@@ -26,7 +26,7 @@
     //Crea la métrica con valores default
     function createMetric(){
         global $conn;
-        $sql = "INSERT INTO metrics(progress) VALUES (0)";
+        $sql = "INSERT INTO metrics(progress, exp_name) VALUES (0, 'deck-x')";
         if(mysqli_query($conn, $sql)){
             //echo "Se insertó la métrica exitosamente";
         } else {
@@ -53,6 +53,7 @@
         mysqli_free_result($result);
         if(isset($deck)){ 
             return true;
+            
         } else {
             return false;
         }
@@ -68,7 +69,7 @@
                 //echo "Se insertó el deck exitosamente";
                 addIdToSession($userId);
             } else {
-                echo "Query error: " . mysqli_error($conn);
+                echo "-------------Query error: " . mysqli_error($conn);
             }
         } else {
             //echo "Ya existe un deck con con ese ID de usuario";
@@ -80,14 +81,14 @@
     //Agrega el Deck ID como atributo de sesión
     function addIdToSession($userId){
         global $conn;
-        if(!isset($_SESSION["deckId"])){
+        
             $sql = "SELECT id FROM deck WHERE user_id = $userId";
             $result = mysqli_query($conn, $sql);
             $deck = mysqli_fetch_assoc($result);
             mysqli_free_result($result);
             $_SESSION["deckId"] = $deck["id"];
             //echo "Se añadió el deckId correctamente a la sesión";
-        }
+        
     }
 
     

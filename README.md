@@ -10,6 +10,7 @@ Adicionalmente, para evitar la muestra de errores durante la previsualización, 
   | Columna | Tipo de dato | Default | Key |
 | ------------- | :-------------: | :-------------: | :-------------: |
 | user_id  | int  | AUTO_INCREMENT | PK |
+| exp_name  | varchar  | - |
 | deck_id  | int | NULL | FK |
 | slab_id  | int  | NULL | FK |
 | progress  | int  | 0 | - |

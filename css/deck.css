@@ -192,6 +192,13 @@ main .container{
     border-color: #0000AF;
 }
 
+
+svg path {
+    stroke-width: 0.5px !important;
+}
+
+
+/* ---------- EXPERTO --------- */
 .exp-name{
     font-size: 1.75vw;
     font-weight: bold;
@@ -199,8 +206,10 @@ main .container{
 }
 
 .exp-position{
+    font-family: "Baskervville", Arial;
     font-weight: normal;
-    color: #0000AF;
+    color:#FF758F;
+    font-style: italic;
 }
 
 .exp-btns{
@@ -215,6 +224,83 @@ main .container{
     aspect-ratio: 1/1;
 }
 
+.exp-desc{
+    padding: 1.5rem 1.5rem 4.5rem 1.5rem;
+    margin: 0;
+}
+
+.exp-modal .modal-content{
+    background-color: #FCF7EE;
+    overflow:hidden;
+}
+
+.exp-title {
+    position: absolute;
+    text-align:center;
+    width: 70%;
+}
+
+.exp-name{
+    font-size: 2.5vw;
+    color:#fff;
+}
+
+.profile {
+    position: absolute;
+    left: -25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile .modal-bg{
+    width: 395px;
+    z-index: 0;
+}
+
+.profile h5, .profile h6 {
+    z-index: 1;
+}
+
+.profile .modal-shape-1, .profile .modal-shape-2{
+    position: absolute;
+    width: 100px;
+}
+
+
+
+/*.exp-desc-col .modal-chev{
+    width: 50px;
+    position: absolute;
+    right: 35px;
+    bottom: 5px;
+    rotate: 270deg;    
+}*/
+
+.exp-sn-btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sn-btn{
+    background-color: #000;
+    border-color: #000;
+    aspect-ratio: 1;
+    margin-left: 0.5rem;
+}
+
+.sn-btn:hover{
+    background-color: hsl(0, 0%, 25%);
+    border-color: hsl(0, 0%, 25%);
+}
+
+.exp-sn-btns .modal-chev {
+    width: 50px;
+    transform: rotate(270deg);   
+    margin-left: 1rem;
+}
 
 @media only screen and (max-width:768px){
     .timeline ul li {
@@ -300,6 +386,59 @@ main .container{
         right: 10px;
         margin-top: 0;
     }
+
+    /*----------EXPERTO----------*/
+
+    .exp-desc{
+        margin-top: 100%;
+        padding: 1.5rem 1.5rem 3rem 1.5rem;
+    }
+
+    .profile .modal-bg{
+        width: 100vw;
+        transform: rotate(90deg);
+    }
+
+    .profile {
+        top:-5%;
+    }
+
+    .profile .modal-shape-1{
+        left: 5px;
+        top:30px;
+        transform: rotate(90deg);
+    }
+
+    .profile .modal-shape-2{
+        right: 5%;
+        top: 70%;
+        transform: rotate(270deg);
+    }
+
+    .exp-name{
+        font-size: 10vw!important;
+    }
+
+    .exp-sn-btns{
+        justify-content: center;
+    }
+
+    .profile .modal-shape-1, .profile .modal-shape-2{
+        width: 80px;
+    }
+
+    .close-btn{
+        position: absolute;
+        top:5px;
+        right: 10px;
+        z-index: 2;
+        color:#fff;
+        border:none;
+        background: none;
+        aspect-ratio: 1;
+        font-size: 1.5rem;
+    }
+
 }
 
 /*Normal screen size*/
@@ -367,5 +506,34 @@ main .container{
     .timeline ul li:nth-child(even) .paso{
         transform: translate(-50%, -50%);
         left:-3rem;
+    }
+
+/*---------EXPERTO---------*/
+
+.profile .modal-shape-1{
+    left: -5px;
+    bottom: -15px;
+}
+
+.profile .modal-shape-2{
+    top:-10px;
+    left:65%;
+}
+
+.exp-sn-btns {
+    position: absolute;
+    right: 35px;
+    bottom: 5px;
+}
+
+.close-btn {
+    display: none;
+}
+
+}
+
+@media only screen and (min-width: 1500px) {
+    .mw-75 {
+        max-width: 55%;
     }
 }
