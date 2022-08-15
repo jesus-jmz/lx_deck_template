@@ -1,6 +1,6 @@
 <?php
-    define("HOST", "localhost");
-    define("USER", "jesgui");
-    define("PASSWORD", "jesgui");
-    define('DB', 'lx_template');
+    define("HOST", "");
+    define("USER", "");
+    define("PASSWORD", "");
+    define("DB", "");
 ?>
