@@ -10,14 +10,14 @@ $slab_act3 = getSlabsData("act_3");
 
 
 //-- Nombre del deck --
-$deckTitle = "Excel práctico para principiantes: su eficiencia y su uso";
+$deckTitle = "Resuelve retos con Design Thinking";
 
 //-- Características --
 $duration = "16 horas";
 $level = "Básico";
 $focus = "Metodología activa";
 $learningExp = "Autodirigido";
-$requirements = "Computadora (laptop o de escritorio), Excel 2010 o superior.";
+$requirements = "computadora con conexión a internet. Cuenta gratuita en Miro.";
 
 //-- Experto --
 $exp_name = "";
@@ -34,13 +34,13 @@ $exp_has_portfolio = false;
    FORMATO:
    * Ruta del archivo -> img/nombre-del-archivo
  */
-$homeImage = "img/home.jpg";
+$homeImage = "img/iStock-1179565008.jpg";
 
 //-- Inicio --
-$deckIntro = "<strong>Excel práctico para principiantes: su eficiencia y su uso </strong>es un programa de 16 horas de aprendizaje en línea.<br><br>
-
-A través de sus actividades, contenidos temáticos y momentos de valoración, se ha creado para ti una experiencia de aprendizaje que te permitirá fortalecer la competencia:  <strong>Utilizo Excel básico para facilitar las actividades en distintas áreas laborales y personales.</strong>.<br><br>
-Un programa con las características del que estás a punto de iniciar, te ofrece las herramientas necesarias para responder a los más altos estándares en tu desempeño.";
+$deckIntro = "<strong>Resuelve retos con Design Thinking</strong> es un programa de 16 horas de aprendizaje en línea.<br><br>
+A través de sus actividades, contenidos temáticos y momentos de valoración, se ha creado para ti una experiencia de aprendizaje que te permitirá fortalecer la competencia:<br><br> 
+<strong>Utilizo el Design Thinking como metodología de innovación para la exploración y creación de soluciones en problemáticas puntuales.</strong><br><br>
+Un programa con las características como el que estás a punto de iniciar te ofrece las herramientas necesarias para responder a los más altos estándares en tu desempeño.";
 
 //-- Bienvenida --
 $deckWelcome = "¡Recibe la más cordial bienvenida!";
@@ -51,71 +51,71 @@ $deckWelcome = "¡Recibe la más cordial bienvenida!";
    * Ruta del archivo -> img/topics/nombre-del-archivo
 */
 $slabImages = [
-    "img/topics/1278695300.png", //Slab 1
-    "img/topics/1249379723.png", //Slab 2
-    "img/topics/1189508207.png", //Slab 3
-    "img/topics/827632110.png", //Slab 4
-    "img/topics/635969404.png", //Slab 5
-    "img/topics/815162958.png", //Slab 6
-    "img/topics/1252881112.png", //Slab 7
-    "img/topics/320665028.png", //Slab 8
-    "img/topics/690548296.png", //Slab 9
-    "img/topics/473143106.png" //Slab 10
+    "img/topics/TEMARIO_1145033939.png", //Slab 1
+    "img/topics/TEMARIO_1196702694.png", //Slab 2
+    "img/topics/TEMARIO_1220226068.png", //Slab 3
+    "img/topics/TEMARIO_899434516.png", //Slab 4
+    "img/topics/TEMARIO_1125687458.png", //Slab 5
+    "img/topics/TEMARIO_1313246059.png", //Slab 6
+    "img/topics/TEMARIO_1342231672.png", //Slab 7
+    "img/topics/TEMARIO_1154912694.png", //Slab 8
+    "img/topics/TEMARIO_1167549708.png", //Slab 9
+    "img/topics/TEMARIO_1333968186.png" //Slab 10
 ];
 
 //-- Títulos de slabs (Index) --
 $slabHeadings = [
-    "Mi primera interacción con Excel", //Slab 1
-    "Libros, hojas de cálculo y celdas", //Slab 2
-    "Fórmulas y funciones básicas", //Slab 3
-    "Estilos y formatos de datos", //Slab 4
-    "Ajustes a una hoja de cálculo", //Slab 5
-    "Gráficos básicos", //Slab 6
-    "Ajuste de vistas en hojas de cálculo", //Slab 7
-    "Múltiples libros y hojas de cálculo", //Slab 8
-    "Administración de datos", //Slab 9
-    "Seguridad y trabajo colaborativo" //Slab 10
+    "Pasos del Design Thinking", //Slab 1
+    "Miro. Herramienta colaborativa", //Slab 2
+    "Empatía. Entiendo el problema", //Slab 3
+    "El reto. ¿Cómo establecerlo?", //Slab 4
+    "Análisis y mapeo del contexto", //Slab 5
+    "¿Quiénes? Análisis y mapeo", //Slab 6
+    "¿Cómo generar la propuesta de valor?", //Slab 7
+    "Ideación. Todo es válido por ahora", //Slab 8
+    "Prototipos. Probando… 1, 2, 3", //Slab 9
+    "¿Funciona? Análisis de pruebas" //Slab 10
 ];
 
 // -- Nombre de slabs --
 $slabTitles = [
-    "Mi primera interacción con Excel", //Slab 1
-    "Libros, hojas de cálculo y celdas", //Slab 2
-    "Fórmulas y funciones básicas", //Slab 3
-    "Estilos y formatos de datos", //Slab 4
-    "Ajustes a una hoja de cálculo", //Slab 5
-    "Gráficos básicos", //Slab 6
-    "Ajuste de vistas en hojas de cálculo", //Slab 7
-    "Múltiples libros y hojas de cálculo", //Slab 8
-    "Administración de datos", //Slab 9
-    "Seguridad y trabajo colaborativo" //Slab 10
+    "Pasos del Design Thinking", //Slab 1
+    "Miro. Herramienta colaborativa", //Slab 2
+    "Empatía. Entiendo el problema", //Slab 3
+    "El reto. ¿Cómo establecerlo?", //Slab 4
+    "Análisis y mapeo del contexto", //Slab 5
+    "¿Quiénes? Análisis y mapeo", //Slab 6
+    "¿Cómo generar la propuesta de valor?", //Slab 7
+    "Ideación. Todo es válido por ahora", //Slab 8
+    "Prototipos.<br> Probando… 1, 2, 3", //Slab 9
+    "¿Funciona? Análisis de pruebas" //Slab 10
 ];
 
 //-- Metas de aprendizaje --
 $slabGoals = [
-    "Conozco el entorno de trabajo de Excel y los conceptos principales de uso para interactuar con la herramienta en sus labores o actividades personales.",
-    "Manejo los conceptos de libro, hojas de cálculo y celdas para realizar interacciones en Excel.",
-    "Uso las principales fórmulas y funciones de Excel, con el fin de poder realizar cálculos de manera más ágil.",
-    "Manipulo los estilos y formatos en una hoja de datos de Excel para dar una apariencia más estilizada a mis documentos.",
-    "Manipulo una hoja de cálculo para ocultar filas y columnas, así como buscar y reemplazar datos en Excel.",
-    "Utilizo los diferentes tipos de gráficos y estilos para mejorar la comprensión de los datos en Excel.",
-    "Manejo de los paneles y los tipos de pantalla en Excel para ajustar las vistas en una hoja de cálculo.",
-    "Manipulo múltiples libros y hojas de cálculo para hacer más eficiente el trabajo en Excel.",
-    "Ejecuto la administración de la información en un documento de Excel para mostrar los datos de manera coherente.",
-    "Configuro la seguridad en hojas y libros de cálculo en Excel para proteger la información o trabajar en equipo de una manera confiable."
+    "Comprendo los elementos de la estructura del método de Design Thinking para identificar los pasos a implementar en un reto por solucionar.",
+    "Comprendo el uso de Miro como herramienta digital para fomentar el trabajo colaborativo en la aplicación del método de Design Thinking.",
+    "Analizo la importancia de la empatía para entender las posibles problemáticas por abordar en la aplicación del método de Design Thinking.",
+    "Establezco el reto al entender la problemática para dar una posible solución a través del método de Design Thinking.",
+    "Realizo un mapa de contexto para identificar los aspectos políticos, económicos, sociales, tecnológicos, ambientales y legales de la problemática en la fase de definición.",
+    "Utilizo los Canvas de Stakeholders y personas para identificar a los actores relevantes de la problemática en la fase de definición.",
+    "Diseño una propuesta de valor para definir las posibles vías de solución en la fase de ideación.",
+    "Produzco ideas para dar una posible solución en la problemática definida.",
+    "Realizo prototipos de las ideas para identificar su viabilidad y validez en un ambiente de pruebas.",
+    "Analizo los resultados de las pruebas realizadas a los prototipos para obtener datos que permitan identificar soluciones aplicables en la resolución de la problemática."
 ];
 
 $imgGoals = [
-    null,
-    "img/act/iStock-1249379723.jpg",
-    "img/act/iStock-1189508207.jpg",	
-    "img/act/iStock-827632110.jpg",
-    "img/act/iStock-635969404.jpg",
-    "img/act/iStock-1189508207.jpg",
-    "img/act/iStock-1252881112.jpg",
-    'img/act/iStock-1320665028.jpg',
-    'img/act/iStock-635969404.jpg',
-    'img/act/iStock-473143106.jpg'
+    "img/act/iStock-1145033939.jpg", //Slab 1
+    "img/act/iStock-1196702694.jpg", //Slab 2
+    "img/act/iStock-1220226068.jpg", //Slab 3
+    "img/act/iStock-899434516.jpg",  //Slab 4
+    "img/act/iStock-1125687458.jpg",  //Slab 5
+    "img/act/iStock-1313246059.jpg", //Slab 6
+    "img/act/iStock-1342231672.jpg", //Slab 7
+    'img/act/iStock-1154912694.jpg', //Slab 8
+    'img/act/iStock-1167549708.jpg',  //Slab 9
+    'img/act/iStock-1333968186.jpg'   //Slab 10
 ];
 
 //-- Tipos de introducción --
@@ -125,13 +125,13 @@ $imgGoals = [
 */ 
 $slabIntroType = [
     "video", //Slab 1
-    "text", //Slab 2
-    "audio", //Slab 3
+    "audio", //Slab 2
+    "text", //Slab 3
     "video", //Slab 4
-    "text", //Slab 5
-    "video", //Slab 6
-    "text", //Slab 7
-    "video", //Slab 8
+    "audio", //Slab 5
+    "text", //Slab 6
+    "video", //Slab 7
+    "audio", //Slab 8
     "text", //Slab 9
     "text" //Slab 10
 ];
@@ -143,46 +143,46 @@ $slabIntroType = [
 */ 
 $slabIntro = [
 /*Slab 1*/  [
-                'assets/videos/Excel_Slab1_intro.mp4'
+                'assets/videos/DesignThinking_1_Intro.mp4'
             ],
 /*Slab 2*/  [
-                'En este Slab aprenderás a manejar los libros, hojas de cálculo y celdas en Excel. Es importante dominar estos conceptos, ya que son la base para poder empezar a emplear la herramienta de manera óptima.
-                <br><br>
-                Aquí encontrarás toda la información y ayuda que necesitas para lograr dominar los temas principales. La interacción será por medio de videos, apoyado con lecturas y ejemplos, con el objetivo de reforzar lo aprendido.'
+                '<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/b0db4946-f5a4-4117-b8ee-de609cbe4099?dark=true"></iframe>'
             ], 
 /*Slab 3*/  [
-                '<iframe style="border-radius: 1.5rem" height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/4d505abb-56e2-444e-96cb-38889eecec42?dark=true"></iframe>'
+                '¡Hola! Bienvenido al Slab Empatía. Entiendo el problema, donde descubrirás la importancia de este concepto y técnicas de investigación para recolectar información que te permita entender a las personas y su contexto.
+                <br><br>
+                Encontrarás también artículos, videos y plantillas para generar un mapa de empatía que te permita identificar hallazgos en la problemática ¿Estás listo?'
             ],
 /*Slab 4*/  [
-                'assets/videos/Excel_Slab4_intro.mp4'
+                'assets/videos/DesignThinking_4_Intro.mp4'
             ],                
 /*Slab 5*/  [
-                'Nos alegra mucho que seas parte del Slab <strong>“Ajustes a una hoja de Excel”</strong>, donde aprenderás a modificar y ocultar filas y columnas, además de buscar y reemplazar datos en una hoja de cálculo. Estos conocimientos te servirán para editar libros de Excel ya creados, y ajustarlos a nuevas necesidades. 
-                <br><br>
-                A continuación, encontrarás toda la información necesaria, así como ligas y videos para complementar tu aprendizaje. Al cierre de este Slab, resolverás un caso de estudio que te ayudará a validar lo aprendido.
-                <br><br>
-                Estamos seguros que será de tu completo agrado. ¡Comencemos!'
+                '<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/f8e93b91-8311-4598-8278-1a284788bb4a?dark=true"></iframe>'
             ],
 /*Slab 6*/  [
-                'assets/videos/Excel_Slab6_intro.mp4'
+                'Bienvenido al Slab ¿Quiénes? Análisis y mapeo, en el cual ordenarás y clasificarás a los actores relevantes del proyecto para obtener información de ellos e identificar hallazgos desde sus puntos de vista. 
+                <br><br>
+                Encontrarás aquí plantillas que te permitirán ordenar la información obtenida para hacer un Stakeholders Map  y crear una “persona” ¡Es más sencillo de lo que crees!'
             ],
 /*Slab 7*/  [
-                'Bienvenido al Slab <strong>“Ajuste de la vista en las hojas de cálculo”</strong>. Aquí aprenderás a modificar las vistas de los documentos que realices. También sabrás cómo manejar los paneles y los tipos de pantalla para ajustar las vistas de una hoja de cálculo en Excel.
-                <br><br>
-                La manera en la cual aprenderás, será por medio de videos y lecturas que te permitirán sacar el mayor provecho a tu aprendizaje ¡Enhorabuena, empecemos!'
+                'assets/videos/DesignThinking_7_Intro.mp4'
             ],
 /*Slab 8*/  [
-                'assets/videos/Excel_Slab8_intro.mp4'
+                '<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/e78be4bf-f13c-443b-b8e9-c9e922879f40?dark=true"></iframe>'
             ],
 /*Slab 9*/  [
-                'Nos alegra mucho que seas parte de este Slab, donde aprenderás a gestionar los datos en Excel.  Aquí aprenderás a usar filtros, ordenar datos, validarlos y eliminar duplicados. Lo anterior te ayudará a dar sentido y a mejorar la integridad de los datos. Todo esto lo aprenderás mediante lecturas y videos interactivos.
+                'Bienvenido al Slab Prototipos. Probando… 1, 2, 3; en el cual aprenderás la importancia de elaborar prototipos para explorar, probar y mejorar las ideas de solución al Reto.                 
                 <br><br>
-                Bienvenido a este Slab ¡Estamos seguros que te encantará!'
+                Encontrarás también videos y artículos que te mostrarán algunas técnicas de prototipado que puedes emplear de forma fácil y sencilla.
+                <br><br>
+                ¡Va a ser increíble!'
             ],
 /*Slab 10*/ [
-                'Estamos muy contentos de que seas parte de este Slab, donde aprenderás a manejar la seguridad y el trabajo colaborativo dentro de Excel. Esta es una funcionalidad nueva que te permite trabajar desde cualquier parte del mundo y en conjunto con varias personas, con el único requisito de tener acceso a internet. Todo lo anterior lo aprenderás mediante lecturas y videos interactivos.
+                '¡Hola! Estas por iniciar el Slab ¿Funciona? Análisis de pruebas. Aprenderás la importancia de evaluar las ideas y obtener retroalimentación de los usuarios para obtener datos que permitan identificar soluciones aplicables.                 
                 <br><br>
-                ¡Estamos seguros de que lo disfrutarás mucho!'
+                Encontrarás aquí videos y artículos que te mostrarán los pasos a seguir para generar pruebas de una buena manera.
+                <br><br>
+                ¡Vamos a empezar!'
             ]
 ];
 
@@ -195,537 +195,255 @@ $banner = [
     
 ];
 
-//-- Tipos de Materiales --
+//-- Numero de Materiales --
 /* 
    FORMATO: 
-   * Indicar tipo de material 
+   * Indicar numero de material total
 */
+$materialTotal = [
+    3, //Slab 1
+    1, //Slab 2
+    2, //Slab 3
+    2, //Slab 4
+    4, //Slab 5
+    2, //Slab 6
+    4, //Slab 7
+    2, //Slab 8
+    2, //Slab 9
+    4 //Slab 10
+];
+
+//Videos Imagen
+/* 
+   FORMATO: 
+   * Ruta del archivo pre-load -> img/pre-load/pre-load-1.png
+   * Titulo de la Imagen -> Clase 1 Microsoft Excel 2010 - Introduccion
+   * Link -> assets/videos/0_Introduccion.mp4
+*/
+$materialImg = [
+   [    //slab 1
+        [
+            'img/pre-load/pre-load-1.png',
+            '2 Design thinking',
+            'img/material/2 Design thinking.png',
+            '2 Design thinking.png'
+        ]
+    ],
+    null,   //slab 2
+    null,   //slab 3
+    null,   //slab 4
+    [   //slab 5
+        [
+            'img/pre-load/pre-load-10.png',
+            'Context map',
+            'img/material/context map.png',
+            'context map.png'
+        ]
+    ],
+    [   //slab 6
+        [
+            'img/pre-load/pre-load-15.png',
+            'Persona canvas',
+            'img/material/Persona canvas.jpeg',
+            'Persona canvas.jpeg'
+        ]
+    ],
+    [   //slab 7
+        [
+            'img/pre-load/pre-load-17.png',
+            'Value Proposition Canvas',
+            'img/material/Value Proposition Canvas.jpeg',
+            'Value Proposition Canvas.jpeg'
+        ]
+    ],    
+];
 
 //Videos YouTube
+/* 
+   FORMATO: 
+   * Ruta del archivo pre-load -> img/pre-load/pre-load-1.png
+   * Titulo del vídeo -> Clase 1 Microsoft Excel 2010 - Introduccion
+   * Link -> https://www.youtube.com/embed/0hGS45mbBRg
+*/
 $materialYoutube = [
-    [   //Slab 1
-        [
-            'img/materials/pre-load-1.png',
-            'Clase 1 Microsoft Excel 2010 - Introduccion',
-            'https://www.youtube.com/embed/0hGS45mbBRg'
-        ],
-        [
-            'img/materials/pre-load-3.png',
-            'Curso básico de EXCEL | Aprende a usar excel paso a paso',
-            'https://www.youtube.com/embed/zv-hH1UKdlg'
-        ]
-    ],
-    [   //Slab 2
-        [
-            'img/materials/pre-load-6.png',
-            'Conceptos basicos de excel : libros, hojas, celdas',
-            'https://www.youtube.com/embed/U-l7ri8j4uk'
-        ], 
-    ],
-    [   //Slab 3
-          
-    ],
-    [   //Slab 4
-
-    ],
-    [   //Slab 5
-  
-    ],
-    [   //Slab 6
-    
-    ],
-    [   //Slab 7
-        [
-            'img/materials/pre-load-36.png',
-            'Inmovilizar fila y columna en hoja de cálculo de Google Drive',
-            'https://www.youtube.com/embed/73vkPFaYzIo'
-        ], 
-        [
-            'img/materials/pre-load-37.png',
-            'Cómo ajustar hoja de calculo de Excel a la página de impresión.',
-            'https://www.youtube.com/embed/cTeRBr2gVrs'
-        ]
-    ],
-    [   //Slab 8
-        [
-            'img/materials/pre-load-43.png',
-            'Excel - gestión de hojas y libros',
-            'https://www.youtube.com/embed/31iSPlAauHo'
-        ],
-    ],
+   
 ];
 
 //Páginas web
+/* 
+   FORMATO: 
+   * Ruta del archivo pre-load -> img/pre-load/pre-load-2.png
+   * Titulo del archivo -> Introducción a Excel
+   * Link -> https://blogdeuninformatico.com/estilos-y-formatos-de-celda-en-excel/
+*/
 $materialPage = [
-    [   //Slab 1
-        [
-            'img/materials/pre-load-2.png',
-            'Introducción a Excel',
-            'http://www.agro.unlpam.edu.ar/licenciatura/informatica/sept/Apuntes%20excel.pdf'
-        ]
-    ],
-    [   //Slab 2
-        [
-            'img/materials/pre-load-7.png',
-            'Qué es un libro de Excel',
-            'https://exceltotal.com/libros-hojas-y-celdas/'
-        ],
-        [
-            'img/materials/pre-load-8.png',
-            'Partes de la hoja de cálculo',
-            'https://www.aboutespanol.com/partes-de-la-hoja-de-calculo-1790981'
-        ]   
-    ],
-    [   //Slab 3
-        [
-            'img/materials/pre-load-10.png',
-            'Excel crea fórmulas y funciones',
-            'https://www.cofide.mx/blog/excel-crea-formulas-y-funciones'
-        ],
-        [
-            'img/materials/pre-load-11.png',
-            'Información general sobre fórmulas en Excel',
-            'https://support.microsoft.com/es-es/office/informaci%C3%B3n-general-sobre-f%C3%B3rmulas-en-excel-ecfdc708-9162-49e8-b993-c311f47ca173'
-        ],
-        [
-            'img/materials/pre-load-12.png',
-            'Funciones de Excel (por orden alfabético)',
-            'https://support.microsoft.com/es-es/office/funciones-de-excel-por-orden-alfab%C3%A9tico-b3944572-255d-4efb-bb96-c6d90033e188'
-        ]
-    ],
-    [   //Slab 4
-        [
-            'img/materials/pre-load-15.png',
-            'Estilos y formatos de celda en Excel',
-            'https://blogdeuninformatico.com/estilos-y-formatos-de-celda-en-excel/'
-        ],
-        [
-            'img/materials/pre-load-16.png',
-            'Aplicar, crear o quitar un estilo de celda',
-            'https://support.microsoft.com/es-es/office/aplicar-crear-o-quitar-un-estilo-de-celda-472213bf-66bd-40c8-815c-594f0f90cd22'
-        ],
-        [
-            'img/materials/pre-load-17.png',
-            'Descripción general de las tablas de Excel',
-            'https://support.microsoft.com/es-es/office/descripci%C3%B3n-general-de-las-tablas-de-excel-7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c'
-        ]
-    ],
-    [   //Slab 5
-        [
-            'img/materials/pre-load-23.png',
-            'Manejo de filas, columnas, celdas y rangos',
-            'https://www.ufasta.edu.ar/wp-content/uploads/2016/12/03-Manejo-de-Filas-Columnas-Celdas-y-Rangos.pdf'
-        ],
-        [
-            'img/materials/pre-load-24.png',
-            'Capítulo 6: Domina el manejo de Filas y Columnas en Excel',
-            'https://eltiotech.com/capitulo-6-domina-filas-y-columnas-de-excel/'
-        ],
-        [
-            'img/materials/pre-load-25.png',
-            'Cambiar el ancho de las columnas y el alto de las filas',
-            'https://support.microsoft.com/es-es/office/cambiar-el-ancho-de-las-columnas-y-el-alto-de-las-filas-72f5e3cc-994d-43e8-ae58-9774a0905f46#:~:text=Seleccione%20la%20fila%20o%20filas,despu%C3%A9s%2C%20haga%20clic%20en%20Aceptar'
-        ]
-    ],
-    [   //Slab 6
-        [
-            'img/materials/pre-load-29.png',
-            'Vista de una Hoja de Cálculo',
-            'https://www.customguide.com/es/excel/vista-de-una-hoja-de-calculo'
-        ],
-        [
-            'img/materials/pre-load-30.png',
-            'Gráficos Excel - Todo lo que necesitas saber',
-            'https://excelyvba.com/graficos-excel-guia-completa/'
-        ],
-        [
-            'img/materials/pre-load-31.png',
-            'Crear un gráfico de principio a fin',
-            'https://support.microsoft.com/es-es/office/crear-un-gr%C3%A1fico-de-principio-a-fin-0baf399e-dd61-4e18-8a73-b3fd5d5680c2'
-        ],
-        [
-            'img/materials/pre-load-32.png',
-            'Cómo hacer gráficos en Excel',
-            'https://es.justexw.com/tutoriales/como-hacer-graficos-en-excel'
-        ]
-    ],
-    [   //Slab 7
-        [
-            'img/materials/pre-load-38.png',
-            'Vista de una Hoja de Cálculo',
-            'https://www.customguide.com/es/excel/vista-de-una-hoja-de-calculo'
-        ],
-        [
-            'img/materials/pre-load-39.png',
-            'Configuración de la vista y herramientas de navegación',
-            'https://helpcenter.onlyoffice.com/es/onlyoffice-editors/onlyoffice-spreadsheet-editor/helpfulhints/navigation.aspx'
-        ],
-        [
-            'img/materials/pre-load-40.png',
-            'Inmovilizar filas o columnas',
-            'https://www.aulafacil.com/cursos/google/hojas-de-calculo-google-docs/inmovilizar-filas-o-columnas-l13689'
-        ],
-        [
-            'img/materials/pre-load-41.png',
-            'Dividir paneles para bloquear filas o columnas',
-            'https://support.microsoft.com/es-es/office/dividir-paneles-para-bloquear-filas-o-columnas-en-%C3%A1reas-independientes-de-la-hoja-de-c%C3%A1lculo-516a7001-b3ed-4122-a6bb-fd6d4a9d6434'
-        ]
-    ],
-    [   //Slab 8
-        [
-            'img/materials/pre-load-44.png',
-            'Manejo de hojas en excel 2013',
-            'https://exceltotal.com/manejo-de-hojas-en-excel-2013/'
-        ],
-        [
-            'img/materials/pre-load-45.png',
-            'Hacer referencia a celdas de otras hojas en excel',
-            'https://exceltotal.com/hacer-referencia-a-celdas-de-otras-hojas-en-excel/'
-        ],
-        [
-            'img/materials/pre-load-46.png',
-            'Mover o copiar hojas de cálculo o los datos que contienen',
-            'https://support.microsoft.com/es-es/office/mover-o-copiar-hojas-de-c%C3%A1lculo-o-los-datos-que-contienen-47207967-bbb2-4e95-9b5c-3c174aa69328'
-        ],
-        [
-            'img/materials/pre-load-47.png',
-            'Agrupar hojas de cálculo',
-            'https://support.microsoft.com/es-es/office/agrupar-hojas-de-c%C3%A1lculo-4e1f7747-3d63-4fd7-8a36-838b05adc0f0'
-        ],
-        [
-            'img/materials/pre-load-48.png',
-            'Copiar y mover una hoja de cálculo',
-            'https://edu.gcfglobal.org/es/microsoft-excel-2010/copiar-y-mover-una-hoja-de-calculo/1/'
-        ],
-        [
-            'img/materials/pre-load-49.png',
-            'Hacer referencia a celdas de otras hojas en excel',
-            'https://exceltotal.com/hacer-referencia-a-celdas-de-otras-hojas-en-excel/'
-        ]
-    ],
-    [   //Slab 9
-        [
-            'img/materials/pre-load-55.png',
-            'Ordenamiento y filtración de datos',
-            'https://help.highbond.com/helpdocs/add-ins-excel/14/user-guide/es/Content/working_with_data/sort_filter_data.htm'
-        ],
-        [
-            'img/materials/pre-load-56.png',
-            'Filtros en Excel',
-            'https://exceltotal.com/filtros-en-excel/'
-        ],
-        [
-            'img/materials/pre-load-57.png',
-            '¿Para qué sirven los filtros en Excel?',
-            'https://www.gerencie.com/para-que-sirven-los-filtros-en-excel.html'
-        ],
-        [
-            'img/materials/pre-load-58.png',
-            'Ordenar y filtrar datos en Excel',
-            'https://guiastematicas.bibliotecas.uc.cl/c.php?g=990565&p=7816616'
-        ]
-    ],
-    [   //Slab 10
-        [
-            'img/materials/pre-load-61.png',
-            'Excel 2016 ya permite el trabajo colaborativo a través de Office 365',
-            'https://www.softzone.es/2017/03/29/excel-2016-ya-permite-trabajo-colaborativo-traves-office-365/'
-        ],
-        [
-            'img/materials/pre-load-62.png',
-            'Compartir el libro de Excel con otros usuarios',
-            'https://support.microsoft.com/es-es/office/compartir-el-libro-de-excel-con-otros-usuarios-8d8a52bb-03c3-4933-ab6c-330aabf1e589'
-        ],
-        [
-            'img/materials/pre-load-63.png',
-            'Bloquear o desbloquear áreas específicas de una hoja de cálculo protegida',
-            'https://support.microsoft.com/es-es/office/bloquear-o-desbloquear-%C3%A1reas-espec%C3%ADficas-de-una-hoja-de-c%C3%A1lculo-protegida-75481b72-db8a-4267-8c43-042a5f2cd93a'
-        ],
-        [
-            'img/materials/pre-load-64.png',
-            'Proteger un archivo de Excel',
-            'https://support.microsoft.com/es-es/office/proteger-un-archivo-de-excel-7359d4ae-7213-4ac2-b058-f75e9311b599'
-        ]
-    ]
+    
 ];
 
 //PDF descargable
 $materialPdf = [
-    
+    [   //Slab 1
+        [
+            'img/pre-load/pre-load-2.png',
+            'p02 brown design thinking with cover',
+            'assets/docs/tools/slab/3 p02_brown-design-thinking-with-cover-page-v2.pdf',
+            '3 p02_brown-design-thinking-with-cover-page-v2.pdf'
+        ]
+    ],
+    null, //Slab 2
+    [   //Slab 3
+        [
+            'img/pre-load/pre-load-6.png',
+            'GRAMS 2',
+            'assets/docs/tools/slab/GRAMS 2.pdf',
+            'GRAMS 2.pdf'
+        ]
+    ],
+    null, //Slab 4
+    [   //Slab 5
+        [
+            'img/pre-load/pre-load-11.png',
+            'Pestle analysis factsheet',
+            'assets/docs/tools/slab/pestle-analysis-factsheet_20220418T213645.pdf',
+            'pestle-analysis-factsheet_20220418T213645.pdf'
+        ]
+    ]  
 ];
 
 //Vídeo
 $materialVideo = [
     [   //Slab 1
         [
-            'img/materials/pre-load-4.png',
-            'Creando una hoja de cálculo nueva',
-            'assets/videos/Creando_una_hoja_de_cálculo_nueva.mp4',
-            'Creando_una_hoja_de_cálculo_nueva.mp4'
-        ],
-        [
-            'img/materials/pre-load-5.png',
-            'Mi primera interacción con Excel',
-            'assets/videos/Excel. Mi primera interacción con Excel.mp4',
-            'Excel. Mi primera interacción con Excel.mp4'
+            'img/pre-load/pre-load-4.png',
+            'What Is Design Thinking An Overview',
+            'assets/videos/1_What_Is_Design_Thinking_An_Overview.mp4',
+            '1_What_Is_Design_Thinking_An_Overview.mp4'
         ]
     ],
     [   //Slab 2
         [
-            'img/materials/pre-load-9.png',
-            '1. La función de autocompletado en Excel',
-            'assets/videos/1. La función de autocompletado en Excel.mp4',
-            '1. La función de autocompletado en Excel.mp4'
+            'img/pre-load/pre-load-5.png',
+            'Cómo USAR MIRO Tutorial',
+            'assets/videos/👉Cómo USAR MIRO Tutorial Pizarra ONLINE  TRABAJO COLABORATIVO  Software [ACTUALIZADO] 🚀👩_🏫 Virtual-W8EQTCG4pUU-1080p-1649717926641.mp4',
+            '👉Cómo USAR MIRO Tutorial Pizarra ONLINE  TRABAJO COLABORATIVO  Software [ACTUALIZADO] 🚀👩_🏫 Virtual-W8EQTCG4pUU-1080p-1649717926641.mp4'
         ],
-        [
-            'img/materials/pre-load-9.png',
-            '2. Cómo deshacer un cambio en Excel',
-            'assets/videos/2. Cómo deshacer un cambio en Excel.mp4',
-            '2. Cómo deshacer un cambio en Excel.mp4'
-        ],
-        [
-            'img/materials/pre-load-9.png',
-            '3. Añadir comentarios a una hoja de Excel',
-            'assets/videos/3. Añadir comentarios a una hoja de Excel.mp4',
-            '3. Añadir comentarios a una hoja de Excel.mp4'
-        ],
-        [
-            'img/materials/pre-load-9.png',
-            '4. Cómo guardar y exportar hojas de cálculo',
-            'assets/videos/4. Cómo guardar y exportar hojas de cálculo.mp4',
-            '4. Cómo guardar y exportar hojas de cálculo.mp4'
-        ],
-        [
-            'img/materials/pre-load-9.png',
-            '5. Opciones de impresión para hojas de cálculo',
-            'assets/videos/5. Opciones de impresión para hojas de cálculo.mp4',
-            '5. Opciones de impresión para hojas de cálculo.mp4'
-        ]
     ],
     [   //Slab 3
         [
-            'img/materials/pre-load-13.png',
-            'Creando fórmulas sencillas en Excel',
-            'assets/videos/Creando fórmulas sencillas en Excel.mp4',
-            'Creando fórmulas sencillas en Excel.mp4'
+            'img/pre-load/pre-load-7.png',
+            'Helping you get to the why behind your customers',
+            'assets/videos/GRAMS  Gary van Broekhoven on helping you get to the why behind your customers_360p.mp4',
+            'GRAMS  Gary van Broekhoven on helping you get to the why behind your customers_360p.mp4'
         ],
-        [
-            'img/materials/pre-load-13.png',
-            'La barra de fórmulas en Excel',
-            'assets/videos/La barra de fórmulas en Excel.mp4',
-            'La barra de fórmulas en Excel.mp4'
-        ],
-        [
-            'img/materials/pre-load-13.png',
-            'Copiando fórmulas a celdas adyacentes',
-            'assets/videos/Copiando fórmulas a celdas adyacentes.mp4',
-            'Copiando fórmulas a celdas adyacentes.mp4'
-        ],
-        [
-            'img/materials/pre-load-14.png',
-            'Usando funciones IF y operadores relacionales',
-            'assets/videos/Usando funciones IF y operadores relacionales.mp4',
-            'Usando funciones IF y operadores relacionales.mp4'
-        ],
-        [
-            'img/materials/pre-load-14.png',
-            'Obtener datos de una tabla con la función BUSCARV',
-            'assets/videos/Obtener datos de una tabla con la función BUSCARV.mp4',
-            'Obtener datos de una tabla con la función BUSCARV.mp4'
-        ],
-        [
-            'img/materials/pre-load-14.png',
-            'Cómo utilizar la familia de funciones CONTAR.SI',
-            'assets/videos/Cómo utilizar la familia de funciones CONTAR.SI.mp4',
-            'Cómo utilizar la familia de funciones CONTAR.SI.mp4'
-        ]
     ],
     [   //Slab 4
         [
-            'img/materials/pre-load-18.png',
-            'Estilos y fuentes tipográficas',
-            'assets/videos/Estilos y fuentes tipográficas.mp4',
-            'Estilos y fuentes tipográficas.mp4'
+            'img/pre-load/pre-load-8.png',
+            'Frame your design challenge',
+            'assets/videos/frame_your_design_challenge (Original).mp4',
+            'frame_your_design_challenge (Original).mp4'
         ],
         [
-            'img/materials/pre-load-18.png',
-            'Ajustes y alineación de texto',
-            'assets/videos/Ajustes y alineación de texto.mp4',
-            'Ajustes y alineación de texto.mp4'
+            'img/pre-load/pre-load-9.png',
+            'How might we',
+            'assets/videos/how might we.mp4',
+            'how might we.mp4'
         ],
-        [
-            'img/materials/pre-load-19.png',
-            'Bordes en una hoja de cálculo',
-            'assets/videos/Bordes en una hoja de cálculo.mp4',
-            'Bordes en una hoja de cálculo.mp4'
-        ],
-        [
-            'img/materials/pre-load-20.png',
-            'Explorando los formatos de datos',
-            'assets/videos/Explorando los formatos de datos.mp4',
-            'Explorando los formatos de datos.mp4'
-        ],
-        [
-            'img/materials/pre-load-21.png',
-            'Usando formatos condicionales',
-            'assets/videos/Usando formatos condicionales.mp4',
-            'Usando formatos condicionales.mp4'
-        ],
-        [
-            'img/materials/pre-load-21.png',
-            'Trabajo con tablas',
-            'assets/videos/Trabajo con tablas.mp4',
-            'Trabajo con tablas.mp4'
-        ],
-        [
-            'img/materials/pre-load-22.png',
-            'Cómo insertar imágenes y formas',
-            'assets/videos/Cómo insertar imágenes y formas.mp4',
-            'Cómo insertar imágenes y formas.mp4'
-        ]
     ],
     [   //Slab 5
         [
-            'img/materials/pre-load-26.png',
-            'Cómo modificar filas y columnas',
-            'assets/videos/Cómo modificar filas y columnas.mp4',
-            'Cómo modificar filas y columnas.mp4'
+            'img/pre-load/pre-load-12.png',
+            'PESTEL Analysis EXPLAINED',
+            'assets/videos/PESTEL Analysis EXPLAINED _ B2U _ Business To You.mp4',
+            'PESTEL Analysis EXPLAINED _ B2U _ Business To You.mp4'
         ],
         [
-            'img/materials/pre-load-27.png',
-            'Ajustes y alineación de texto',
-            'assets/videos/Ajustes y alineación de texto.mp4',
-            'Ajustes y alineación de texto.mp4'
+            'img/pre-load/pre-load-13.png',
+            'PESTLE analysis',
+            'assets/videos/PESTLE analysis.mp4',
+            'PESTLE analysis.mp4'
         ],
-        [
-            'img/materials/pre-load-28.png',
-            'Cómo buscar y reemplazar datos en una hoja de cálculo',
-            'assets/videos/Cómo buscar y reemplazar datos en una hoja de cálculo.mp4',
-            'Cómo buscar y reemplazar datos en una hoja de cálculo.mp4'
-        ]
     ],
     [   //Slab 6
         [
-            'img/materials/pre-load-33.png',
-            'Explorando los tipos de gráficos',
-            'assets/videos/Explorando los tipos de gráficos.mp4',
-            'Explorando los tipos de gráficos.mp4'
+            'img/pre-load/pre-load-16.png',
+            'Como hacer y utilizar la herramienta de PERSONA',
+            'assets/videos/Como hacer y utilizar la herramienta de _PERSONA_ Temporada 4 Tutotial 4.mp4',
+            'Como hacer y utilizar la herramienta de _PERSONA_ Temporada 4 Tutotial 4.mp4'
         ],
-        [
-            'img/materials/pre-load-34.png',
-            'Diseño y estilo de las gráficos',
-            'assets/videos/Diseño y estilo de las gráficos.mp4',
-            'Diseño y estilo de las gráficos.mp4'
-        ],
-        [
-            'img/materials/pre-load-35.png',
-            'Creación de sparklines',
-            'assets/videos/Creación de sparklines.mp4',
-            'Creación de sparklines.mp4'
-        ]
     ],
     [   //Slab 7
         [
-            'img/materials/pre-load-42.png',
-            'Bloqueo y desbloqueo de paneles',
-            'assets/videos/Bloqueo y desbloqueo de paneles.mp4',
-            'Bloqueo y desbloqueo de paneles.mp4'
+            'img/pre-load/pre-load-18.png',
+            'Cómo diseñar una propuesta de valor',
+            'assets/videos/Cómo diseñar una PROPUESTA DE VALOR   Ejemplo del Value Proposition Canvas.mp4',
+            'Cómo diseñar una PROPUESTA DE VALOR   Ejemplo del Value Proposition Canvas.mp4'
         ],
         [
-            'img/materials/pre-load-42.png',
-            'Cómo dividir la pantalla horizontal y verticalmente',
-            'assets/videos/Cómo dividir la pantalla horizontal y verticalmente.mp4',
-            'Cómo dividir la pantalla horizontal y verticalmente.mp4'
+            'img/pre-load/pre-load-19.png',
+            'Strategyzers Value Proposition Canvas Explained',
+            'assets/videos/Strategyzers Value Proposition Canvas Explained.mp4',
+            'Strategyzers Value Proposition Canvas Explained.mp4'
         ],
         [
-            'img/materials/pre-load-42.png',
-            'Cómo colapsar o expandir las vistas con esquemas',
-            'assets/videos/Cómo colapsar o expandir las vistas con esquemas.mp4',
-            'Cómo colapsar o expandir las vistas con esquemas.mp4'
+            'img/pre-load/pre-load-20.png',
+            'Value Proposition Canvas by Strategyzercom',
+            'assets/videos/Value Proposition Canvas by Strategyzercom explained through the Uber Example.mp4',
+            'Value Proposition Canvas by Strategyzercom explained through the Uber Example.mp4'
         ]
     ],
     [   //Slab 8
         [
-            'img/materials/pre-load-50.png',
-            'Cómo agregar, renombrar y borrar hojas en un libro',
-            'assets/videos/Cómo agregar, renombrar y borrar hojas en un libro.mp4',
-            'Cómo agregar, renombrar y borrar hojas en un libro.mp4'
+            'img/pre-load/pre-load-21.png',
+            'Design Thinking Ideate',
+            'assets/videos/3 Design Thinking Ideate.mp4',
+            '3 Design Thinking Ideate.mp4'
         ],
         [
-            'img/materials/pre-load-50.png',
-            'Cómo ligar libros y hojas de cálculo con fórmulas',
-            'assets/videos/Cómo ligar libros y hojas de cálculo con fórmulas.mp4',
-            'Cómo ligar libros y hojas de cálculo con fórmulas.mp4'
+            'img/pre-load/pre-load-22.png',
+            'Design thinking FASE 3 IDEAR Temporada 3',
+            'assets/videos/Design thinking _FASE 3 - IDEAR_ Temporada 3 Tutorial 5.mp4',
+            'Design thinking _FASE 3 - IDEAR_ Temporada 3 Tutorial 5.mp4'
         ],
-        [
-            'img/materials/pre-load-51.png',
-            'Localizando y manteniendo enlaces en Excel',
-            'assets/videos/Localizando y manteniendo enlaces en Excel.mp4',
-            'Localizando y manteniendo enlaces en Excel.mp4'
-        ],
-        [
-            'img/materials/pre-load-52.png',
-            'Mostrar múltiples libros en pantalla',
-            'assets/videos/Mostrar múltiples libros en pantalla.mp4',
-            'Mostrar múltiples libros en pantalla.mp4'
-        ],
-        [
-            'img/materials/pre-load-53.png',
-            'Mover, copiar y agrupar hojas de cálculo',
-            'assets/videos/Mover, copiar y agrupar hojas de cálculo.mp4',
-            'Mover, copiar y agrupar hojas de cálculo.mp4'
-        ]
     ],
     [   //Slab 9
         [
-            'img/materials/pre-load-58.png',
-            'Cómo eliminar datos duplicados en Excel',
-            'assets/videos/Cómo eliminar datos duplicados en Excel.mp4',
-            'Cómo eliminar datos duplicados en Excel.mp4'
+            'img/pre-load/pre-load-23.png',
+            '4 Design Thinking Prototype',
+            'assets/videos/4 Design Thinking Prototype.mp4',
+            '4 Design Thinking Prototype.mp4'
         ],
         [
-            'img/materials/pre-load-59.png',
-            'Cómo usar filtros en Excel',
-            'assets/videos/Cómo usar filtros en Excel.mp4',
-            'Cómo usar filtros en Excel.mp4'
+            'img/pre-load/pre-load-24.png',
+            'Design Thinking Prototype',
+            'assets/videos/Design Thinking Prototype.mp4',
+            'Design Thinking Prototype.mp4'
         ],
-        [
-            'img/materials/pre-load-60.png',
-            'Dividiendo y combinando datos de columnas',
-            'assets/videos/Dividiendo y combinando datos de columnas.mp4',
-            'Dividiendo y combinando datos de columnas.mp4'
-        ],
-        [
-            'img/materials/pre-load-59.png',
-            'Ordenando datos en Excel',
-            'assets/videos/Ordenando datos en Excel.mp4',
-            'Ordenando datos en Excel.mp4'
-        ],
-        [
-            'img/materials/pre-load-58.png',
-            'Usar herramientas de validación de datos',
-            'assets/videos/Usar herramientas de validación de datos.mp4',
-            'Usar herramientas de validación de datos.mp4'
-        ]
     ],
     [   //Slab 10
         [
-            'img/materials/pre-load-65.png',
-            'Cómo compartir libros de Excel',
-            'assets/videos/Cómo compartir libros de Excel.mp4',
-            'Cómo compartir libros de Excel.mp4'
+            'img/pre-load/pre-load-25.png',
+            'Design Thinking FASE 5 COMPROBAR TESTEAR',
+            'assets/videos/Design Thinking _FASE 5 - COMPROBAR - TESTEAR_ Temporada 3 Tutorial 7.mp4',
+            'Design Thinking _FASE 5 - COMPROBAR - TESTEAR_ Temporada 3 Tutorial 7.mp4'
         ],
         [
-            'img/materials/pre-load-65.png',
-            'Cómo proteger hojas y bloquear celdas',
-            'assets/videos/Cómo proteger hojas y bloquear celdas.mp4',
-            'Cómo proteger hojas y bloquear celdas.mp4'
+            'img/pre-load/pre-load-26.png',
+            'Design Thinking Step 5 Test',
+            'assets/videos/Design Thinking Step 5 Test.mp4',
+            'Design Thinking Step 5 Test.mp4'
         ],
         [
-            'img/materials/pre-load-65.png',
-            'Protegiendo libros en Excel',
-            'assets/videos/Protegiendo libros en Excel.mp4',
-            'Protegiendo libros en Excel.mp4'
+            'img/pre-load/pre-load-27.png',
+            'Design Thinking Test',
+            'assets/videos/Design Thinking Test.mp4',
+            'Design Thinking Test.mp4'
+        ],
+        [
+            'img/pre-load/pre-load-28.png',
+            'Design Thinking Testing Stage',
+            'assets/videos/Design Thinking Testing Stage_ The Difference Between Success and Failure.mp4',
+            'Design Thinking Testing Stage_ The Difference Between Success and Failure.mp4'
         ]
     ],
 ];
@@ -746,73 +464,71 @@ $slabTranscriptions = [
 */ 
 $slabReferencias = [
 /*Slab1*/   [
-                'Aprendiendoando ( 2012, 21 de agosto). <i>Clase 1 Microsoft Excel 2010 - Introducción</i> [Video]. Youtube.<br> <a href="https://www.youtube.com/watch?v=0hGS45mbBRg" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=0hGS45mbBRg</a>', 
-                'Aula Aprendo. (S.f. ). <i>Conociendo Excel.</i> <br> <a href="https://www.aulaprendo.com/conociendo-excel" class="estilo-ref" target="_blank">https://www.aulaprendo.com/conociendo-excel</a>',
-                'Javier Mendoza NIC. (2020, 27 de julio). <i>2 Creando una hoja de cálculo nueva</i> [Video]. Youtube.<br> <a href="https://www.youtube.com/watch?v=BMTkAt3Posc" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=BMTkAt3Posc</a>',
-                'Sin Autores. (2018). Apuntes de Excel. Recuperado Febrero 20, 2022, de:<br> <a href="http://www.agro.unlpam.edu.ar/licenciatura/informatica/sept/Apuntes excel.pdf" class="estilo-ref" target="_blank">http://www.agro.unlpam.edu.ar/licenciatura/informatica/sept/Apuntes excel.pdf</a>'
+                'AJ&Smart. (2020, 4 febrero). <i>What Is Design Thinking? An Overview</i> [Video]. Youtube.<br> <a href="https://www.youtube.com/watch?v=gHGN6hs2gZY" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=gHGN6hs2gZY</a>', 
+                'Mejía Luna, J. (2016, 8 marzo). <i>P02 brown design thinking.</i> Academia.Edu.  <br> <a href="https://www.academia.edu/23008217/P02_brown_design_thinking" class="estilo-ref" target="_blank">https://www.academia.edu/23008217/P02_brown_design_thinking</a>',
+                'Zentius. (s. f.). <i>Design Thinking.</i> Zentius Digital Transformation.<br> <a href="https://www.zentius.com/TD/design-thinking" class="estilo-ref" target="_blank">https://www.zentius.com/TD/design-thinking</a>'
             ],
 /*Slab2*/   [
-                'Aula Aprendo. (S.f. ). <i>Conociendo Excel.</i> <br> <a href="https://www.aulaprendo.com/conociendo-excel" class="estilo-ref" target="_blank">https://www.aulaprendo.com/conociendo-excel</a>', 
-                'Ayudas Ofimáticas. (2019, 30 de enero). <i>CONCEPTOS BÁSICOS DE EXCEL : LIBROS, HOJAS, CELDAS</i> [Video]. Youtube.<br> <a href="https://www.youtube.com/watch?v=U-l7ri8j4uk" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=U-l7ri8j4uk</a>',
-                'Cuesta, Y. (2019). <i>Partes de la hoja de cálculo.</i> Recuperado el 23 de Febrero 2022 de:<br> <a href="https://www.aboutespanol.com/partes-de-la-hoja-de-calculo-1790981" class="estilo-ref" target="_blank">https://www.aboutespanol.com/partes-de-la-hoja-de-calculo-1790981</a>',
-                'Excel Total (2022). QUÉ ES UN LIBRO DE EXCEL (2022). Recuperado el 23 de Febrero 2022 de:<br> <a href="https://exceltotal.com/libros-hojas-y-celdas/" class="estilo-ref" target="_blank">https://exceltotal.com/libros-hojas-y-celdas/</a>'
+                'AlejoFacilitador. (2020, 21 junio). <i>👉Cómo USAR MIRO Tutorial Pizarra ONLINE | TRABAJO COLABORATIVO | Software (ACTUALIZADO) 🚀👩‍🏫 Virtual</i> [Video]. YouTube. <br> <a href="https://www.youtube.com/watch?v=W8EQTCG4pUU" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=W8EQTCG4pUU</a>', 
+                'Miro. (2021, 27 octubre). <i>Getting started with Miro: A guide for beginners</i> [Video]. YouTube.<br> <a href="https://www.youtube.com/watch?v=mNNPchRnDp8&ab_channel=Miro" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=mNNPchRnDp8&ab_channel=Miro</a>',
+                'Miro Academy. (s. f.). <i>Getting Started/Board navigation and toolbars.</i> Academy Miro. <br> <a href="https://academy.miro.com/learn/course/getting-started-with-miro/getting-started/board-navigation-and-toolbars?page=1" class="estilo-ref" target="_blank">https://academy.miro.com/learn/course/getting-started-with-miro/getting-started/board-navigation-and-toolbars?page=1</a>',
             ],
 /*Slab3*/   [
-                'Aula Aprendo. (S.f. ). <i>Conociendo Excel.</i> <br> <a href="https://www.aulaprendo.com/conociendo-excel" class="estilo-ref" target="_blank">https://www.aulaprendo.com/conociendo-excel</a>', 
-                'Cofide. (2022). <i>Excel crea fórmulas y funciones.</i> <br> <a href="https://www.cofide.mx/blog/excel-crea-formulas-y-funciones" class="estilo-ref" target="_blank">https://www.cofide.mx/blog/excel-crea-formulas-y-funciones</a>',
-                'Microsoft Support. (s.f.) <i>Información general sobre fórmulas en Excel.</i> Recuperado el 10 de Noviembre de 2021 de:<br> <a href="https://support.microsoft.com/es-es/office/informaci%C3%B3n-general-sobre-f%C3%B3rmulas-en-excel-ecfdc708-9162-49e8-b993-c311f47ca173" class="estilo-ref" target="_blank">https://support.microsoft.com/es-es/office/informaci%C3%B3n-general-sobre-f%C3%B3rmulas-en-excel-ecfdc708-9162-49e8-b993-c311f47ca173</a>',
-                'Microsoft Support. (s.f.). Funciones de Excel (por orden alfabético). Recuperado el 28 de diciembre de 2021 de:<br> <a href="https://support.microsoft.com/es-es/office/funciones-de-excel-por-orden-alfab%C3%A9tico-b3944572-255d-4efb-bb96-c6d90033e188" class="estilo-ref" target="_blank">https://support.microsoft.com/es-es/office/funciones-de-excel-por-orden-alfab%C3%A9tico-b3944572-255d-4efb-bb96-c6d90033e188</a>'
+                'Formación en innovación y Design Thinking. (2022, 18 abril). <i>Empatizar.</i> Design Thinking España. <br> <a href="https://xn--designthinkingespaa-d4b.com/empatizar-primera-fase-design-thinking" class="estilo-ref" target="_blank">https://xn--designthinkingespaa-d4b.com/empatizar-primera-fase-design-thinking</a>', 
+                'Miro. (s. f.). Empathy Map Template. Miro.Com. <br> <a href="https://miro.com/templates/empathy-map/" class="estilo-ref" target="_blank">https://miro.com/templates/empathy-map/</a>',
+                'Nuform Digital. (2020, 27 noviembre). <i>GRAMS - Gary van Broekhoven on helping you get to the «why» behind your customers.</i> [Video]. YouTube. <br> <a href="https://www.youtube.com/watch?v=BH_I4h16_rg&feature=youtu.be" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=BH_I4h16_rg&feature=youtu.be</a>',
+                'Romero Frías, E. (2022, 7 abril). Design Thinking - Fase 1: Empatizar con el otro. Esteban Romero. <br> <a href="https://estebanromero.com/design-thinking/design-thinking-fase-1-empatizar-con-el-otro/" class="estilo-ref" target="_blank">https://estebanromero.com/design-thinking/design-thinking-fase-1-empatizar-con-el-otro/</a>'
             ],
 /*Slab4*/   [
-                'Aula Aprendo. (S.f. ). <i>Conociendo Excel.</i> <br> <a href="https://www.aulaprendo.com/conociendo-excel" class="estilo-ref" target="_blank">https://www.aulaprendo.com/conociendo-excel</a>', 
-                'Blog de un Informático. (s.f.). <i>Estilos y formatos de celda en Excel.</i> Recuperado el  11 de Noviembre de 2019 de: <br> <a href="https://blogdeuninformatico.com/estilos-y-formatos-de-celda-en-excel/" class="estilo-ref" target="_blank">https://blogdeuninformatico.com/estilos-y-formatos-de-celda-en-excel/</a>',
-                'Microsoft Support. (s.f.). <i>Aplicar, crear o quitar un estilo de celda.</i> Recuperado el 21 de Mayo de 2021 de:<br> <a href="https://support.microsoft.com/es-es/office/aplicar-crear-o-quitar-un-estilo-de-celda-472213bf-66bd-40c8-815c-594f0f90cd22" class="estilo-ref" target="_blank">https://support.microsoft.com/es-es/office/aplicar-crear-o-quitar-un-estilo-de-celda-472213bf-66bd-40c8-815c-594f0f90cd22</a>',
-                'Microsoft Support. (s.f.). <i>Descripción general de las tablas de Excel.</i> Recuperado el  3 de Mayo de 2021 de:<br> <a href="https://support.microsoft.com/es-es/office/descripci%C3%B3n-general-de-las-tablas-de-excel-7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c" class="estilo-ref" target="_blank">https://support.microsoft.com/es-es/office/descripci%C3%B3n-general-de-las-tablas-de-excel-7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c</a>'
+                'Damm, R. F., & Siang, T. Y. (2020, 20 agosto). Define and Frame Your Design Challenge by Creating Your Point Of View and Ask «How Might We». Interaction Design Foundation. <br> <a href="https://www.interaction-design.org/literature/article/define-and-frame-your-design-challenge-by-creating-your-point-of-view-and-ask-how-might-we" class="estilo-ref" target="_blank">https://www.interaction-design.org/literature/article/define-and-frame-your-design-challenge-by-creating-your-point-of-view-and-ask-how-might-we</a>', 
+                'IDEO.org. (2017, 1 julio). Frame Your Design Challenge [Video]. Vimeo. <br> <a href="https://vimeo.com/191566926?embedded=true&source=video_title&owner=8938528" class="estilo-ref" target="_blank">https://vimeo.com/191566926?embedded=true&source=video_title&owner=8938528</a>',
+                'Keller, O. (2019, 6 octubre). How Might We Notes - Explained in Under 3 Minutes [Video]. Vimeo. <br> <a href="https://vimeo.com/364634597?embedded=true&source=video_title&owner=96954908" class="estilo-ref" target="_blank">https://vimeo.com/364634597?embedded=true&source=video_title&owner=96954908</a>',
+                'Keller, O. (2019b, octubre 16). The “HOW MIGHT WE” Method. Odell Keller. <br> <a href="https://www.odellkeller.com/the-how-might-we-method/" class="estilo-ref" target="_blank">https://www.odellkeller.com/the-how-might-we-method/</a>',
+                'Marques, P. (2018, 1 mayo). How To Properly Frame Your Design Challenge. Medium. <br> <a href="https://uxdesign.cc/how-to-properly-frame-your-design-challenge-eccb4d89cb83" class="estilo-ref" target="_blank">https://uxdesign.cc/how-to-properly-frame-your-design-challenge-eccb4d89cb83</a>'
             ],
 /*Slab5*/   [
-                'Aula Aprendo. (S.f. ). <i>Conociendo Excel.</i> <br> <a href="https://www.aulaprendo.com/conociendo-excel" class="estilo-ref" target="_blank">https://www.aulaprendo.com/conociendo-excel</a>', 
-                'El Tío Tech. (2021). <i>Capítulo 6: Domina el manejo de Filas y Columnas en Excel.</i> <br> <a href="https://eltiotech.com/capitulo-6-domina-filas-y-columnas-de-excel/" class="estilo-ref" target="_blank">https://eltiotech.com/capitulo-6-domina-filas-y-columnas-de-excel/</a>',
-                'Microsoft Support. (s.f.). <i>Cambiar el ancho de las columnas y el alto de las filas.</i> Recuperado el 7 de Abril de 2021 de:<br> <a href="https://support.microsoft.com/es-es/office/cambiar-el-ancho-de-las-columnas-y-el-alto-de-las-filas-72f5e3cc-994d-43e8-ae58-9774a0905f46#:~:text=Seleccione%20la%20fila%20o%20filas,despu%C3%A9s%2C%20haga%20clic%20en%20Aceptar" class="estilo-ref" target="_blank">https://support.microsoft.com/es-es/office/cambiar-el-ancho-de-las-columnas-y-el-alto-de-las-filas-72f5e3cc-994d-43e8-ae58-9774a0905f46#:~:text=Seleccione%20la%20fila%20o%20filas,despu%C3%A9s%2C%20haga%20clic%20en%20Aceptar</a>',
-                'Sin autor. (s.f.) <i>Manejo de filas, columnas, celdas y rangos.</i> Recuperado de:<br> <a href="https://www.ufasta.edu.ar/wp-content/uploads/2016/12/03-Manejo-de-Filas-Columnas-Celdas-y-Rangos.pdf" class="estilo-ref" target="_blank">https://www.ufasta.edu.ar/wp-content/uploads/2016/12/03-Manejo-de-Filas-Columnas-Celdas-y-Rangos.pdf</a>'
+                'Battista, M. (2021, 6 diciembre). PESTLE Analysis | Factsheets: Discover what PESTLE means, and use our PESTLE analysis template and example to understand the external influences on your organisation. CIPD. <br> <a href="https://www.cipd.co.uk/knowledge/strategy/organisational-development/pestle-analysis-factsheet#gref" class="estilo-ref" target="_blank">https://www.cipd.co.uk/knowledge/strategy/organisational-development/pestle-analysis-factsheet#gref</a>', 
+                'de Bruin, L. (2016, 18 septiembre). Scanning the Environment: PESTEL Analysis. B2U - Business-to-You.Com. <br> <a href="https://www.business-to-you.com/scanning-the-environment-pestel-analysis/" class="estilo-ref" target="_blank">https://www.business-to-you.com/scanning-the-environment-pestel-analysis/</a>',
+                'de Bruin, L. [Business To You]. (2018, 22 mayo). PESTEL Analysis EXPLAINED | B2U | Business To You [Vídeo]. YouTube. <br> <a href="https://www.youtube.com/watch?v=bYn4CyL3r5w" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=bYn4CyL3r5w</a>',
             ], 
 /*Slab6*/   [
-                'Aula Aprendo. (S.f. ). <i>Conociendo Excel.</i> <br> <a href="https://www.aulaprendo.com/conociendo-excel" class="estilo-ref" target="_blank">https://www.aulaprendo.com/conociendo-excel</a>',
-                'Arranz, Q. (2018). <i>Gráficos en Excel - La guía más completa.</i> <br> <a href="https://excelyvba.com/graficos-excel-guia-completa/" class="estilo-ref" target="_blank">https://excelyvba.com/graficos-excel-guia-completa/</a>',
-                'Fernández, Y. (2021). <i>Cómo hacer una gráfica básica con Excel.</i> <br> <a href="https://www.xataka.com/basics/como-hacer-grafica-basica-excel" class="estilo-ref" target="_blank">https://www.xataka.com/basics/como-hacer-grafica-basica-excel</a>',
-                'Just EXW (2020). <i>Cómo hacer gráficos en Excel.</i> <br> <a href="https://es.justexw.com/tutoriales/como-hacer-graficos-en-excel" class="estilo-ref" target="_blank">https://es.justexw.com/tutoriales/como-hacer-graficos-en-excel</a>',
-                'Microsoft  Support. (s.f.). <i>Crear un gráfico de principio a fin.</i> Recuperado el 27 de Octubre de 2021 de: <br> <a href="https://support.microsoft.com/es-es/office/crear-un-gr%C3%A1fico-de-principio-a-fin-0baf399e-dd61-4e18-8a73-b3fd5d5680c2" class="estilo-ref" target="_blank">https://support.microsoft.com/es-es/office/crear-un-gr%C3%A1fico-de-principio-a-fin-0baf399e-dd61-4e18-8a73-b3fd5d5680c2</a>'
+                'Design Thinking 24/7. (2018, 30 julio). <i>Como hacer y utilizar la herramienta de «PERSONA» Temporada 4 Tutotial 4</i> [Vídeo]. YouTube. <br> <a href="https://www.youtube.com/watch?v=71HsxXnxNFs" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=71HsxXnxNFs</a>',
+                'DesignThinking. (2020, 27 abril). <i>Método persona.</i> <br> <a href="https://www.designthinking.services/herramientas-design-thinking/metodo-persona/" class="estilo-ref" target="_blank">https://www.designthinking.services/herramientas-design-thinking/metodo-persona/</a>',
+                'Miro. (s. f.). <i>Stakeholder Mapping Template.</i> Https://Miro.Com/. <br> <a href="https://miro.com/templates/stakeholder-map/" class="estilo-ref" target="_blank">https://miro.com/templates/stakeholder-map/</a>',
+                'Saavedra, E. (2020, 29 septiembre). <i>La herramienta personas.</i> Designthinking.gal. <br> <a href="https://designthinking.gal/la-herramienta-personas/" class="estilo-ref" target="_blank">https://designthinking.gal/la-herramienta-personas/</a>',
+                'Savina, A. (2019, 6 diciembre). Complete Stakeholder Mapping Guide. MiroBlog. <br> <a href="https://miro.com/blog/stakeholder-mapping/" class="estilo-ref" target="_blank">https://miro.com/blog/stakeholder-mapping/</a>',
+                'UX Patterns. (s. f.). <i>Modelo de Canvas. Pinterest.</i> <br> <a href="https://www.pinterest.com.mx/pin/117164027792203746/" class="estilo-ref" target="_blank">https://www.pinterest.com.mx/pin/117164027792203746/</a>'
             ],
 /*Slab7*/   [
-                'Aula Aprendo. (S.f. ). <i>Conociendo Excel.</i> <br> <a href="https://www.aulaprendo.com/conociendo-excel" class="estilo-ref" target="_blank">https://www.aulaprendo.com/conociendo-excel</a>',
-                'Aula Fácil. (s.f.). <i>Inmovilizar filas o columnas.</i> <br> <a href="https://www.aulafacil.com/cursos/google/hojas-de-calculo-google-docs/inmovilizar-filas-o-columnas-l13689" class="estilo-ref" target="_blank">https://www.aulafacil.com/cursos/google/hojas-de-calculo-google-docs/inmovilizar-filas-o-columnas-l13689</a>',
-                'Custom Guide. (2021). <i>Vista de una Hoja de Cálculo.</i> <br> <a href="https://www.customguide.com/es/excel/vista-de-una-hoja-de-calculo" class="estilo-ref" target="_blank">https://www.customguide.com/es/excel/vista-de-una-hoja-de-calculo</a>',    
-                'darkjoro. (2014, 15 de enero). <i>Cómo ajustar hoja de calculo de Excel a la página de impresión</i> [Video]. Youtube. <br> <a href="https://www.youtube.com/watch?v=cTeRBr2gVrs" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=cTeRBr2gVrs</a>',
-                'Educatutos. (2018, 31 de marzo). <i>INMOVILIZAR FILA y COLUMNA en hoja de cálculo de Google Drive #EducaTutos</i> [Video]. Youtube. <br> <a href="https://www.youtube.com/watch?v=73vkPFaYzIo" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=73vkPFaYzIo</a>',
-                'Microsoft Support. (s.f.). <i>Dividir paneles para bloquear filas o columnas en áreas independientes de la hoja de cálculo.</i> Recuperado el  13 de Mayo de 2021 de: <br> <a href="https://support.microsoft.com/es-es/office/dividir-paneles-para-bloquear-filas-o-columnas-en-%C3%A1reas-independientes-de-la-hoja-de-c%C3%A1lculo-516a7001-b3ed-4122-a6bb-fd6d4a9d6434" class="estilo-ref" target="_blank">https://support.microsoft.com/es-es/office/dividir-paneles-para-bloquear-filas-o-columnas-en-%C3%A1reas-independientes-de-la-hoja-de-c%C3%A1lculo-516a7001-b3ed-4122-a6bb-fd6d4a9d6434</a>',
-                'Only Office. (S.f.). <i>Configuración de la vista y herramientas de navegación.</i> <br> <a href="https://helpcenter.onlyoffice.com/es/onlyoffice-editors/onlyoffice-spreadsheet-editor/helpfulhints/navigation.aspx " class="estilo-ref" target="_blank">https://helpcenter.onlyoffice.com/es/onlyoffice-editors/onlyoffice-spreadsheet-editor/helpfulhints/navigation.aspx </a>'
+                'LUKKAMENTE. (2020, 27 noviembre). <i>⚡️ Cómo diseñar una PROPUESTA DE VALOR 🎯 - Ejemplo del Value Proposition Canvas</i> [Video]. YouTube.  <br> <a href="https://www.youtube.com/watch?v=0TdYbo1EJUI" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=0TdYbo1EJUI</a>',
+                'Macías, M. (2018, 21 junio). <i>Tu propuesta de valor desde el cliente: Value Proposition Canvas.</i> Advenio strategy & business design.  <br> <a href="https://advenio.es/tu-propuesta-de-valor-desde-el-cliente-value-proposition-canvas/" class="estilo-ref" target="_blank">https://advenio.es/tu-propuesta-de-valor-desde-el-cliente-value-proposition-canvas/</a>',
+                'Railsware Product Academy. (2018, 12 octubre). <i>Value Proposition Canvas by Strategyzer.com explained through the Uber Example🚘</i> [Video]. YouTube. <br> <a href="https://www.youtube.com/watch?v=kiWkRiynPAo" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=kiWkRiynPAo</a>',    
+                'Strategyzer. (2017, 8 marzo). Strategyzer’s Value Proposition Canvas Explained [Video]. YouTube.  <br> <a href="https://www.youtube.com/watch?v=ReM1uqmVfP0" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=ReM1uqmVfP0</a>',
             ],
 /*Slab8*/   [
-                'ADNDC TUTORIALES. (2019, 28 de julio). <i>EXCEL - MANEJO DE HOJAS Y LIBROS</i> [Video]. <br> <a href="https://www.youtube.com/watch?v=31iSPlAauHo" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=31iSPlAauHo</a>',
-                'Aula Aprendo. (S.f. ). <i>Conociendo Excel.</i> <br> <a href="https://www.aulaprendo.com/conociendo-excel" class="estilo-ref" target="_blank">https://www.aulaprendo.com/conociendo-excel</a>',
-                'Excel Total (2022). <i>MANEJO DE HOJAS EN EXCEL 2013</i> (2022). Recuperado el 23 de Febrero 2022 de: <br> <a href="https://exceltotal.com/manejo-de-hojas-en-excel-2013/" class="estilo-ref" target="_blank">https://exceltotal.com/manejo-de-hojas-en-excel-2013/</a>',
-                'Excel Total (2022). <i>HACER REFERENCIA A CELDAS DE OTRAS HOJAS EN EXCEL.</i> Recuperado el 23 de Febrero 2022 de: <br> <a href="https://exceltotal.com/hacer-referencia-a-celdas-de-otras-hojas-en-excel/" class="estilo-ref" target="_blank">https://exceltotal.com/hacer-referencia-a-celdas-de-otras-hojas-en-excel/</a>',
-                'GCF Aprende libre. (s.f.) <i>Copiar y mover una hoja de cálculo.</i> <br> <a href="https://edu.gcfglobal.org/es/microsoft-excel-2010/copiar-y-mover-una-hoja-de-calculo/1/" class="estilo-ref" target="_blank">https://edu.gcfglobal.org/es/microsoft-excel-2010/copiar-y-mover-una-hoja-de-calculo/1/</a>',
-                'Microsoft Support. (s.f.). <i>Mover o copiar hojas de cálculo o los datos que contienen.</i> Recuperado el  12 de Marzo de 2021 de: <br> <a href="https://support.microsoft.com/es-es/office/mover-o-copiar-hojas-de-c%C3%A1lculo-o-los-datos-que-contienen-47207967-bbb2-4e95-9b5c-3c174aa69328" class="estilo-ref" target="_blank">https://support.microsoft.com/es-es/office/mover-o-copiar-hojas-de-c%C3%A1lculo-o-los-datos-que-contienen-47207967-bbb2-4e95-9b5c-3c174aa69328</a>',
-                'Microsoft Support. (s.f.). <i>Agrupar hojas de cálculo.</i> Recuperado el  27 de Mayo de 2021 de: <br> <a href="https://support.microsoft.com/es-es/office/agrupar-hojas-de-c%C3%A1lculo-4e1f7747-3d63-4fd7-8a36-838b05adc0f0" class="estilo-ref" target="_blank">https://support.microsoft.com/es-es/office/agrupar-hojas-de-c%C3%A1lculo-4e1f7747-3d63-4fd7-8a36-838b05adc0f0</a>'
+                'BusinessADN. (2021, 12 agosto). <i>Design Thinking. Fase 3: Idear.</i> <br> <a href="https://www.businessadn.com/blog/design-thinking-idear/" class="estilo-ref" target="_blank">https://www.businessadn.com/blog/design-thinking-idear/</a>',
+                '<i>Design Thinking - Ideate Stage.</i> (s. f.). Tutorials Point <br> <a href="https://www.tutorialspoint.com/design_thinking/design_thinking_ideate_stage.htm" class="estilo-ref" target="_blank">https://www.tutorialspoint.com/design_thinking/design_thinking_ideate_stage.htm</a>',
+                'Design Thinking 24/7. (2018, 2 abril). <i>Design thinking «FASE 3 - IDEAR» Temporada 3 Tutorial 5</i> [Video]. YouTube. <br> <a href="https://www.youtube.com/watch?v=Hy-dqgrtZcA" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=Hy-dqgrtZcA</a>',
+                'Design Thinking España. (2022, 16 abril). <i>La fase Idear dentro de un proceso de Design Thinking.</i> <br> <a href="https://xn--designthinkingespaa-d4b.com/idear-tercera-fase-design-thinking" class="estilo-ref" target="_blank">https://xn--designthinkingespaa-d4b.com/idear-tercera-fase-design-thinking</a>',
+                'Interaction Design Foundation. (s. f.). <i>What is Ideation?</i> <br> <a href="https://www.interaction-design.org/literature/topics/ideation" class="estilo-ref" target="_blank">https://www.interaction-design.org/literature/topics/ideation</a>',
+                'Mindful Marks. (2018, 9 junio). <i>3. Design Thinking: Ideate</i> [Video]. YouTube. <br> <a href="https://www.youtube.com/watch?v=zbLxs6te5to" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=zbLxs6te5to</a>',
             ],
 /*Slab9*/   [
-                'Aula Aprendo. (S.f. ). <i>Conociendo Excel.</i> <br> <a href="https://www.aulaprendo.com/conociendo-excel" class="estilo-ref" target="_blank">https://www.aulaprendo.com/conociendo-excel</a>',
-                'Alonso, O. (2020). <i>¿Para qué sirven los filtros en Excel?.</i> <br> <a href="https://www.gerencie.com/para-que-sirven-los-filtros-en-excel.html" class="estilo-ref" target="_blank">https://www.gerencie.com/para-que-sirven-los-filtros-en-excel.html</a>',
-                'Diligent. (2022, 31 de enero). <i>Ordenamiento y filtración de datos.</i> <br> <a href="https://help.highbond.com/helpdocs/add-ins-excel/14/user-guide/es/Content/working_with_data/sort_filter_data.htm" class="estilo-ref" target="_blank">https://help.highbond.com/helpdocs/add-ins-excel/14/user-guide/es/Content/working_with_data/sort_filter_data.htm</a>',
-                'Excel Total (2022). <i>FILTROS EN EXCEL.</i> Recuperado el 23 de Febrero 2022 de: <br> <a href="https://exceltotal.com/filtros-en-excel/" class="estilo-ref" target="_blank">https://exceltotal.com/filtros-en-excel/</a>',
-                'Pontificia Universidad Católica de Chile. (2021, 10 de marzo). <i>Ordenar datos a través de filtro - Taller de Excel.</i> <br> <a href="https://guiastematicas.bibliotecas.uc.cl/c.php?g=990565&p=7816616" class="estilo-ref" target="_blank">https://guiastematicas.bibliotecas.uc.cl/c.php?g=990565&p=7816616</a>'
+                'Academy for Innovation & Entrepreneurship. (2016, 28 junio). <i>Design Thinking: Prototype</i> [Vídeo]. YouTube. <br> <a href="https://www.youtube.com/watch?v=NXLKgUgr6qI" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=NXLKgUgr6qI</a>',
+                'Dam, R. F., & Siang, T. Y. (2020, 9 septiembre). <i>Stage 4 in the Design Thinking Process: Prototype.</i> Interaction Design Foundation. <br> <a href="https://www.interaction-design.org/literature/article/stage-4-in-the-design-thinking-process-prototype" class="estilo-ref" target="_blank">https://www.interaction-design.org/literature/article/stage-4-in-the-design-thinking-process-prototype</a>',
+                'Mindful Marks. (2018, 9 junio). <i>4. Design Thinking: Prototype</i> [Vídeo]. YouTube. <br> <a href="https://www.youtube.com/watch?v=Q4MzT2MEDHA" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=Q4MzT2MEDHA</a>',
+                'Simplilearn, S. (2021, 31 agosto). <i>A Complete Guide to Prototyping In Design Thinking With Benefits & Examples.</i> Simplilearn.Com. <br> <a href="https://www.simplilearn.com/prototyping-in-design-thinking-article" class="estilo-ref" target="_blank">https://www.simplilearn.com/prototyping-in-design-thinking-article</a>'
             ],
 /*Slab10*/   [
-                'Aula Aprendo. (S.f. ). <i>Conociendo Excel.</i> <br> <a href="https://www.aulaprendo.com/conociendo-excel" class="estilo-ref" target="_blank">https://www.aulaprendo.com/conociendo-excel</a>',
-                'Onieva, D. (2017, 29 de marzo). <i>Excel 2016 ya permite el trabajo colaborativo a través de Office 365.</i> <br> <a href="https://www.softzone.es/2017/03/29/excel-2016-ya-permite-trabajo-colaborativo-traves-office-365/" class="estilo-ref" target="_blank">https://www.softzone.es/2017/03/29/excel-2016-ya-permite-trabajo-colaborativo-traves-office-365/</a>',
-                'Microsoft Support. (s.f.). <i>Compartir el libro de Excel con otros usuarios.</i> Recuperado el 30 de Abril de 2021 de: <br> <a href="https://support.microsoft.com/es-es/office/compartir-el-libro-de-excel-con-otros-usuarios-8d8a52bb-03c3-4933-ab6c-330aabf1e589" class="estilo-ref" target="_blank">https://support.microsoft.com/es-es/office/compartir-el-libro-de-excel-con-otros-usuarios-8d8a52bb-03c3-4933-ab6c-330aabf1e589</a>',
-                'Microsoft Support. (s.f.). <i>Bloquear o desbloquear áreas específicas de una hoja de cálculo protegida.</i> Recuperado el 18 de Junio de 2021 de: <br> <a href="https://support.microsoft.com/es-es/office/bloquear-o-desbloquear-%C3%A1reas-espec%C3%ADficas-de-una-hoja-de-c%C3%A1lculo-protegida-75481b72-db8a-4267-8c43-042a5f2cd93a" class="estilo-ref" target="_blank">https://support.microsoft.com/es-es/office/bloquear-o-desbloquear-%C3%A1reas-espec%C3%ADficas-de-una-hoja-de-c%C3%A1lculo-protegida-75481b72-db8a-4267-8c43-042a5f2cd93a</a>',
-                'Microsoft Support. (s.f.). <i>Proteger un archivo de Excel.</i> Recuperado el 28 de Junio de 2021 de: <br> <a href="https://support.microsoft.com/es-es/office/proteger-un-archivo-de-excel-7359d4ae-7213-4ac2-b058-f75e9311b599" class="estilo-ref" target="_blank">https://support.microsoft.com/es-es/office/proteger-un-archivo-de-excel-7359d4ae-7213-4ac2-b058-f75e9311b599</a>'
+                'Chelsea. (s. f.). <i>Design Thinking Phase 5: How to Test Effectively.</i> Workshopper. <br> <a href="https://www.workshopper.com/post/design-thinking-phase-5-how-to-test-effectively" class="estilo-ref" target="_blank">https://www.workshopper.com/post/design-thinking-phase-5-how-to-test-effectively</a>',
+                'CloudApp. (2019, 16 septiembre). <i>Design Thinking Testing Stage: The Difference Between Success and Failure</i> [Vídeo]. YouTube. <br> <a href="https://www.youtube.com/watch?v=vX9ZEVR_8pE" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=vX9ZEVR_8pE</a>',
+                'Dam, R. F., & Siang, T. Y. (2022, 3 mayo). <i>Stage 5 in the Design Thinking Process: Test.</i> Interaction Design Foundation. <br> <a href="https://www.interaction-design.org/literature/article/stage-5-in-the-design-thinking-process-test" class="estilo-ref" target="_blank">https://www.interaction-design.org/literature/article/stage-5-in-the-design-thinking-process-test</a>',
+                'Design Thinking 24/7. (2018, 16 abril). <i>Design Thinking «FASE 5 - COMPROBAR - TESTEAR» Temporada 3 Tutorial 7</i> [Vídeo]. YouTube. <br> <a href="https://www.youtube.com/watch?v=LB1mEF-F2pc" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=LB1mEF-F2pc</a>',
+                'Ghosh, S. (2022, 10 febrero). <i>Testing in Design Thinking.</i> QED42. <br> <a href="https://www.qed42.com/insights/coe/design/testing-design-thinking" class="estilo-ref" target="_blank">https://www.qed42.com/insights/coe/design/testing-design-thinking</a>',
+                'Hanks, B. (2022, 7 mayo). <i>Design Thinking Testing Stage: The Difference Between Success and Failure.</i> CloudApp.  <br> <a href="https://www.getcloudapp.com/blog/design-thinking-testing-stage/" class="estilo-ref" target="_blank">https://www.getcloudapp.com/blog/design-thinking-testing-stage/</a>',
+                'Mindful Marks. (2018, 10 junio). <i>5. Design Thinking: Test</i> [Vídeo]. YouTube. <br> <a href="https://www.youtube.com/watch?v=UVEQCNM6X-A" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=UVEQCNM6X-A</a>',
+                'Spring2 Innovation. (2020, 23 diciembre). <i>Design Thinking Step 5: Test</i> [Vídeo]. YouTube.  <br> <a href="https://www.youtube.com/watch?v=OrYYdVyyc8s" class="estilo-ref" target="_blank">https://www.youtube.com/watch?v=OrYYdVyyc8s</a>',
+                'Stevens, E. (2021, 5 agosto). <i>User Testing: The Ultimate How-To Guide.</i> CareerFoundry. <br> <a href="https://careerfoundry.com/en/blog/ux-design/user-testing-design-thinking/" class="estilo-ref" target="_blank">https://careerfoundry.com/en/blog/ux-design/user-testing-design-thinking/</a>',
             ],
 ];
 
@@ -840,67 +556,71 @@ $slabTranscriptionDoc = [
 $act1_Instructions = [
     //Slab 1 
     [  
-        "Lee atentamente los conceptos básicos de Excel.",
-        "Selecciona y arrastra los recuadros para asociar cada concepto con la definición correcta.",
+        "Identifica y ordena el proceso para <strong>aplicar el método de Design Thinking.</strong>",
         "Realiza una captura de pantalla con el resultado de tu actividad y guárdala, ya que la necesitarás más adelante."
     ],
     //Slab 2 
     [     
-        "Observa detalladamente el video sobre <strong>la primera interacción con Excel</strong> y contesta correctamente a los reactivos que aparecerán."
+        "Completa los espacios en blanco para descubrir los <strong>conceptos clave sobre Miro,</strong> una herramienta colaborativa digital.",
+        "Realiza una captura de pantalla con el resultado de tu actividad y guárdala, ya que la necesitarás más adelante."
     ],
     //Slab 3
     [   
-        "Lee atentamente los conceptos clave sobre <strong>fórmulas y funciones en Excel</strong> y relaciónalo con la definición correcta.",
+        "Lee atentamente los conceptos clave sobre <strong>Empatía en el Design Thinking</strong> y relaciónalo con la definición correcta.",
         "Selecciona y arrastra los recuadros para asociar cada concepto con la definición correcta.",
         "Realiza una captura de pantalla con el resultado de tu actividad y guárdala, ya que la necesitarás más adelante."
     ],
     //Slab 4
     [   
-        "Completa los espacios en blanco para descubrir los conceptos clave sobre <strong>estilos y formatos de datos.</strong>",
-        "Realiza una captura de pantalla con el resultado de tu actividad y guárdala ya que la necesitarás más adelante."
+        "Completa los espacios en blanco para descubrir los conceptos clave sobre <strong>el Reto.</strong>",
+        "Realiza una captura de pantalla con el resultado de tu actividad y guárdala, ya que la necesitarás más adelante."
     ],
     //Slab 5
     [   
-        "Observa detalladamente el video sobre <strong>ajustes a una hoja de cálculo en Excel</strong> y contesta correctamente a los reactivos que aparecerán."
+        "Lee atentamente los conceptos clave sobre <strong>análisis PESTEL</strong> y relaciónalo con la definición correcta.",
+        "Selecciona y arrastra los recuadros para asociar cada concepto con la definición correcta.",
+        "Realiza una captura de pantalla con el resultado de tu actividad y guárdala, ya que la necesitarás más adelante."
     ],
     //Slab 6
     [   
-        "Lee atentamente los conceptos clave sobre <strong>gráficas en Excel.</strong>",
-        "Selecciona y arrastra los recuadros para asociar cada concepto con la definición correcta.",
-        "Realiza una captura de pantalla con el resultado de tu actividad y guárdala ya que la necesitarás más adelante."
+        "Completa los espacios en blanco para descubrir los conceptos clave sobre <strong>Análisis del contexto.</strong>",
+        "Realiza una captura de pantalla con el resultado de tu actividad y guárdala, ya que la necesitarás más adelante.",
     ],
     //Slab 7
     [   
-        "Observa detalladamente el video sobre <strong>ajustes de la vista en las hojas de cálculo en Excel</strong> y contesta correctamente a los reactivos que aparecerán."
+        "Completa los espacios en blanco para descubrir los conceptos clave sobre <strong>Propuesta de valor.</strong>",
+        "Realiza una captura de pantalla con el resultado de tu actividad y guárdala, ya que la necesitarás más adelante."
     ],
     //Slab 8
     [   
-        "Observa detalladamente el video sobre <strong>el manejo de múltiples libros y hojas de cálculo</strong> y contesta correctamente a los reactivos que aparecerán.",
+        "Completa los espacios en blanco para descubrir los conceptos clave sobre <strong>ideación.</strong>",
+        "Realiza una captura de pantalla con el resultado de tu actividad y guárdala, ya que la necesitarás más adelante."
     ],
     //Slab 9
     [   
-        "Lee atentamente los conceptos clave sobre <strong>la gestión de los datos.</strong>",
-        "Selecciona y arrastra los recuadros para asociar cada concepto con la definición correcta.",
-        "Realiza una captura de pantalla con el resultado de tu actividad y guárdala ya que la necesitarás más adelante."
+        "Completa los espacios en blanco para descubrir los conceptos clave sobre <strong>prototipos.</strong>",
+        "Realiza una captura de pantalla con el resultado de tu actividad y guárdala, ya que la necesitarás más adelante.",
     ],
     //Slab 10
     [   
-        "Observa detalladamente el video sobre seguridad y trabajo colaborativo y contesta correctamente a los reactivos que aparecerán."
+        "Lee atentamente los conceptos clave sobre <strong>pruebas</strong> y relaciónalo con la definición correcta.",
+        "Selecciona y arrastra los recuadros para asociar cada concepto con la definición correcta.",
+        "Realiza una captura de pantalla con el resultado de tu actividad y guárdala, ya que la necesitarás más adelante."
     ]
 ];
 
 //-- Herramientas Actividad Descubre --
 $act1_tools = [
-/* Slab 1 */'<iframe src="https://lxlab.h5p.com/content/1291605514085572948/embed" aria-label="Slab 1_Estilos y formatos de datos" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://lxlab.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>',
-/* Slab 2 */'<div class="embed-responsive embed-responsive-16by9 w-75"><iframe class="embed-responsive-item" src="https://edpuzzle.com/embed/media/624b6fdb906e6042c0da6e2d" frameborder="0" allowfullscreen></iframe></div>',
-/* Slab 3 */'<iframe src="https://lxlab.h5p.com/content/1291605567828035148/embed" aria-label="Slab3_Fórmulas y funciones básicas" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://lxlab.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>',
-/* Slab 4 */'<iframe src="https://lxlab.h5p.com/content/1291605571039519918/embed" aria-label="slab4_Estilos y formatos de datos" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://lxlab.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>',
-/* Slab 5 */'<div class="embed-responsive embed-responsive-16by9 w-75"><iframe class="embed-responsive-item" src="https://edpuzzle.com/embed/media/624b7d0e3ad61f42b23a830c" frameborder="0" allowfullscreen></iframe></div>',
-/* Slab 6 */'<iframe src="https://lxlab.h5p.com/content/1291605580242862948/embed" aria-label="Slab6_Gráficos básicos" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://lxlab.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>',
-/* Slab 7 */'<div class="embed-responsive embed-responsive-16by9 w-75"><iframe class="embed-responsive-item" src="https://edpuzzle.com/embed/media/624c8121576a8342f8e26f91" frameborder="0" allowfullscreen></iframe></div>',
-/* Slab 8 */'<div class="embed-responsive embed-responsive-16by9 w-75"><iframe class="embed-responsive-item" src="https://edpuzzle.com/embed/media/624c81dd544bb34306f98d9a" frameborder="0" allowfullscreen></iframe></div>',
-/* Slab 9 */'<iframe src="https://lxlab.h5p.com/content/1291606247399969428/embed" aria-label="Slab9_Administración de datos" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://lxlab.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>',
-/* Slab 10*/'<div class="embed-responsive embed-responsive-16by9 w-75"><iframe class="embed-responsive-item" src="https://edpuzzle.com/embed/media/624c889fd89ffa42f176e7ca" frameborder="0" allowfullscreen></iframe></div>'
+/* Slab 1 */'<iframe src="https://lxlab.h5p.com/content/1291684787522739898/embed" aria-label="Pasos del Design Thinking" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://lxlab.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>',
+/* Slab 2 */'<iframe src="https://lxlab.h5p.com/content/1291684797312667058/embed" aria-label="2 - Miro. Herramienta colaborativa" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://lxlab.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>',
+/* Slab 3 */'<iframe src="https://lxlab.h5p.com/content/1291684807967832518/embed" aria-label="3 - Empatía. Entiendo el problema" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://lxlab.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>',
+/* Slab 4 */'<iframe src="https://lxlab.h5p.com/content/1291684813382291838/embed" aria-label="4 - El reto. ¿Cómo establecerlo?" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://lxlab.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>',
+/* Slab 5 */'<iframe src="https://lxlab.h5p.com/content/1291684817668193828/embed" aria-label="Análisis y mapeo del contexto." width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://lxlab.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>',
+/* Slab 6 */'<iframe src="https://lxlab.h5p.com/content/1291684821249748538/embed" aria-label="6 - ¿Quiénes? Análisis y mapeo" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://lxlab.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>',
+/* Slab 7 */'<iframe src="https://lxlab.h5p.com/content/1291684827296252038/embed" aria-label="7 - ¿Cómo generar la propuesta de valor?" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://lxlab.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>',
+/* Slab 8 */'<iframe src="https://lxlab.h5p.com/content/1291684842630856718/embed" aria-label="8- Ideación. Todo es válido por ahora" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://lxlab.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>',
+/* Slab 9 */'<iframe src="https://lxlab.h5p.com/content/1291684845959512868/embed" aria-label="9- Prototipos. Probando… 1, 2, 3" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://lxlab.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>',
+/* Slab 10*/'<iframe src="https://lxlab.h5p.com/content/1291684850494027708/embed" aria-label="10 - ¿Funciona? Análisis de pruebas" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://lxlab.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>'
 ];
 
 //-- Instrucciones Actividad Demuestra --
@@ -927,36 +647,41 @@ $act2_instructions = [
         [
             //Paso 1
             [
-                "instruction" => "Lee con atención el siguiente estudio de caso sobre <strong>la primera interacción con Excel.</strong>",
+                "instruction" => "Elabora una infografía sobre <strong>los elementos de la estructura del método de Design Thinking.</strong>",
             ],
             //Paso 2
             [
-                "instruction" => "Realiza el proyecto que se te plantea.",
+                "instruction" => "Investiga en fuentes de información confiables sobre:<br>
+                <strong>
+                <ol type='a'>
+                    <li>Qué es Design Thinking.</li>
+                    <li>Cuáles son los elementos que conforman el método.</li>
+                    <li>Qué es empatizar.</li>
+                    <li>Qué es definir.</li>
+                    <li>Qué es prototipar.</li>
+                    <li>Qué es evaluar.</li>
+                </ol>
+                </strong>",
             ],
             //Paso 3
             [
-                "instruction" => "Guarda el enlace del mismo, ya que lo compartirás más adelante.",
+                "instruction" => "Utiliza la guía para elaborar una infografía.",
+                "instruction_extra" =>  '<a href="assets/docs/tools/demuestra/Infografía.pdf" class="tracker btn btn-outline-primary" target="_blank">Guía para elaborar una infografía</a>'
             ],
             //Paso 4
             [
-                "case_title" => "Ayuda a Irving",
-                "img" => "img/act/iStock-942689060.jpg",
-                "text" => "<div>¡Bienvenido! Eres parte de una red de voluntarios de la ONG “Ayuda sin límites”, la cual se encarga de atender y dar apoyo a adultos mayores y a niños de escasos recursos. Las actividades principales que realiza la organización son: atención médica, asesoría psicológica y apoyo en la educación. Para la atención médica y asesoría psicológica, cuentan con especialistas y alianzas con hospitales de vanguardia. En el caso del apoyo a la educación, cuentan con maestros y voluntarios que se encargan de dar asesorías en diferentes áreas, como matemáticas, español, informática, entre otros.
-                    <br><br>
-                    Irving González, quien se desempeña como coordinador de la red de voluntarios, detectó que los adultos mayores tienen un déficit de conocimiento en el área de informática, lo cual representa un área de oportunidad que la organización puede cubrir. Irving, junto con el equipo educativo, planearon una estrategia de capacitación para solventar y ayudar a los adultos mayores en está área, y decidieron iniciar con el tema de Excel.  
-                    <br><br>
-                    Irving te ha seleccionado a ti, para que lo ayudes en la realización del material de introducción a Excel. El reto que te ha lanzado es el de crear un video que explique qué es y cuál es el propósito de Excel, así como la utilidad de aprender a manejar este programa; todo esto en el contexto de los adultos mayores. El video consistirá de breves fragmentos, en los que les puedas demostrar cómo se usa el software.  Los fragmentos deben incluir: 
-                    <br><br>    
-                        <ul>
-                            <li>Cómo abrir Excel.</li>
-                            <li>Cómo hacer operaciones básicas: suma, resta, multiplicación y división.</li>
-                            <li>Qué es un libro de trabajo y cómo moverse en él.</li>
-                            <li>Guardar y poner nombre a un documento.</li>
-                        </ul>
-                        Antes de terminar, Irving te pide una última solicitud: te indica que el video y cada parte que lo componga sea motivador, dinámico y claro, para que los adultos mayores lo entiendan y quieran aprender más. El video debe tener una duración mínima de 15 minutos y deberá estar montado en Youtube para ser accedido desde cualquier parte del mundo. 
-                        </div>",
-                "diagnostic" =>"" 
+                "instruction" => "No olvides citar las fuentes de consulta en la parte inferior de tu infografía. Utiliza el Generador de referencias en formato APA.",
+                "instruction_extra" =>  '<a href="https://www.cva.itesm.mx/biblioteca/pagina_con_formato_version_oct/apa.htm" class="tracker btn btn-outline-primary" target="_blank">Generador de referencias en formato APA</a>'
             ],
+            //Paso 5
+            [
+                "instruction" => "Utiliza la herramienta digital de tu preferencia para desarrollar tu infografía. Te sugerimos explorar Canva.",
+                "instruction_extra" =>  '<a href="https://www.canva.com/es_mx/q/pro/?utm_source=google_sem&utm_medium=cpc&utm_campaign=REV_MX_ES_CanvaPro_Branded_EM&utm_term=REV_ES_MX_CanvaPro_Branded_Canva_EM&gclid=Cj0KCQiA-qGNBhD3ARIsAO_o7ykYlo56xkbekmO0Cm-bPIVF-YJaKawoHJEvv3oliUF2D-BgrdGr4kMaAkmxEALw_wcB&gclsrc=aw.ds" class="tracker text-center" target="_blank"><img src="img/logos/canva.png" alt="Logo canva"/></a>'
+            ],
+            //Paso 6
+            [
+                "instruction" => "Guarda el archivo de tu infografía, ya que lo compartirás más adelante.",
+            ]
         ],
     ],
     //SLAB 2
@@ -964,31 +689,54 @@ $act2_instructions = [
         [
             //Paso 1
             [
-                "instruction" => "Lee con atención el siguiente estudio de caso sobre <strong>el manejo de libros, hojas de cálculo y celdas.</strong>", 
+                "instruction" => "Elabora un tríptico sobre <strong>Miro y sus cualidades para ser usado en la utilización del método de Design Thinking.</strong>",
             ],
             //Paso 2
             [
-                "instruction" => "Realiza el proyecto que se te plantea.",
+                "instruction" => "Investiga sobre los siguientes temas a incluir en tu tríptico:<br>
+                <strong>
+                <ol type='a'>
+                    <li>Herramientas de creación de Miro.</li>
+                    <li>Formas de compartir el contenido.</li>
+                    <li>Tipos de suscripciones.</li>
+                    <li>Características que convierten a Miro como una herramienta a tomar en cuenta para la aplicación del método de Design Thinking.</li>
+                </ol>
+                </strong>",
             ],
             //Paso 3
             [
-                "instruction" => "Guarda el archivo del proyecto, ya que lo compartirás más adelante.",
+                "instruction" => "Puedes recurrir adicionalmente a la siguiente fuente: Miro Academy. (s. f.). Getting Started/Board navigation and toolbars. Academy Miro.",
+                "instruction_extra" =>  '<a href="https://academy.miro.com/learn/course/getting-started-with-miro/getting-started/board-navigation-and-toolbars?page=1" class="tracker text-center" target="_blank"><img src="img/logos/miro.png" alt="Logo canva"/></a>'
             ],
-            //paso 4
+            //Paso 4
             [
-                "case_title" => "Corpo Vitale",
-                "img" => "img/act/iStock-958939994.jpg",
-                "text" => "<div>Corpo Vitale es una empresa de bienestar físico y emocional. La empresa opera desde hace 2 años, y durante este tiempo ha logrado incrementar sus clientes hasta llegar a poco más de dos mil. Hoy en día, a Corpo Vitale se les está complicando obtener los expedientes de cada cliente, debido a que toda su documentación está en papel, y no se cuenta con una base de datos en formato digital.
-                    <br><br>
-                    Dado este escenario, la dirección general ha decidido que es importante concentrar la documentación e información de sus clientes de manera digital, específicamente en Excel. En primer lugar, porque será mucho más fácil dar seguimiento puntual a cada cliente, y en segundo, porque quieren ser una empresa socialmente responsable con el medio ambiente y no almacenar innecesariamente tanto papel.  
-                    <br><br>
-                    La empresa te solicita que les ayudes a empezar a formar su agenda digital de clientes. La agenda debe contar con los datos básicos, como: nombre, apellido paterno, apellido materno, teléfono y correo electrónico de cada cliente. Específicamente, la petición que te hace la empresa es que generes esta nueva agenda en un libro de Excel y que nombres la hoja de trabajo como “Clientes”. 
-                    <br><br>
-                    Deberás dar un formato profesional a esta agenda; es decir, dar color al fondo de las celdas para que muestren la separación entre una sección y otra. También te solicita utilizar las opciones de formato de letras: color, tamaño, y estilo, para que la información sea entendible y agradable a la vista. Finalmente, debes verificar que todo el documento sea claro y organizado.
-                    <br><br>
-                    Apóyate del documento <a href='assets/docs/tools/demuestra/Listado_VOutcom.docx'>Listado.doc</a> para empezar a crear la agenda digital de clientes. Una vez que hayas finalizado, guarda el archivo con el nombre “Slab#_TuNombre_Fecha.xls” ya que éste será tu entregable.
-                    </div>",
-                "diagnostic" =>"" 
+                "instruction" => "Utiliza como referencia el formato tríptico y asegúrate de incluir la información pertinente en cada cara.",
+                "instruction_extra" =>  '<a href="assets/docs/tools/demuestra/Triptico.pdf" class="tracker btn btn-outline-primary" target="_blank">Formato tríptico</a>'
+            ],
+            //Paso 5
+            [
+                "instruction" => "Considera que para diseñar tu tríptico, puedes utilizar la herramienta Genially.",
+                "instruction_extra" =>  '<a href="https://genial.ly/es/" class="tracker text-center" target="_blank"><img src="img/logos/genially.png" alt="Logo canva"/></a>'
+            ],
+            //Paso 6
+            [
+                "instruction" => "Verifica que los textos sean breves y fáciles de entender.",
+            ],
+            //Paso 7
+            [
+                "instruction" => "Selecciona los apoyos visuales a integrar:<br>
+                <ol type='a'>
+                    <li>Imágenes, dibujos, fotografías, ilustraciones, etc.</li>
+                    <li>Combinaciones de letras y colores.</li>
+                </ol>",
+            ],
+            //Paso 8
+            [
+                "instruction" => "Recuerda que el tríptico es un documento que debe ser concreto y llamativo.",
+            ],
+            //Paso 9
+            [
+                "instruction" => "Guarda el archivo de tu tríptico, ya que lo compartirás más adelante.",
             ],
         ],
     ],
@@ -997,119 +745,7 @@ $act2_instructions = [
         [
             //Paso 1
             [
-                "instruction" => "Lee con atención el siguiente estudio de caso sobre <strong>las fórmulas y funciones básicas.</strong>", 
-            ],
-            //Paso 2
-            [
-                "instruction" => "Realiza el proyecto que se te plantea.", 
-                
-            ],
-            //Paso 3
-            [
-                "instruction" => "Guarda el archivo del proyecto, ya que lo compartirás más adelante.",
-
-            ],
-            //paso 4
-            [
-                "case_title" => "El reporte de Héctor",
-                "img" => "img/act/iStock-1029427722.jpg",
-                "text" => "<div>Héctor Santos lleva 2 meses de haber ingresado al área de finanzas en la empresa INDESCAL, organización dedicada a construir escaleras para la industria inmobiliaria. Él es responsable de toda la parte contable de la compañía: impuestos, hojas de balance, gastos por pagar y cuentas por cobrar. 
-                    <br><br>
-                    La compañía ha crecido muy rápidamente en los últimos 6 meses y actualmente ha logrado abrir 10 nuevas plantas industriales, establecidas en las 3 principales capitales de la República Mexicana:  
-                    <br><br>
-                    <ol class='mb-4' style='text-align:left;'>
-                        <li>
-                            <span>Ciudad de México:</span>
-                            <ul>
-                                <li>Central</li>
-                                <li>Abastecimientos</li>
-                                <li>Insumos</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <span>Monterrey:</span>
-                            <ul>
-                                <li>Operación central</li>
-                                <li>Reabastecimientos</li>
-                                <li>Ventas al menudeo</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <span>Guadalajara:</span>
-                            <ul>
-                                <li>Operación</li>
-                                <li>Reabastecimientos del sur</li>
-                                <li>Pintura</li>
-                                <li>Venta al mayoreo</li>
-                            </ul>
-                        </li>
-                    </ol>
-                    Por el rápido crecimiento en la empresa, los equipos de trabajo están en un estado constante de urgencia, y tienen que resolver solicitudes en tiempos reducidos para poder lograr el crecimiento y las ventas esperadas para el año en curso.
-                    <br><br>
-                    El jefe de Héctor le ha pedido un reporte que cuente con:
-                    <br>
-                    <ul class='mb-4'>
-                        <li>El cálculo total de las ventas acumuladas mensuales del año inmediato anterior, por cada planta industrial.</li>
-                        <li>El promedio anual de ventas por planta de ese mismo año.</li>
-                        <li>El cálculo total de las ventas anuales de toda la compañía.</li>
-                    </ul>
-                    Toda la información que se requiere se puede encontrar en el archivo  <a href='assets/docs/tools/demuestra/Información.docx'>“información.doc”</a>. La expectativa del jefe es que la información presentada sea clara, organizada y concreta.
-                    <br><br>
-                    Como este documento va a ser entregado a dos diferentes directores, Héctor debe realizar dos versiones: una con fórmulas y otra con funciones, para evitar algún problema.
-                    <br><br>
-                    Tu encomienda es ayudar a Héctor en la realización del reporte que le solicita su jefe.
-                    </div>",
-                "diagnostic" =>"" 
-            ],
-        ],
-    ],
-    //SLAB 4
-    ["instruction_list" => 
-        [
-            //Paso 1
-            [
-                "instruction" => "Lee con atención el siguiente estudio de caso sobre <strong>estilos y formatos de datos.</strong>", 
-            ],
-            //Paso 2
-            [
-                "instruction" => "Realiza el proyecto que se te plantea."
-            ],
-            //Paso 3
-            [
-                "instruction" => "Guarda el archivo del proyecto, ya que lo compartirás más adelante."
-            ],
-            //paso 4
-            [
-                "case_title" => "Digitalización de gastos para la ONG “Salvemos el planeta”",
-                "img" => "img/act/iStock-1316932971.jpg",
-                "text" => "<div>“Salvemos el planeta” es una organización sin fines de lucro afiliada a la Organización de las Naciones Unidas (ONU), que se encarga de hacer campañas para concientizar a la población en el cuidado de los animales y plantas a nivel mundial.
-                    <br><br>
-                    Esta organización no gubernamental (ONG), al recibir donaciones de la ONU, está obligada a generar reportes de sus gastos, y éstos son auditados rigurosamente.  La asociación tiene más de 20 años funcionando, y durante este tiempo todos los informes los han generado de manera manual sin ningún problema.  
-                    <br><br>
-                    Hoy en día, a la organización se le está complicando obtener los reportes de los gastos mensuales, debido a que su lista de proveedores ha aumentado drásticamente. Considerando lo anterior, han decidido que es importante concentrar la  documentación e información de sus gastos de manera digital. Lo anterior será de gran ayuda, ya que les permitirá tener un control interno más efectivo de sus gastos, y a la par, tener toda la información lista para cuando la ONU la solicite. 
-                    <br><br>
-                    Imagina que te encuentras actualmente estudiando, y para poder graduarte, tu coordinador académico te ha asignado el proyecto de digitalización de los gastos de la ONG “Salvemos el planeta”.
-                    <br><br>
-                    La actividad consiste en organizar digitalmente la información de los proveedores. Esta información será dividida en los campos de Nombre, Dirección y Teléfono o celular de contacto de 3 proveedores. En el archivo <a href='assets/docs/tools/demuestra/Información.docx'>“información.doc”</a> encontrarás los gastos que se han tenido con cada proveedor durante los primeros 3 meses del año.
-                    <br><br>
-                    Con la información de los dos puntos anteriores, genera dos tablas de Excel: una con la información de los proveedores y otra con los gastos de cada uno. Ambas tablas deberán contar con bordes gruesos como contorno y bordes suaves internamente. Los títulos deberán estar resaltados en diferente color: 
-                    <br><br>
-                    <ul>
-                        <li>Para el listado de proveedores: el fondo en negro y la letra en blanco, tamaño 16.</li>
-                        <li>Para el listado de gastos por proveedor: el fondo en azul y la letra en blanco, tamaño 14.</li>
-                    </ul>   
-                    Tu entregable será un archivo de Excel con ambos reportes. 
-                    </div>",
-                "diagnostic" =>"" 
-            ],
-        ],
-    ],
-    //SLAB 5
-    ["instruction_list" => 
-        [
-            //Paso 1
-            [
-                "instruction" => "Lee con atención el siguiente estudio de caso sobre <strong>ajustes a una hoja de cálculo.</strong>", 
+                "instruction" => "Lee con atención el siguiente estudio de caso sobre <strong>empatía en el Design Thinking.</strong>", 
             ],
             //Paso 2
             [
@@ -1119,82 +755,47 @@ $act2_instructions = [
             [
                 "instruction" => "Guarda el enlace del mismo, ya que lo compartirás más adelante."
             ],
-            //paso 4
+            //Paso 4
             [
-                "case_title" => "La competencia escolar",
-                "img" => "img/act/iStock-1334047525.jpg",
-                "text" => "<div>La escuela secundaria “Valentín Gómez Farías”, es una escuela de mucho prestigio en la ciudad de Tapachula, Chiapas. Tú eres el maestro de computación de la escuela, y todos los alumnos de tercer grado están aprendiendo en tu clase sobre el uso de nuevas herramientas tecnológicas.
+                "case_title" => "Empatía en aplicación de movilidad",
+                "img" => "img/act/iStock-1392311086.jpg",
+                "text" => "<div>DiDi, una empresa de movilidad alternativa, se encuentra en un punto en el cual necesita ofrecer una solución innovadora para sus usuarios, con la finalidad de responder a Uber y Beat; por lo que es necesario entender a las personas que actualmente utilizan su plataforma.
                     <br><br>
-                    La escuela está próxima a competir en un evento estatal, en el que se medirá a los alumnos en su dominio de la herramienta Excel. La motivación del grupo es muy alta, y David Treviño, director de la secundaria, está muy satisfecho con tu trabajo hasta ahora.  
+                    Beat lanzó su servicio de autos eléctricos junto con Tesla, mientras que Uber se mantiene a la cabeza del mercado ¿Por qué la gente prefiere Uber y piensa en Beat?
                     <br><br>
-                    Por un problema de salud, tendrás que faltar a tus clases por una semana. Para resolver esto, David y tú acuerdan que, para no perder el hilo de lo planeado en las clases, deberás generar un video en el cual le expliques a tus alumnos los temas correspondientes a la planeación de la semana que estarás ausente. El video debe incluir instrucciones para: 
+                    Es por esto que DiDi ha solicitado de tus servicios para que le ayudes a empatizar con sus usuarios y entender las problemáticas por las que actualmente atraviesa. 
                     <br><br>
-                    <ul>
-                        <li>
-                            Hacer una tabla con los datos de las calificaciones de tus alumnos y simular movimientos en la misma tabla, tales como:
-                        </li>
-                        <li style ='list-style:none;'>
-                            <ul>
-                                <li>Borrar las 2 últimas columnas de calificaciones</li>
-                                <li>Ajustar el alto del encabezado de la tabla a 50 píxeles</li>
-                                <li>Inmovilizar los encabezados de la tabla</li>
-                                <li>Ocultar los renglones de los alumnos que no tengan ninguna calificación de sus actividades.</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    La información para que generes tus ejercicios la podrás encontrar en el archivo <a href='assets/docs/tools/demuestra/Información.xlsx'>“información.doc”</a>.
-                    <br><br>
-                    Sube tu video a Youtube y comparte la liga a David para que tus alumnos no pierdan el hilo durante la semana que estarás ausente. El video deberá durar como mínimo 20 minutos.
+                    Recuerda que para comprender cuáles son los puntos fuertes de DiDi, tendrás que preguntar a sus usuarios como ha sido su experiencia con la aplicación y, para entender el contexto, es pertinente evaluar la situación actual de estas plataformas con relación al modelo convencional de taxis.  
                     </div>",
                 "diagnostic" =>"" 
             ],
-        ]
+            //Paso 5
+            [
+                "instruction" => "<strong>Proyecto:</strong>",
+                "subinstruction_list" => [
+                    ["subinstruction" => "Entra a Miro y crea un board nuevo.
+                    <br>
+                    <div class='d-flex justify-content-center logo-tools align-items-center'>
+                        <a href='https://miro.com/es/' class='tracker text-center' target='_blank'><img src='img/logos/miro.png' alt='Logo canva'/></a>
+                    </div>"],
+                    ["subinstruction" => "Descarga y utiliza la plantilla del mapa de empatía.
+                    <br>
+                    <div class='d-flex justify-content-center logo-tools align-items-center'>
+                        <a href='https://miro.com/templates/empathy-map/' class='tracker btn btn-outline-primary' target='_blank'>Mapa de empatía</a>
+                    </div>"],
+                    ["subinstruction" => "Aplica las herramientas de investigación vistas u otras que localices, para obtener información que permita empatizar con los usuarios de plataformas de movilidad alternativa."],
+                    ["subinstruction" => "Llena el mapa de empatía con la información obtenida."],
+                    ["subinstruction" => "Guarda el enlace del board de Miro con el ejercicio, ya que lo compartirás más adelante."],
+                ],
+            ]
+        ],
     ],
-    //SLAB 6
+    //SLAB 4
     ["instruction_list" => 
         [
-            //Paso 1
-            [
-                "instruction" => "Lee con atención el siguiente estudio de caso sobre <strong>gráficos básicos.</strong>", 
-            ],
-            //Paso 2
-            [
-                "instruction" => "Realiza el proyecto que se te plantea.", 
-            ],
-            //Paso 3
-            [
-                "instruction" => "Guarda el archivo del proyecto, ya que lo compartirás más adelante.", 
-            ],
-            //Paso 4
-            [
-                "case_title" => "Meteorología",
-                "img" => "img/act/iStock-1012716752.jpg",
-                "text" => "<div>¡Bienvenido! Eres parte del equipo de Meteorología del Gobierno Federal. Este equipo se hace cargo de monitorear el clima y sus fluctuaciones en el año, en los diferentes estados de la República Mexicana. Entre muchos de los propósitos de este equipo, está el de conocer cómo es que el cambio climático mundial afecta a México.
-                    <br><br>
-                    Al cierre de cada año, se reúnen los expertos del área para revisar tendencias regionales en el clima. Como resultado de este análisis, se generan pronósticos para que el Poder Ejecutivo pueda hacer la planeación de los proyectos anuales, así como la toma de decisiones para los proyectos que ya están en marcha. 
-                    <br><br>
-                    Uno de estos proyectos es la realización de los Juegos Panamericanos en las 3 principales ciudades de México, y para poder planear las actividades que se realizarán, es necesario conocer las fluctuaciones del clima observadas en los tres años anteriores. El director del equipo de Meteorología, Daniel Villegas, te da la encomienda de identificar estas fluctuaciones.
-                    <br><br>
-                    Utiliza el archivo <a href='assets/docs/tools/demuestra/Información-slab-6.xlsx'>“información.xlsx”</a>, el cual contiene las temperaturas promedio por mes de las 3 principales ciudades de la República Mexicana: Ciudad de México, Monterrey y Guadalajara.  
-                    <br><br>
-                    El informe que vas a desarrollar, debe mostrar:<br>
-                        <ul>
-                            <li>Las fluctuaciones de temperaturas, utilizando gráficas de columnas agrupadas.</li>
-                            <li>La misma información, pero ahora con el tipo de gráficas de columnas agrupadas con varias series.</li>
-                            <li>Un reporte por ciudad, apoyándote en las gráficas de barras.</li>
-                        </ul>
-                    Adicional a esto, redacta un análisis con tus conclusiones para cada uno de los 3 tipos de gráficas.</div>",
-                "diagnostic" =>"" 
-            ],
-            
-        ]
-    ],
-    //SLAB 7
-    ["instruction_list" => 
-        [
-            //Paso 1
-            [
-                "instruction" => "Lee con atención el siguiente estudio de caso sobre <strong>los ajustes de la vista en las hojas de cálculo en Excel.</strong>", 
+             //Paso 1
+             [
+                "instruction" => "Lee con atención el siguiente estudio de caso sobre <strong>el Reto.</strong>", 
             ],
             //Paso 2
             [
@@ -1202,33 +803,199 @@ $act2_instructions = [
             ],
             //Paso 3
             [
-                "instruction" => "Guarda los archivos del proyecto, ya que lo compartirás más adelante.",
+                "instruction" => "Guarda el enlace del mismo, ya que lo compartirás más adelante."
             ],
             //Paso 4
             [
-                "case_title" => "El consultor externo",
-                "img" => "img/act/iStock-635969404.jpg",
-                "text" => "<div>Metales de México es una empresa dedicada a producir aceros planos y largos para abastecer a toda Latinoamérica. En la empresa, existe un área de vital importancia, que es la de inteligencia de negocios. Esta área se encarga de ver tendencias de la competencia -y de la misma empresa- para poder tomar decisiones estratégicas. 
+                "case_title" => "El Reto",
+                "img" => "img/act/iStock-1043738948.jpg",
+                "text" => "<div>DiDi, la empresa de movilidad alternativa, se encuentra en un punto en el cual necesita ofrecer una solución innovadora para sus usuarios en México, con la finalidad de responder a sus competidores, Uber y Beat; por lo que es necesario entender a las personas que actualmente utilizan su plataforma.
                     <br><br>
-                    El nuevo CEO de la compañía, Iván Ramírez, ha estado en varias empresas del mismo ramo, y sabe la importancia que tiene el establecer estrategias corporativas que le permitan a la empresa crecer y florecer como lo espera el consejo directivo. 
+                    Beat lanzó su servicio de autos eléctricos Tesla mientras que Uber ha modificado sus medidas de seguridad.
                     <br><br>
-                    Para lograr este crecimiento, Iván ha decidido impulsar el área de inteligencia de negocios, no sólo en personas, sino también en tecnología y herramientas digitales que les permitan analizar rápidamente los datos. 
+                    Es por esto que DiDi ha solicitado de tus servicios para que establezcas El Reto, y así, DiDi logre entender la o las problemáticas por las que atraviesa para obtener posibles soluciones que lo coloquen como el número 1 de movilidad alternativa en México. 
                     <br><br>
-                    Iván te ha contratado como consultor externo para que diseñes un curso completo de Excel para toda el área de inteligencia de negocios. Al hacer un análisis de las fortalezas y debilidades del área, percibes que manejan una gran cantidad de información, la cual no es fácil de administrar ni visualizar.  
-                    <br><br>
-                    Ahora que has detectado una necesidad, propones realizar un video en el que se muestren las bondades del uso de los paneles y ventanas de Excel. Iván opina que es una excelente idea.
-                    <br><br>
-                    Él te proporciona, para empezar, la información financiera de los últimos diez años, dividida por meses. Esta información se encuentra en el archivo <a href='assets/docs/tools/demuestra/Información-slab-7.xlsx'>“información.xlsx”</a>. Lo que deberás hacer es:
-                        <ul>
-                            <li>Congelar el panel con el título del archivo.</li>
-                            <li>Congelar la primera columna, en la cual están los meses del año.</li>
-                        </ul>
-                    Como esta información también será compartida con el consejo directivo, te pide que hagas el mismo ejercicio, pero con la opción que le permita mover fácilmente las ventanas congeladas.
-                    <br><br>
-                    El entregable que le darás a Iván serán 2 archivos, cada uno con las características solicitadas.
+                    El Reto debe ser entendible y relacionarse con la información obtenida al realizar la investigación y el análisis. Reflexiona, ¿cuál es el contexto actual de la empresa, de los competidores y de los factores relacionados con la problemática?  
                     </div>",
                 "diagnostic" =>"" 
             ],
+            //Paso 5
+            [
+                "instruction" => "<strong>Proyecto:</strong>",
+                "subinstruction_list" => [
+                    ["subinstruction" => "Entra a Miro
+                    <br>
+                    <div class='d-flex justify-content-center logo-tools align-items-center'>
+                        <a href='https://miro.com/es/' class='tracker text-center' target='_blank'><img src='img/logos/miro.png' alt='Logo canva'/></a>
+                    </div>"],
+                    ["subinstruction" => "Utiliza un board donde desarrolles el Reto"],
+                    ["subinstruction" => "En este board debes plasmar la investigación y análisis hecha para establecer el Reto de DiDi."],
+                    ["subinstruction" => "Realiza propuestas del Reto utilizando las herramientas vistas."],
+                    ["subinstruction" => "Define y establece El Reto en una frase que permita entenderlo de forma sencilla, entendible y que se relacione con la información obtenida en la investigación y análisis previo."],
+                    ["subinstruction" => "Guarda el enlace del board del proyecto, ya que lo compartirás más adelante."],
+                ],
+            ]
+        ],
+    ],
+    //SLAB 5
+    ["instruction_list" => 
+        [
+            //Paso 1
+            [
+                "instruction" => "Lee con atención el siguiente estudio de caso sobre <strong>el análisis PESTEL.</strong>", 
+            ],
+            //Paso 2
+            [
+                "instruction" => "Realiza el proyecto que se te plantea."
+            ],
+            //Paso 3
+            [
+                "instruction" => "Guarda el enlace del mismo, ya que lo compartirás más adelante."
+            ],
+            //Paso 4
+            [
+                "case_title" => "Análisis y contexto",
+                "img" => "img/act/iStock-1179535344.jpg",
+                "text" => "<div>DiDi es una empresa de movilidad alternativa que llegó a México en 2018 y ahora está en más de treinta ciudades de la República. Actualmente se encuentra en un punto en el cual necesita ofrecer soluciones innovadoras para sus usuarios de México, con la finalidad de hacer frente a sus competidores Uber y Beat.
+                    <br><br>
+                    Es por esto que DiDi ha solicitado tu ayuda para  realizar el análisis y mapa de contexto. Reflexiona: ¿Cuál es la problemática actual de DiDi? ¿Cuáles son los factores políticos, económicos, sociales, tecnológicos, ambientales y legales  que intervienen en el Reto?
+                    <br><br>
+                    Estás preguntas pueden ser respondidas al realizar el análisis PESTEL y mapear la información obtenida mediante la investigación que realices con los recursos que tengas disponibles. 
+                    <br><br>
+                    Recuerda que definir el contexto permite enfocar la problemática y el Reto de mejor forma.  
+                    </div>",
+                "diagnostic" =>"" 
+            ],
+            //Paso 5
+            [
+                "instruction" => "<strong>Proyecto:</strong>",
+                "subinstruction_list" => [
+                    ["subinstruction" => "Entra a Miro.
+                    <br>
+                    <div class='d-flex justify-content-center logo-tools align-items-center'>
+                        <a href='https://miro.com/es/' class='tracker text-center' target='_blank'><img src='img/logos/miro.png' alt='Logo canva'/></a>
+                    </div>"],
+                    ["subinstruction" => "Entra en el board del proyecto de los Slabs anteriores o genera uno nuevo."],
+                    ["subinstruction" => "Importa en el board la plantilla Context map.
+                    <br>
+                    <div class='d-flex justify-content-center logo-tools align-items-center'>
+                        <a href='assets/docs/tools/demuestra/context map.png' class='tracker btn btn-outline-primary' download='context map.png'>Context map</a>
+                    </div>"],
+                    ["subinstruction" => "Realiza un análisis PESTEL del contexto del Reto."],
+                    ["subinstruction" => "Mapea los resultados en la plantilla."],
+                    ["subinstruction" => "Guarda el enlace del board del proyecto, ya lo compartirás más adelante."],
+                ],
+            ]
+        ]
+    ],
+    //SLAB 6
+    ["instruction_list" => 
+        [
+            //Paso 1
+            [
+                "instruction" => "Lee con atención el siguiente estudio de caso sobre <strong>el análisis del contexto.</strong>", 
+            ],
+            //Paso 2
+            [
+                "instruction" => "Realiza el proyecto que se te plantea."
+            ],
+            //Paso 3
+            [
+                "instruction" => "Guarda el enlace del mismo, ya que lo compartirás más adelante."
+            ],
+            //Paso 4
+            [
+                "case_title" => "Contexto",
+                "img" => "img/act/iStock-958697476.jpg",
+                "text" => "<div>DiDi, una empresa de movilidad alternativa, se encuentra en un punto en el cual necesita ofrecer una solución innovadora para sus usuarios de México, con la finalidad de responder a sus competidores, Uber y Beat.
+                    <br><br>
+                    DiDi cuenta con 10 millones de usuarios activos dentro de la plataforma en México y 350 000 socios conductores y repartidores, tanto para su segmento de movilidad como para el de entrega de alimentos a domicilio, según datos de la propia compañía.
+                    <br><br>
+                    La empresa, preocupada por su crecimiento, ha solicitado tu ayuda para identificar a los actores relacionados con este proyecto. Podrá entonces analizar y entender el contexto al mapear la información obtenida a partir de una investigación que responda las siguientes preguntas: 
+                    <ul>
+                        <li>¿Quiénes son los principales competidores?</li>
+                        <li>¿Qué organismos están involucrados en el negocio en México?</li>
+                        <li>¿Cuál es el rango de edad de los usuarios de DiDi?</li>
+                        <li>¿Qué características comparten los usuarios de DiDi?</li>
+                    </ul>  
+                    </div>",
+                "diagnostic" =>"" 
+            ],
+            //Paso 5
+            [
+                "instruction" => "<strong>Proyecto:</strong>",
+                "subinstruction_list" => [
+                    ["subinstruction" => "Entra a Miro/Stakeholder.
+                    <br>
+                    <div class='d-flex justify-content-center logo-tools align-items-center'>
+                        <a href='https://miro.com/templates/stakeholder-map/' class='tracker text-center' target='_blank'><img src='img/logos/miro.png' alt='Logo canva'/></a>
+                    </div>"],
+                    ["subinstruction" => "Utiliza el template para generar el stakeholder map."],
+                    ["subinstruction" => "Importa en el board la plantilla de persona.
+                    <br>
+                    <div class='d-flex justify-content-center logo-tools align-items-center'>
+                        <a href='assets/docs/tools/demuestra/Persona canvas.jpeg' class='tracker btn btn-outline-primary' download='Persona canvas.jpeg'>Plantilla de persona</a>
+                    </div>"],
+                    ["subinstruction" => "Crea dos personas del proyecto."],
+                    ["subinstruction" => "Guarda el enlace del board del proyecto, ya lo compartirás más adelante."],
+                ],
+            ]
+        ]
+    ],
+    //SLAB 7
+    ["instruction_list" => 
+        [
+            //Paso 1
+            [
+                "instruction" => "Lee con atención el siguiente estudio de caso sobre <strong>la propuesta de valor.</strong>", 
+            ],
+            //Paso 2
+            [
+                "instruction" => "Realiza el proyecto que se te plantea."
+            ],
+            //Paso 3
+            [
+                "instruction" => "Guarda el enlace del mismo, ya que lo compartirás más adelante."
+            ],
+            //Paso 4
+            [
+                "case_title" => "Tú y la propuesta de valor",
+                "img" => "img/act/iStock-1159448093.jpg",
+                "text" => "<div>DiDi, la empresa de movilidad alternativa, se encuentra en un punto en el cual necesita ofrecer una solución innovadora para sus usuarios de México, con la finalidad de responder a la competencia de Uber y Beat; por lo que es necesario analizar y entender el contexto.
+                    <br><br>
+                    Beat estrenó un servicio de cero emisiones con vehículos eléctricos, mientras que Uber lanzó una campaña de publicidad enfocada en la seguridad para los usuarios de su plataforma.
+                    <br><br>
+                    DiDi te ha contratado para que diseñes la propuesta de valor que lo llevará a ser el número uno en movilidad alternativa en México. 
+                    <br><br>
+                    <ul>
+                        <li>¿Cuáles son las principales quejas de los usuarios?</li>
+                        <li>¿Qué mejoras ha lanzado la competencia en su producto?</li>
+                        <li>¿Se podrá generar una propuesta de valor significativa?</li>
+                    </ul> 
+                    Reflexiona sobre estas y otras preguntas, que te permitan entender la posición actual de los usuarios y el servicio de DiDi, a través de la búsqueda y análisis de información. También contempla el capital económico, humano y tecnológico con el que DiDi cuenta para desarrollar e implementar las propuestas de valor que generarás a partir de las necesidades de los usuarios. 
+                    </div>",
+                "diagnostic" =>"" 
+            ],
+            //Paso 5
+            [
+                "instruction" => "<strong>Proyecto:</strong>",
+                "subinstruction_list" => [
+                    ["subinstruction" => "Ingresa a Miro.
+                    <br>
+                    <div class='d-flex justify-content-center logo-tools align-items-center'>
+                        <a href='http://www.miro.com' class='tracker text-center' target='_blank'><img src='img/logos/miro.png' alt='Logo canva'/></a>
+                    </div>"],
+                    ["subinstruction" => "Entra al board de proyecto de los Slabs anteriores o genera uno nuevo."],
+                    ["subinstruction" => "Importa en el board la plantilla Value Proposition.
+                    <br>
+                    <div class='d-flex justify-content-center logo-tools align-items-center'>
+                        <a href='assets/docs/tools/demuestra/Value Proposition Canvas.jpeg' class='tracker btn btn-outline-primary' download='Value Proposition Canvas.jpeg'>Value Proposition</a>
+                    </div>"],
+                    ["subinstruction" => "Sigue los pasos de los videos de referencia."],
+                    ["subinstruction" => "Crea una propuesta de valor para DiDi."],
+                    ["subinstruction" => "Guarda el enlace del board del proyecto, ya lo compartirás más adelante."],
+                ],
+            ]
         ]
     ],
     //SLAB 8
@@ -1236,121 +1003,168 @@ $act2_instructions = [
         [
             //Paso 1
             [
-                "instruction" => "Lee con atención el siguiente estudio de caso sobre <strong>el manejo de múltiples libros y hojas de cálculo.</strong>", 
+                "instruction" => "Lee con atención el siguiente estudio de caso sobre <strong>ideación en el método Design Thinking.</strong>", 
             ],
             //Paso 2
             [
-                "instruction" => "Realiza el proyecto que se te plantea.", 
+                "instruction" => "Realiza el proyecto que se te plantea."
             ],
             //Paso 3
             [
-                "instruction" => "Guarda el archivo del proyecto, ya que lo compartirás más adelante.",
+                "instruction" => "Guarda el enlace del mismo, ya que lo compartirás más adelante."
             ],
             //Paso 4
             [
-                "case_title" => "La tarea de Catalina",
-                "img" => "img/act/iStock-1364208507.jpg",
-                "text" => "<div>Catalina es una chica universitaria que, desde edad muy temprana, aprendió a ser organizada y consciente de sus gastos, su tiempo y sus actividades. Esta habilidad la adquirió gracias a su madre, quien quedó viuda cuando Catalina era una bebé, y se vió obligada a llevar la casa y a su hija sin ayuda. 
+                "case_title" => "¿Alguna idea?",
+                "img" => "img/act/iStock-1308590302.jpg",
+                "text" => "<div>DiDi, una empresa de movilidad alternativa, con la finalidad de responder a su competencia, Uber y Beat; necesita ofrecer una solución innovadora para sus usuarios de México. Ha planeado invertir 3000 millones de pesos en México y asegura que uno de cada dos de sus conductores gana en promedio $25 000 al mes, también han creado Puntos DiDi, un programa en el que los usuarios acumulan puntos cada vez que realizan viajes; esos puntos los podrán cambiar por recompensas que incluyen viajes a la playa.
                     <br><br>
-                    Catalina lleva una bitácora en su agenda, en la que escribe los gastos mensuales de: comida, pasajes, mandado, renta y pago de celular. Ella dice que esta agenda es su gran aliada, porque le permite saber cuánto ha gastado y así poder estimar sus gastos futuros.  
+                    A pesar de estas ideas, DiDi sigue buscando innovar como empresa de movilidad alternativa y mejorar en su servicio, por lo que ha solicitado tu ayuda para producir ideas que solucionen su problemática.
                     <br><br>
-                    Ahora que Catalina estudia el cuarto semestre de la carrera de Administración,  se encuentra cursando la materia de Educación Financiera. El catedrático de la materia les está solicitando hacer una presentación donde expliquen cómo administrarán sus gastos del próximo año, y que lo hagan en un documento digital. 
+                    ¿Qué otras ideas se te ocurren?
+                    <br>
+                    Con ese presupuesto de inversión, ¿qué ideas se podrían aplicar?
+                    <br>
+                    Si el presupuesto fuera de sólo $5000, ¿qué alternativas se podrían ejecutar?
                     <br><br>
-                    A Catalina le entusiasma mucho la actividad, sobre todo porque sabe que la información ya la tiene lista en su agenda. El documento digital que está trabajando Catalina lo está llamando <a href='assets/docs/tools/demuestra/Gastos.xlsx'>Gastos</a>.   
-                    <br><br>
-                    El profesor solicitó que la tarea sea entregada en formato de video, y que en él se muestre:
-                    <br><br>
-                        <ul>
-                            <li>Un solo documento de Excel, con hojas que tengan nombres correspondientes a los conceptos o información que contienen.</li>
-                            <li>Gastos mensuales del próximo año, usando como referencia los gastos del año anterior con el aumento de una tasa del 6% por inflación.</li>
-                        </ul>
-                    Para esta actividad, tú eres Catalina. Sugerimos que dupliques el archivo de gastos del año anterior, para que sobre el nuevo archivo agregues la inflación, cambies el nombre de las pestañas, y hagas una tabla con referencias en la que se muestre el resumen de cada uno de los gastos.
-                    <br><br>
-                    Es momento de que inicies la tarea.
+                    Recuerda que las ideas pueden ser muy factibles y que incluso puedes explorar alternativas más experimentales. 
                     </div>",
                 "diagnostic" =>"" 
             ],
+            //Paso 5
+            [
+                "instruction" => "<strong>Proyecto:</strong>",
+                "subinstruction_list" => [
+                    ["subinstruction" => "Ingresa a Miro.
+                    <br>
+                    <div class='d-flex justify-content-center logo-tools align-items-center'>
+                        <a href='http://www.miro.com' class='tracker text-center' target='_blank'><img src='img/logos/miro.png' alt='Logo canva'/></a>
+                    </div>"],
+                    ["subinstruction" => "Entra al board de proyecto de los Slabs anteriores o genera uno nuevo."],
+                    ["subinstruction" => "Siéntete libre de utilizar el lienzo  para generar lluvia de ideas, mapas mentales, hacer anotaciones, pegar imágenes, insertar videos, entre muchas otras cosas."],
+                    ["subinstruction" => "Genera al menos diez ideas de posibles soluciones."],
+                    ["subinstruction" => "Selecciona las tres que creas tienen mejores posibilidades de resolver el Reto."],
+                    ["subinstruction" => "Redacta y explica brevemente las tres ideas seleccionadas."],
+                    ["subinstruction" => "Guarda el enlace del board del proyecto, ya que lo compartirás más adelante."],
+                ],
+            ]
         ],
+        "extra_element" => 
+        [
+            "extra_intro" => "<strong>Nota.</strong> Para realizar esta actividad, es necesario que conozcas previamente las dos fases anteriores del método Design Thinking.",
+            "extra_instruction_list" => 
+            [
+        
+            ]
+        ]
     ],
     //SLAB 9
     ["instruction_list" => 
         [
             //Paso 1
             [
-                "instruction" => "Lee con atención el siguiente estudio de caso sobre <strong>la administración de datos.</strong>", 
+                "instruction" => "Lee con atención el siguiente estudio de caso sobre <strong>prototipado.</strong>", 
             ],
             //Paso 2
             [
-                "instruction" => "Realiza el proyecto que se te plantea.", 
+                "instruction" => "Realiza el proyecto que se te plantea."
             ],
             //Paso 3
             [
-                "instruction" => "Guarda el archivo del proyecto, ya que lo compartirás más adelante.",
+                "instruction" => "Guarda el enlace del mismo, ya que lo compartirás más adelante."
             ],
             //Paso 4
             [
-                "case_title" => "Ayuda a Mary Nelly",
-                "img" => "img/act/iStock-1281173451.jpg",
-                "text" => "<div>La universidad “Miguel Hidalgo y Costilla”, ubicada en las costas de Sinaloa, está apostando en este año a la modernización de todos sus procesos, entre ellos el de la captura de calificaciones. Para ello, como primer paso, está creando formatos para llevar un registro electrónico de las calificaciones de las materias que imparte su plantilla de maestros.  
+                "case_title" => "Probando... 1, 2, 3",
+                "img" => "img/act/iStock-1300792680.jpg",
+                "text" => "<div>DiDi, una empresa de movilidad alternativa, se encuentra en un punto en el cual necesita ofrecer una solución innovadora para sus usuarios de México, con la finalidad de responder a sus competidores, Uber y Beat. Ha planeado invertir $3000 millones en México con los cuales apostará por aumentar la seguridad en sus viajes y generar recompensas para los conductores.
                     <br><br>
-                    Mary Nelly es maestra del área de Arte desde hace más de 40 años. Actualmente ofrece los cursos de “Amor al arte”, “Regionalización del arte” y “Urbanización del Arte” en la universidad. Mary es una persona de edad avanzada, a quien le gusta llevar el registro de sus alumnos de la manera tradicional, es decir, manualmente en cuadernos que ella misma ha creado con el paso del tiempo.   
+                    Sin embargo, pueden existir más ideas que puedan implementarse para ayudar a la empresa a innovar en sus productos y servicios.
                     <br><br>
-                    Tú, como experto contratado por la universidad, decides entregarle a Mary Nelly y al resto de docentes de la universidad, un manual de uso de Excel aplicado al control y manejo de grupos y sus calificaciones. En este manual, explicarás cada uno de los pasos a seguir para:
+                    En su búsqueda de innovación DiDi se ha cuestionado ¿Cómo probar ideas innovadoras sin la necesidad de emplear demasiados recursos monetarios ni de tiempo? 
                     <br><br>
-                        <ul>
-                            <li>Encontrar alumnos mediante filtros.</li>
-                            <li>Desplegar alumnos con calificación igual a 100.</li>
-                            <li>Desplegar alumnos con calificación menor a 70.</li>
-                            <li>Ordenar alfabéticamente la lista.</li>
-                            <li>Separar el nombre completo de los alumnos.</li>
-                        </ul>
-                    La información que requieres la podrás obtener de este <a href='assets/docs/tools/demuestra/Información-slab-9.xlsx'>documento.doc</a> ¡Es momento de comenzar!
+                    DiDi ha solicitado de tus servicios para que los ayudes a contestar esta interesante pregunta.
+                    <br><br>
+                    Recuerda que las ideas deben probarse de forma rápida, con los recursos disponibles, y con elementos que permitan validarla con usuarios.             
                     </div>",
                 "diagnostic" =>"" 
             ],
+            //Paso 5
+            [
+                "instruction" => "<strong>Proyecto:</strong>",
+                "subinstruction_list" => [
+                    ["subinstruction" => "Selecciona algunas de las herramientas vistas."],
+                    ["subinstruction" => "Desarrolla una idea de posible solución para la problemática."],
+                    ["subinstruction" => "Genera un prototipo rápido de la idea."],
+                    ["subinstruction" => "Ingresa a Miro.
+                    <br>
+                    <div class='d-flex justify-content-center logo-tools align-items-center'>
+                        <a href='http://www.miro.com' class='tracker text-center' target='_blank'><img src='img/logos/miro.png' alt='Logo canva'/></a>
+                    </div>"],
+                    ["subinstruction" => "Entra al board de tu proyecto (de los slabs anteriores) o genera uno nuevo."],
+                    ["subinstruction" => "Sube fotos y archivos de tus prototipos a un board de Miro"],
+                    ["subinstruction" => "Guarda el enlace del board del proyecto, ya que lo compartirás más adelante."]
+                ],
+            ]
         ],
     ],
     //SLAB 10
     ["instruction_list" => 
-        //Slab 1
         [
             //Paso 1
             [
-                "instruction" => "Lee con atención el siguiente estudio de caso sobre <strong>seguridad y trabajo colaborativo.</strong>", 
+                "instruction" => "Lee con atención el siguiente estudio de caso sobre <strong>pruebas.</strong>", 
             ],
             //Paso 2
             [
-                "instruction" => "Realiza el proyecto que se te plantea.", 
+                "instruction" => "Realiza el proyecto que se te plantea."
             ],
             //Paso 3
             [
-                "instruction" => "Guarda el enlace del mismo, ya que lo compartirás más adelante.", 
+                "instruction" => "Guarda el enlace del mismo, ya que lo compartirás más adelante."
             ],
             //Paso 4
             [
-                "case_title" => "Seguridad y trabajo colaborativo",
-                "img" => "img/act/iStock-1271190278.jpg",
-                "text" => "<div>Guillermo Ferrer ha trabajado desde hace más de diez años como administrador general en la empresa “Retrosa”, la cual se  dedica a la venta de productos e insumos para cualquier tipo de industria. Los dueños de la empresa habían sido sus jefes directos durante toda su gestión, sin embargo recientemente decidieron ceder la administración de la empresa a sus hijos.  
+                "case_title" => "El camino a las soluciones",
+                "img" => "img/act/iStock-1295900106.jpg",
+                "text" => "<div>DiDi, una empresa de movilidad alternativa, se encuentra en un punto en el cual necesita ofrecer una solución innovadora para sus usuarios de México, con la finalidad de responder a sus competidores, Uber y Beat.
                     <br><br>
-                    A partir de estos cambios, se ha generado un ambiente incómodo en la compañía, y Guillermo ha decidido terminar su relación laboral con Retrosa, para poder establecer una empresa propia, dedicada al mismo giro.    
+                    DiDi te ha solicitado generar una serie de pruebas que permitan probar el prototipo realizado para comprobar los elementos de deseabilidad, viabilidad y factibilidad, con la finalidad de obtener retroalimentación de la idea.
                     <br><br>
-                    Uno de los primeros obstáculos que tuvo Guillermo al independizarse, fue conseguir capital para poder emprender su nueva empresa. Esto lo pudo solucionar asociándose con un amigo, el cual unirá su capital para poder arrancar el negocio.
+                    Antes de continuar, presta atención a las siguientes preguntas:
+                    <br>
+                    ¿Cómo es la experiencia del usuario?
+                    <br>
+                    ¿Entiende el objetivo de la prueba?
+                    <br>
+                    ¿Cuáles fueron sus puntos de dificultad?
+                    <br>
+                    ¿Cómo podrían resolverse?
                     <br><br>
-                    Otro obstáculo que Guillermo está experimentando, es con relación a la comunicación de datos dentro de la empresa, lo cual también era un área de oportunidad que había en Retrosa. Para solventar este problema, Guillermo decidió usar OneDrive y todas sus facilidades, entre ellas el uso de Excel colaborativo. De esta manera, él estará seguro de que la información que se comparta estará actualizada en el momento, y el trabajo colaborativo será mucho más sencillo.
-                    <br><br>
-                    Guillermo decide contratarte como experto en el uso de Excel, y se contacta contigo para que le des capacitación sobre cómo trabajar colaborativamente dentro de su empresa. Específicamente, lo que te pide es un video que incluya:
-                    <br><br>
-                        <ol>
-                            <li>Cómo configurar a 2 personas para que puedan acceder a un mismo documento: Emilio con el perfil de administrador y a su socio con el perfil de sólo visualizar.</li>
-                            <li>Mostrar cómo es que Emilio y su socio podrían trabajar al mismo tiempo en un mismo archivo.</li>
-                            <li>Ver el proceso para proteger una hoja de cálculo, y que ésta no pueda ser modificada por un usuario diferente al que la creó.</li>
-                            <li>Aprender a bloquear celdas, esto con la intención de no modificar datos sensibles.</li>
-                            <li>Establecer una contraseña para un libro de Excel compartido, de manera que sólo pueda ser accedido por usuarios autorizados.</li>
-                        </ol>
-                    Tu entregable deberá ser un video en Youtube que cubra las peticiones de Guillermo. 
+                    Recuerda que las observaciones que hagan los usuarios son importantes, ya que el método de Design Thinking está basado en el Diseño centrado en el humano. 
                     </div>",
                 "diagnostic" =>"" 
             ],
+            //Paso 5
+            [
+                "instruction" => "<strong>Proyecto:</strong>",
+                "subinstruction_list" => [
+                    ["subinstruction" => "Selecciona el tipo de prueba por realizar de acuerdo con el prototipo disponible."],
+                    ["subinstruction" => "Selecciona a los participantes que pondrán a prueba tu prototipo."],
+                    ["subinstruction" => "Realiza las pruebas."],
+                    ["subinstruction" => "Analiza los resultados obtenidos y la retroalimentación de los usuarios."],
+                    ["subinstruction" => "Genera un reporte con conclusiones de los resultados obtenidos."],
+                    ["subinstruction" => "Guarda el documento generado, ya que lo compartirás más adelante."],
+                ],
+            ]
+        ],
+        "extra_element" => 
+        [
+            "extra_intro" => "<strong>Nota.</strong> Para realizar esta actividad de Demuestra, es necesario que conozcas de manera previa las cuatro fases anteriores del método Design Thinking.",
+            "extra_instruction_list" => 
+            [
+        
+            ]
         ]
     ],
 ];
@@ -1394,13 +1208,13 @@ $act3_instructions = [
             ],
             //Paso 3
             [
-                "instruction" => "En “Mi nivel de desempeño”, selecciona marcando con una <strong>X</strong> el color del semáforo cuya descripción corresponda con tu desempeño en la actividad.",
+                "instruction" => "En Mi nivel de desempeño, selecciona el color y marca con una <strong>X</strong> en el semáforo, cuya descripción corresponda con tu desempeño en la actividad.                ",
             ],
             //Paso 4
             [
                 "instruction" => "Comparte tus reflexiones sobre tu aprendizaje en el recuadro que aparece al final.",
             ],
-            //Paso 4
+            //Paso 5
             [
                 "instruction" => "Guarda tu documento de Autovaloración, ya que lo compartirás más adelante.",
             ],
@@ -1429,7 +1243,7 @@ $act3_instructions = [
             ],
             //Paso 3
             [
-                "instruction" => "En “Mi nivel de desempeño”, selecciona marcando con una <strong>X</strong> el color del semáforo cuya descripción corresponda con tu desempeño en la actividad.",
+                "instruction" => "En Mi nivel de desempeño, selecciona el color y marca con una <strong>X</strong> en el semáforo, cuya descripción corresponda con tu desempeño en la actividad.",
             ],
             //Paso 4
             [
@@ -1454,24 +1268,23 @@ $act3_instructions = [
             //Paso 1
             [
                 "instruction" => "Analiza tu nivel de desempeño de acuerdo con la actividad realizada en la sección Demuestra.",
-                
             ],
             //Paso 2
             [
-                "instruction" => "Lee con detenimiento y realiza un ejercicio de reflexión que te permita reconocer el grado de desempeño."
+                "instruction" => "Lee con detenimiento y realiza un ejercicio de reflexión que te permita reconocer el grado de desempeño.", 
             ],
             //Paso 3
             [
-                "instruction" => "En “Mi nivel de desempeño”, selecciona marcando con una <strong>X</strong> el color  del semáforo cuya descripción corresponda con tu desempeño en la actividad.",
+                "instruction" => "En Mi nivel de desempeño, selecciona el color y marca con una <strong>X</strong> en el semáforo, cuya descripción corresponda con tu desempeño en la actividad.",
             ],
             //Paso 4
             [
                 "instruction" => "Comparte tus reflexiones sobre tu aprendizaje en el recuadro que aparece al final.",
             ],
-            //Paso 5
+             //Paso 5
             [
-                "instruction" => "Guarda tu documento de Autovaloración, ya que lo compartirás más adelante.",
-            ],
+                "instruction" => "Guarda tu documento de Autovaloración, ya que lo compartirás más adelante.", 
+            ]
         ],
     ],
     //Slab 4
@@ -1485,24 +1298,24 @@ $act3_instructions = [
             
             //Paso 1
             [
-                "instruction" => "Analiza tu nivel de desempeño de acuerdo con la actividad realizada en la sección Demuestra."
+                "instruction" => "Analiza tu nivel de desempeño de acuerdo con la actividad realizada en la sección Demuestra.",
             ],
             //Paso 2
             [
-                "instruction" => "Lee con detenimiento y realiza un ejercicio de reflexión que te permita reconocer el grado de desempeño." 
+                "instruction" => "Lee con detenimiento y realiza un ejercicio de reflexión que te permita reconocer el grado de desempeño.", 
             ],
             //Paso 3
             [
-                "instruction" => "En “Mi nivel de desempeño”, selecciona marcando con una <strong>X</strong> el color  del semáforo cuya descripción corresponda con tu desempeño en la actividad."
+                "instruction" => "En Mi nivel de desempeño, selecciona el color y marca con una <strong>X</strong> en el semáforo, cuya descripción corresponda con tu desempeño en la actividad.",
             ],
             //Paso 4
             [
                 "instruction" => "Comparte tus reflexiones sobre tu aprendizaje en el recuadro que aparece al final.",
             ],
              //Paso 5
-             [
+            [
                 "instruction" => "Guarda tu documento de Autovaloración, ya que lo compartirás más adelante.", 
-            ], 
+            ]
         ],
     ],
     //Slab 5
@@ -1516,24 +1329,24 @@ $act3_instructions = [
             
             //Paso 1
             [
-                "instruction" => "Analiza tu nivel de desempeño de acuerdo con la actividad realizada en la sección Demuestra." 
+                "instruction" => "Analiza tu nivel de desempeño de acuerdo con la actividad realizada en la sección Demuestra.",
             ],
             //Paso 2
             [
-                "instruction" => "Lee con detenimiento y realiza un ejercicio de reflexión que te permita reconocer tu grado de desempeño."
+                "instruction" => "Lee con detenimiento y realiza un ejercicio de reflexión que te permita reconocer el grado de desempeño.", 
             ],
             //Paso 3
             [
-                "instruction" => "En “Mi nivel de desempeño”, selecciona marcando con una <strong>X</strong> el color  del semáforo cuya descripción corresponda con tu desempeño en la actividad."
+                "instruction" => "En Mi nivel de desempeño, selecciona el color y marca con una <strong>X</strong> en el semáforo, cuya descripción corresponda con tu desempeño en la actividad.",
             ],
             //Paso 4
             [
-                "instruction" => "Comparte tus reflexiones sobre tu aprendizaje en el recuadro que aparece al final."
+                "instruction" => "Comparte tus reflexiones sobre tu aprendizaje en el recuadro que aparece al final.",
             ],
              //Paso 5
-             [
-                "instruction" => "Guarda tu documento de Autovaloración, ya que lo compartirás más adelante." 
-            ], 
+            [
+                "instruction" => "Guarda tu documento de Autovaloración, ya que lo compartirás más adelante.", 
+            ]
         ],
     ],
     //Slab 6
@@ -1547,24 +1360,24 @@ $act3_instructions = [
         [   
             //Paso 1
             [
-                "instruction" => 'Analiza tu nivel de desempeño de acuerdo con la actividad realizada en la sección Demuestra.',   
+                "instruction" => "Analiza tu nivel de desempeño de acuerdo con la actividad realizada en la sección Demuestra.",
             ],
             //Paso 2
             [
-                "instruction" => "Lee con detenimiento y realiza un ejercicio de reflexión que te permita reconocer el grado de desempeño.",
+                "instruction" => "Lee con detenimiento y realiza un ejercicio de reflexión que te permita reconocer el grado de desempeño.", 
             ],
             //Paso 3
             [
-                "instruction" => "En “Mi nivel de desempeño”, selecciona marcando con una <strong>X</strong> el color  del semáforo cuya descripción corresponda con tu desempeño en la actividad.",
+                "instruction" => "En Mi nivel de desempeño, selecciona el color y marca con una <strong>X</strong> en el semáforo, cuya descripción corresponda con tu desempeño en la actividad.",
             ],
             //Paso 4
             [
                 "instruction" => "Comparte tus reflexiones sobre tu aprendizaje en el recuadro que aparece al final.",
             ],
-            //Paso 5
+             //Paso 5
             [
-                "instruction" => "Guarda tu documento de Autovaloración, ya que lo compartirás más adelante.",
-            ],
+                "instruction" => "Guarda tu documento de Autovaloración, ya que lo compartirás más adelante.", 
+            ]
         ],
         
         
@@ -1580,24 +1393,24 @@ $act3_instructions = [
         [   
             //Paso 1
             [
-                "instruction" => 'Analiza tu nivel de desempeño de acuerdo con la actividad realizada en la sección Demuestra.',   
+                "instruction" => "Analiza tu nivel de desempeño de acuerdo con la actividad realizada en la sección Demuestra.",
             ],
             //Paso 2
             [
-                "instruction" => "Lee con detenimiento y realiza un ejercicio de reflexión que te permita reconocer el grado de desempeño",
+                "instruction" => "Lee con detenimiento y realiza un ejercicio de reflexión que te permita reconocer el grado de desempeño.", 
             ],
             //Paso 3
             [
-                "instruction" => "En “Mi nivel de desempeño”, selecciona marcando con una <strong>X</strong> el color del semáforo cuya descripción corresponda con tu desempeño en la actividad.",
+                "instruction" => "En Mi nivel de desempeño, selecciona el color y marca con una <strong>X</strong> en el semáforo, cuya descripción corresponda con tu desempeño en la actividad.",
             ],
             //Paso 4
             [
                 "instruction" => "Comparte tus reflexiones sobre tu aprendizaje en el recuadro que aparece al final.",
             ],
-            //Paso 5
+             //Paso 5
             [
-                "instruction" => "Guarda tu documento de Autovaloración, ya que lo compartirás más adelante.",
-            ],
+                "instruction" => "Guarda tu documento de Autovaloración, ya que lo compartirás más adelante.", 
+            ]
         ],
         
         
@@ -1616,20 +1429,20 @@ $act3_instructions = [
             ],
             //Paso 2
             [
-                "instruction" => "Lee con detenimiento y realiza un ejercicio de reflexión que te permita reconocer el grado de desempeño.",
+                "instruction" => "Lee con detenimiento y realiza un ejercicio de reflexión que te permita reconocer el grado de desempeño.", 
             ],
             //Paso 3
             [
-                "instruction" => "En “Mi nivel de desempeño”, selecciona marcando con una <strong>X</strong> el color del semáforo cuya descripción corresponda con tu desempeño en la actividad.",
+                "instruction" => "En Mi nivel de desempeño, selecciona el color y marca con una <strong>X</strong> en el semáforo, cuya descripción corresponda con tu desempeño en la actividad.",
             ],
             //Paso 4
             [
                 "instruction" => "Comparte tus reflexiones sobre tu aprendizaje en el recuadro que aparece al final.",
             ],
              //Paso 5
-             [
+            [
                 "instruction" => "Guarda tu documento de Autovaloración, ya que lo compartirás más adelante.", 
-            ], 
+            ]
         ],
     ],
     //Slab 9
@@ -1643,24 +1456,24 @@ $act3_instructions = [
         [   
             //Paso 1
             [
-                "instruction" => 'Analiza tu nivel de desempeño de acuerdo con la actividad realizada en la sección Demuestra.',   
+                "instruction" => "Analiza tu nivel de desempeño de acuerdo con la actividad realizada en la sección Demuestra.",
             ],
             //Paso 2
             [
-                "instruction" => "Lee con detenimiento y realiza un ejercicio de reflexión que te permita reconocer el grado de desempeño.",
+                "instruction" => "Lee con detenimiento y realiza un ejercicio de reflexión que te permita reconocer el grado de desempeño.", 
             ],
             //Paso 3
             [
-                "instruction" => "En “Mi nivel de desempeño”, selecciona marcando con una <strong>X</strong> el color  del semáforo cuya descripción corresponda con tu desempeño en la actividad.",
+                "instruction" => "En Mi nivel de desempeño, selecciona el color y marca con una <strong>X</strong> en el semáforo, cuya descripción corresponda con tu desempeño en la actividad.",
             ],
             //Paso 4
             [
                 "instruction" => "Comparte tus reflexiones sobre tu aprendizaje en el recuadro que aparece al final.",
             ],
-            //Paso 5
+             //Paso 5
             [
-                "instruction" => "Guarda tu documento de Autovaloración, ya que lo compartirás más adelante.",
-            ],
+                "instruction" => "Guarda tu documento de Autovaloración, ya que lo compartirás más adelante.", 
+            ]
         ],
         
     ],
@@ -1678,20 +1491,20 @@ $act3_instructions = [
             ],
             //Paso 2
             [
-                "instruction" => "Lee con detenimiento y realiza un ejercicio de reflexión que te permita reconocer el grado de desempeño.",
+                "instruction" => "Lee con detenimiento y realiza un ejercicio de reflexión que te permita reconocer el grado de desempeño.", 
             ],
             //Paso 3
             [
-                "instruction" => "En “Mi nivel de desempeño”, selecciona marcando con una <strong>X</strong> el color del semáforo cuya descripción corresponda con tu desempeño en la actividad.",
+                "instruction" => "En Mi nivel de desempeño, selecciona el color y marca con una <strong>X</strong> en el semáforo, cuya descripción corresponda con tu desempeño en la actividad.",
             ],
             //Paso 4
             [
                 "instruction" => "Comparte tus reflexiones sobre tu aprendizaje en el recuadro que aparece al final.",
             ],
              //Paso 5
-             [
+            [
                 "instruction" => "Guarda tu documento de Autovaloración, ya que lo compartirás más adelante.", 
-            ], 
+            ]
         ],
     ],
 ];
@@ -1716,52 +1529,52 @@ $act3_finalization =
     //Slab 1
     [
         "type" => "row",
-        "tool" => 'assets/docs/tools/autoval/Excel_Slab1_AV.pdf',
+        "tool" => 'assets/docs/tools/autoval/DESIGN_THINKING_Slab1_AV.pdf',
     ],
     //Slab 2
     [
         "type" => "row",
-        "tool" => 'assets/docs/tools/autoval/Excel_Slab2_AV.pdf',
+        "tool" => 'assets/docs/tools/autoval/DESIGN_THINKING_Slab2_AV.pdf',
     ],
     //Slab 3
     [
         "type" => "row",
-        "tool" => 'assets/docs/tools/autoval/Excel_Slab3_AV.pdf',
+        "tool" => 'assets/docs/tools/autoval/DESIGN_THINKING_Slab3_AV.pdf',
     ],
     //Slab 4
     [
         "type" => "row",
-        "tool" => 'assets/docs/tools/autoval/Excel_Slab4_AV.pdf',
+        "tool" => 'assets/docs/tools/autoval/DESIGN_THINKING_Slab4_AV.pdf',
     ],
     //Slab 5
     [
         "type" => "row",
-        "tool" => 'assets/docs/tools/autoval/Excel_Slab5_AV.pdf',
+        "tool" => 'assets/docs/tools/autoval/DESIGN_THINKING_Slab5_AV.pdf',
     ],
     //Slab 6
     [
         "type" => "row",
-        "tool" => 'assets/docs/tools/autoval/Excel_Slab6_AV.pdf',
+        "tool" => 'assets/docs/tools/autoval/DESIGN_THINKING_Slab6_AV.pdf',
     ],
     //Slab 7
     [
         "type" => "row",
-        "tool" => 'assets/docs/tools/autoval/Excel_Slab7_AV.pdf',
+        "tool" => 'assets/docs/tools/autoval/DESIGN_THINKING_Slab7_AV.pdf',
     ],
     //Slab 8
     [
         "type" => "row",
-        "tool" => 'assets/docs/tools/autoval/Excel_Slab8_AV.pdf',
+        "tool" => 'assets/docs/tools/autoval/DESIGN_THINKING_Slab8_AV.pdf',
     ],
     //Slab 9
     [
         "type" => "row",
-        "tool" => 'assets/docs/tools/autoval/Excel_Slab9_AV.pdf',
+        "tool" => 'assets/docs/tools/autoval/DESIGN_THINKING_Slab9_AV.pdf',
     ],
     //Slab 10
     [
         "type" => "row",
-        "tool" => 'assets/docs/tools/autoval/Excel_Slab10_AV.pdf',
+        "tool" => 'assets/docs/tools/autoval/DESIGN_THINKING_Slab10_AV.pdf',
     ],
     
 ];
@@ -1775,37 +1588,37 @@ $act3_finalization =
 */
 $act3_forms = 
 [
-/* Slab1 */    '<div data-tf-widget="Y7T9GTM4" data-tf-iframe-props="title=Formulario_Excel_S1" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>',
-/* Slab2 */    '<div data-tf-widget="farkdhyr" data-tf-iframe-props="title=Formulario_Excel_S2" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>',
-/* Slab3 */    '<div data-tf-widget="ElNzol5I" data-tf-iframe-props="title=Formulario_Excel_S3" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>',
-/* Slab4 */    '<div data-tf-widget="afpJ6DT3" data-tf-iframe-props="title=Formulario_Excel_S4" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>',
-/* Slab5 */    '<div data-tf-widget="HMIXAfEq" data-tf-iframe-props="title=Formulario_Excel_S5" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>',
-/* Slab6 */    '<div data-tf-widget="gqBMdm6y" data-tf-iframe-props="title=Formulario_Excel_S6" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>',
-/* Slab7 */    '<div data-tf-widget="RPlcSKe5" data-tf-iframe-props="title=Formulario_Excel_S7" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>',
-/* Slab8 */    '<div data-tf-widget="WoUbnJHo" data-tf-iframe-props="title=Formulario_Excel_S8" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>',
-/* Slab9 */    '<div data-tf-widget="sUufYV3H" data-tf-iframe-props="title=Formulario_Excel_S9" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>',
-/* Slab10 */   '<div data-tf-widget="aLMUU2V0" data-tf-iframe-props="title=Formulario_Excel_S10" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>'
+/* Slab1 */    '<div data-tf-widget="W4tQ2ANE" data-tf-iframe-props="title=Formulario_DT_S1" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>',
+/* Slab2 */    '<div data-tf-widget="LuInJ9db" data-tf-iframe-props="title=Formulario_DT_S2" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>',
+/* Slab3 */    '<div data-tf-widget="GMifgKQh" data-tf-iframe-props="title=Formulario_DT_S3" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>',
+/* Slab4 */    '<div data-tf-widget="JIhcblzJ" data-tf-iframe-props="title=Formulario_DT_S4" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>',
+/* Slab5 */    '<div data-tf-widget="JIhcblzJ" data-tf-iframe-props="title=Formulario_DT_S4" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>',
+/* Slab6 */    '<div data-tf-widget="uK8fW0ln" data-tf-iframe-props="title=Formulario_DT_S6" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>',
+/* Slab7 */    '<div data-tf-widget="zSQoWu1v" data-tf-iframe-props="title=Formulario_DT_S7" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>',
+/* Slab8 */    '<div data-tf-widget="JZWB0F4J" data-tf-iframe-props="title=Formulario_DT_S8" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>',
+/* Slab9 */    '<div data-tf-widget="x3nN56AR" data-tf-iframe-props="title=Formulario_DT_S9" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>',
+/* Slab10 */   '<div data-tf-widget="pa8XnizF" data-tf-iframe-props="title=Formulario_DT_S10" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>'
 ];
 
 //-- Cierre SLAB --
 $act3_final_message = 
 [
-    "¡Slab finalizado! Has <highlight>aprendido los conceptos elementales de Excel.</highlight> Recuerda que practicar lo aprendido es crucial para lograr el dominio de cualquier tema.",
-    "¡Te felicitamos por terminar este Slab! Ahora conoces más sobre <highlight>los libros y hojas de cálculo en Excel.</highlight>",
-    "¡Lo lograste! Has completado esta experiencia de aprendizaje sobre <highlight>el uso de fórmulas y funciones en Excel.</highlight>",
-    "¡Slab finalizado! Recuerda que practicar lo aprendido sobre <highlight>los estilos y formatos de datos en Excel</highlight> es crucial para dominarlo.",
-    "¡Enhorabuena! 90 minutos fueron suficientes para conocer sobre <highlight>los ajustes de una hoja de cálculo</highlight> ¡Felicidades por terminar este Slab!",
-    "¡Lo has hecho muy bien! Si quieres repasar <highlight>los conceptos básicos de gráficas,</highlight> puedes regresar al Slab las veces que lo desees.",
-    "¡Enhorabuena! 90 minutos fueron suficientes para conocer sobre <highlight>ajuste de la vista en las hojas de cálculo en Excel,</highlight> ¡Felicidades por terminar este Slab!",
-    "¡Slab finalizado! Has aprendido a <highlight>manejar múltiples libros y hojas de cálculo.</highlight> Recuerda que practicar lo aprendido es crucial para lograr el dominio de cualquier tema.",
-    "¡Un paso más rumbo al éxito! Ahora sabes más sobre <highlight>la gestión de los datos.</highlight> Sigue aprendiendo.",
-    "¡Felicidades aprendedor! Has terminado con éxito este Slab, donde conociste más acerca de la <highlight>seguridad y trabajo colaborativo.</highlight>",
+    "¡Felicidades aprendedor! Has terminado con éxito este Slab, donde conociste acerca de <highlight>los elementos que conforman el método de Design Thinking.</highlight>",
+    "¡Te felicitamos por terminar este Slab! Ahora conoces más sobre <highlight>Miro.</highlight>",
+    "¡Enhorabuena! 90 minutos fueron suficientes para conocer sobre <highlight>Empatía</highlight> ¡Felicidades por terminar este Slab!",
+    "¡Felicidades aprendedor! Ya sabes <highlight>establecer el Reto.</highlight> El éxito se obtiene sumando Slabs ¡Sigue esforzándote!",
+    "¡Slab finalizado! Has <highlight>analizado el análisis y mapeo del contexto.</highlight> Recuerda que practicar lo aprendido es crucial para lograr el dominio de cualquier tema.",
+    "¡Slab finalizado! Has <highlight>identificado a los Stakeholders y personas.</highlight> Recuerda que practicar lo aprendido es crucial para lograr el dominio de cualquier tema.",
+    "¡Te felicitamos por terminar este Slab! Ahora conoces más sobre <highlight>cómo generar la propuesta de valor.</highlight>",
+    "¡Lo has hecho muy bien! Si quieres repasar <highlight>la Ideación,</highlight> puedes regresar al Slab las veces que desees.",
+    "¡Slab finalizado! Has aprendido sobre <highlight>prototipado.</highlight> Recuerda que practicar lo aprendido es crucial para lograr el dominio de cualquier tema.",
+    "¡Te felicitamos por terminar este Slab! Ahora conoces más sobre <highlight>pruebas en el método Design Thinking.</highlight>",
 ];
 
 //-- Cierre Deck --
-$Diagnostic_message = 'Has concluido con éxito el Deck de <highlight>Excel para principiantes: su eficiencia y su uso.</highlight>
+$Diagnostic_message = 'Has concluido con éxito el Deck <highlight>Resuelve retos con Design Thinking.</highlight>
     <br><br>
-    Esperamos que las actividades realizadas en esta experiencia de aprendizaje hayan contribuido al desarrollo de la competencia: <highlight>Utiliza Excel básico para facilitar sus actividades en diferentes áreas laborales y/o personales.</highlight>
+    Esperamos que las actividades realizadas en esta experiencia de aprendizaje hayan contribuido al desarrollo de la competencia: <highlight>Utilizo el Design Thinking como metodología de innovación para la exploración y creación de soluciones en problemáticas puntuales.</highlight>
     <br><br>
     Estamos seguros de que lo aprendido será de gran ayuda para tu éxito y crecimiento.'
 

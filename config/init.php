@@ -26,7 +26,7 @@
     //Crea la métrica con valores default
     function createMetric(){
         global $conn;
-        $sql = "INSERT INTO metrics(progress, exp_name) VALUES (0, 'deck-x')";
+        $sql = "INSERT INTO metrics(progress, exp_name) VALUES (0, 'deck-ft-prueba')";
         if(mysqli_query($conn, $sql)){
             //echo "Se insertó la métrica exitosamente";
         } else {
