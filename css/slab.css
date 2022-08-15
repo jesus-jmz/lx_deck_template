@@ -1,4 +1,27 @@
+body{
+    padding-right: 0 !important;
+}
 
+.h-px-400{
+    height: 400px !important;
+}
+
+.hg100{
+    height: 100% !important;
+}
+
+.wd30{
+    width: 30% !important;
+}
+
+.wd100{
+    width: 100% !important;
+}
+
+.audio{
+   width: 100% !important;
+   height: 10vh !important;
+}
 
 .materiales img {
     width: 100%;
@@ -335,14 +358,17 @@ a i {
 }
 
 @media (max-width: 1300px) {
-    .btn-responsive{
-        display: block !important;
-    }
     .btn-responsive a{
         margin: 10px !important;
     }
     .btn-responsive a, .btn-responsive button{
         font-size: calc(.35em + .40vw);
+    }
+}
+
+@media (max-width: 1299px) {
+    .h-px-400{
+        height: 320px !important;
     }
 }
 
@@ -353,11 +379,17 @@ a i {
     .carousel-inner .carousel-item > div:first-child {
         display: block;
     }
-    .card{
+    .card, .wd100, .wd30{
         width: 100% !important;
     }
     .btn-responsive a, .btn-responsive button{
         font-size: calc(.7em + .7vw);
+    }
+    .material-display{
+        display: block !important;
+    }
+    .h-px-400{
+        height: 450px !important;
     }
 }
 

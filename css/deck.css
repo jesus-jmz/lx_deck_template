@@ -86,6 +86,10 @@ main .container{
     font-weight: 300;
 }
 
+.timeline-content .slab-img i {
+    display: none;
+}
+
 
 /*Actividades*/
 .actividad svg{
@@ -131,7 +135,6 @@ main .container{
 .heading-img  .video-block{
     z-index: 1;
     position: relative;
-    aspect-ratio: 16/9;
 }
 
 
@@ -302,10 +305,20 @@ svg path {
     margin-left: 1rem;
 }
 
+/****************************************
+                MOBILE
+****************************************/
 @media only screen and (max-width:768px){
+    /*Cambio en ul*/
+    .timeline ul {
+        margin-top: 2rem;
+    }
+    
     .timeline ul li {
         position: relative;
-        margin-bottom: 3rem;
+        /*margin-bottom: 3rem;*/
+        /*Cambio en el margen*/
+        margin-bottom: 5rem;
     }
 
     .timeline ul li h5{
@@ -314,26 +327,54 @@ svg path {
     }
 
     .timeline ul li .actividades{
-        flex-direction: row;   
+        /*Cambio en flex-direction*/
+        flex-direction: column;   
         display: flex; 
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        margin-top: 0.5rem;
+        margin-bottom: 0.25rem;
     }
 
     .timeline ul li .actividad{
-        background: #ccc;
+        /*background: #ccc;*/
+        background: transparent;
         padding:0.5rem;
         border-radius: 10px;
-        margin-top: 0.75rem;
+        /*margin-top: 0.75rem;*/
 
     }
 
+    /*Progreso*/
+    .timeline-content .slab-img{
+        position: relative;
+    }
+
+    .timeline-content .slab-img .slab-complete {
+        filter: grayscale(100%) brightness(50%);
+        z-index: 1;
+    }
+
+    .timeline-content .slab-img .slab-complete-icon {
+        display: block;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        z-index: 1000;
+        font-size: 6rem;
+        color: #fff;
+    }
+
+
+    /*
     .available {
         background: #0000AF!important;
-    }
+    }*/
 
 
+    /*
     .available .body{
         color:#fff;
     }
@@ -341,6 +382,7 @@ svg path {
     .available svg path{
         stroke: #fff !important;
     } 
+    */
 
 
     /*.timeline ul li form .actividad:first-child{
@@ -361,12 +403,14 @@ svg path {
         bottom: -35px;
     }
 
+    /*Ocultar la línea de progreso*/
     .progress{
-        margin-top: 1rem;
+        display: none;
     }
     
+    /*Btn siguiente en mobile*/
     .timeline ul li .next-btn{
-        display: none;
+        /*display: none;*/
     }
 
     .timeline-content .slab-text-col{

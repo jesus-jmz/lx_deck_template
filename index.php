@@ -66,7 +66,7 @@ $currentSlab = getDeckData("current_slab");
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/deck.css" />
     
-    <title>Deck Excel</title>
+    <title>Deck Design Thinking</title>
   </head>
   <body>
     <input id="value_tracker_1" type="hidden"  name="value_tracker_1" value=<?php echo $tracker_1; ?>>
@@ -103,7 +103,7 @@ $currentSlab = getDeckData("current_slab");
           </div>
           <div class="col-lg align-self-center intro intro-video">
             <div class="heading-img">
-              <img class="video-block" src="img/home.jpg" alt="video" />
+              <img class="video-block" src="img/iStock-1179565008.jpg" alt="video" />
               <img class="bg-img" src="img/shapes/heading.png" alt="heading png">
             </div>
             <!--BEGIN: Botones-->
@@ -147,7 +147,7 @@ $currentSlab = getDeckData("current_slab");
                 <div class="modal-dialog mw-75">
                   <div class="modal-content">
                     <div class="modal-body typeform-body">
-                    <div data-tf-widget="WIQjHJgv" data-tf-iframe-props="title=Diagnostico inicio EXCEL" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+                    <div data-tf-widget="PXW8l7Bs" data-tf-iframe-props="title=Diagnostico inicio Design Thinking" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
                     </div>
                   </div>
                 </div>
@@ -288,14 +288,15 @@ $currentSlab = getDeckData("current_slab");
                     
                   
                     </div>
+                    <!--Imagen-->
                     <div class="col-md-6">
                       <form class="img-form d-flex align-items-center justify-content-center" action="index.php" method="post">
                         <input type="hidden" name="slabId" value="<?= $slabId?>">
-                        <button class="img-btn" type="submit" value="slab" name="submit"><img class="img" src="<?php echo $slabImages[$i-1];?>" alt=""></button>
+                        <div class="slab-img">
+                          <img class="img <?php if($slab_act3[$i-1]){echo "slab-complete";}?>" src="<?php echo $slabImages[$i-1];?>" alt="">
+                          <i class="bi bi-check <?php if($slab_act3[$i-1]){ echo "slab-complete-icon";} ?> "></i>
+                        </div>
                       </form>
-                      <!--a href="slab.php?deckId=<?php echo $deckId?>&slabId=<?php echo $slabId?>">
-                        <img class="img" src="<?php echo $slabImages[$i-1];?>" alt="">
-                      </!--a-->
                     </div>
                     
                   </div>

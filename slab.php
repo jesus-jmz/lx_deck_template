@@ -113,7 +113,6 @@
         setcookie("ts_2", "", time() - 3600);
       }
     }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -188,36 +187,41 @@
                     <p class="body">
                       <?php echo $slabGoal;?>
                     </p>
-                    <?php if(isset($slabIntroType[$slabNum-1]) && $slabIntroType[$slabNum-1] !== "video"){?>
-                      <h3 class="mt-4 subtitle">Introducción</h3>
-                      <!--Elemento (Texto o audio)-->
-                      <div id="ts_2" class="text-container" width="100%"><?php echo $slabIntro[$slabNum-1][0]?></div>
+                    <?php if(isset($slabIntroType[$slabNum-1])){?>
+                      <?php if($slabIntroType[$slabNum-1] !== "video"){?>
+                        <h3 class="mt-4 subtitle">Introducción</h3>
+                        <!--Elemento (Texto o audio)-->
+                        <div id="ts_2" class="text-container" width="100%"><?php echo $slabIntro[$slabNum-1][0]?></div>
+                      <?php }?>     
                     <?php }?>
                   </div>
                   <!--END: Col Título-->
                   <div class="intro-video video col-lg-6">
-                    <!--Introducción-->
-                    <?php if(isset($slabIntroType[$slabNum-1])) {?>
-                      <div class="text-col"> 
-                        <div id="ts_2" class="text-container" width="100%">
-                          <?php if($slabIntroType[$slabNum-1] === "video") {?>    
-                            <h3 class="mt-4 subtitle">Introducción</h3>
-                            <video id="ts_1" controls>
-                              <source  src="<?php echo $slabIntro[$slabNum-1][0]?>">
-                            </video>
-                            <?php } else {?>
-                                <?php if(isset($imgGoals[$slabNum-1])) {?>   
-                                  <div class="text-col"> 
-                                    <div id="ts_2" class="text-container" width="100%">
-                                      <img style="height: 300px;" class="heading-img" src=<?php echo $imgGoals[$slabNum-1]?> alt="" />
-                                    </div>
-                                  </div>
-                                <?php }?>
-                              
-                            <?php }?>
+                    <!--Introducción Imagen-->
+                    <div class="text-col"> 
+                      <div id="ts_2" class="text-container" width="100%">
+                        <?php if(isset($imgGoals[$slabNum-1]) && $slabIntroType[$slabNum-1] !== "video") {?>   
+                          <div class="text-col"> 
+                            <div id="ts_2" class="text-container" width="100%">
+                              <img class="heading-img" src=<?php echo $imgGoals[$slabNum-1]?> alt="" />
+                            </div>
                           </div>
-                        </div>
-                    <?php }?>
+                        <?php } else {?> 
+                          <?php if($slabIntroType[$slabNum-1] === "video") {?> 
+                            <h3 class="mt-4 subtitle">Introducción</h3>
+                            <div class="intro-video video col-lg-14">  
+                              <div class="text-col"> 
+                                <div id="ts_2" class="text-container" width="100%">
+                                  <video id="ts_1" controls>
+                                    <source  src="<?php echo $slabIntro[$slabNum-1][0]?>">
+                                  </video>
+                                </div>
+                              </div>
+                            </div>
+                          <?php }?>
+                        <?php }?>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -230,22 +234,43 @@
     <div class="materiales">
 
   <!----- Material------------------------------------------------------------------------------------>
-
-  <div class="row mx-auto my-auto">
-    <div id="recipeCarousel" class="carousel  w-100" >
+    <?php if($materialTotal[$slabNum-1] > 3) {?>
+      <div class="row mx-auto my-auto">
+      <div id="recipeCarousel" class="carousel  w-100" >
       <div class="carousel-inner w-100 text-center p-1" role="listbox">
+
+      <!-----------------Imagen------------------>
+
+      <?php if(isset($materialImg[$slabNum-1])) {?>
+
+      <?php for($j = 0;$j<count($materialImg[$slabNum-1]);$j++){?>
+        <div class="<?php if($first_material) { echo "carousel-item active"; $first_material=false;} else {echo "carousel-item";}?>">
+          <div class="col-md-4">
+            <div class="card mt-4 shadow p-3 mb-5 bg-white rounded overflow-hidden h-px-400" style="">
+              <img class="card-img-top rounded-0" src="<?php echo $materialImg[$slabNum-1][$j][0]?>" alt="Card image cap">
+              <h5 class="card-title text-center mt-4"><?php echo $materialImg[$slabNum-1][$j][1]?></h5>
+              <div class="btn-responsive d-flex justify-content-around align-items-center my-4" height="50px">
+                  <button type="button" class="btn btn-primary video-btn" data-link="<?php echo $materialImg[$slabNum-1][$j][3]?>" data-toggle="modal" data-src="<?php echo $materialImg[$slabNum-1][$j][2]?>" data-target="#myModal">
+                    Descargar <i class="bi bi-box-arrow-up-right"></i>
+                  </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      <?php }?>
+      <?php }?>
 
       <!--------------Video Youtube------------->
       <?php if(isset($materialYoutube[$slabNum-1])) {?>
         <?php for($j = 0;$j<count($materialYoutube[$slabNum-1]);$j++){?>
           <div class="<?php if($first_material) { echo "carousel-item active"; $first_material=false;} else {echo "carousel-item";}?>">
             <div class="col-md-4">
-              <div class="card mt-4 shadow p-3 mb-5 bg-white rounded overflow-hidden" style="">
+              <div class="card mt-4 shadow p-3 mb-5 bg-white rounded overflow-hidden h-px-400" style="">
                 <img class="card-img-top rounded-0" src="<?php echo $materialYoutube[$slabNum-1][$j][0]?>" alt="Card image cap">
                 <h5 class="card-title text-center mt-4"><?php echo $materialYoutube[$slabNum-1][$j][1]?></h5>
                 <div class="btn-responsive d-flex justify-content-around align-items-center my-4" height="50px">
                   <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="<?php echo $materialYoutube[$slabNum-1][$j][2]?>" data-target="#myModal">
-                    Visualizar <i class="bi bi-box-arrow-up-right"></i>
+                    Reproducir <i class="bi bi-box-arrow-up-right"></i>
                   </button>
                 </div>
               </div>
@@ -260,12 +285,13 @@
         <?php for($j = 0;$j<count($materialPage[$slabNum-1]);$j++){?>
           <div class="<?php if($first_material) { echo "carousel-item active"; $first_material=false;} else {echo "carousel-item";}?>">
             <div class="col-md-4">
-              <div class="card mt-4 shadow p-3 mb-5 bg-white rounded overflow-hidden" style="">
+              <div class="card mt-4 shadow p-3 mb-5 bg-white rounded overflow-hidden h-px-400" style="">
                 <img class="card-img-top rounded-0" src="<?php echo $materialPage[$slabNum-1][$j][0]?>" alt="Card image cap">
                 <h5 class="card-title text-center mt-4"><?php echo $materialPage[$slabNum-1][$j][1]?></h5>
                 <div class="btn-responsive d-flex justify-content-around align-items-center my-4" height="50px">
-                  <a href="<?php echo $materialPage[$slabNum-1][$j][2]?>" class="btn btn-primary" target="_blank">Visualizar <i class="bi bi-box-arrow-up-right"></i></a>
-                </div>
+                  <a href="<?php echo $materialPage[$slabNum-1][$j][2]?>" class="btn btn-primary" target="_blank">
+                    Visitar <i class="bi bi-box-arrow-up-right"></i></a>
+                  </div>
               </div>
             </div>
           </div>
@@ -278,11 +304,13 @@
         <?php for($j = 0;$j<count($materialPdf[$slabNum-1]);$j++){?>
           <div class="<?php if($first_material) { echo "carousel-item active"; $first_material=false;} else {echo "carousel-item";}?>">
             <div class="col-md-4">
-              <div class="card mt-4 shadow p-3 mb-5 bg-white rounded overflow-hidden" style="">
+              <div class="card mt-4 shadow p-3 mb-5 bg-white rounded overflow-hidden h-px-400" style="">
                 <img class="card-img-top rounded-0" src="<?php echo $materialPdf[$slabNum-1][$j][0]?>" alt="Card image cap">
                 <h5 class="card-title text-center mt-4"><?php echo $materialPdf[$slabNum-1][$j][1]?></h5>
                 <div class="btn-responsive d-flex justify-content-around align-items-center my-4" height="50px">
-                  <a href="<?php echo $materialPdf[$slabNum-1][$j][2]?>" class="btn btn-primary" target="_blank">Ver <i class="bi bi-box-arrow-up-right"></i></a>
+                  <a href="<?php echo $materialPdf[$slabNum-1][$j][2]?>" class="btn btn-primary" target="_blank">
+                    Descargar <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -297,12 +325,12 @@
         <?php for($j = 0;$j<count($materialVideo[$slabNum-1]);$j++){?>
           <div class="<?php if($first_material) { echo "carousel-item active"; $first_material=false;} else {echo "carousel-item";}?>">
             <div class="col-md-4">
-              <div class="card mt-4 shadow p-3 mb-5 bg-white rounded overflow-hidden" style="">
+              <div class="card mt-4 shadow p-3 mb-5 bg-white rounded overflow-hidden h-px-400" style="">
                 <img class="card-img-top rounded-0" src="<?php echo $materialVideo[$slabNum-1][$j][0]?>" alt="Card image cap">
                 <h5 class="card-title text-center mt-4"><?php echo $materialVideo[$slabNum-1][$j][1]?></h5>
                 <div class="btn-responsive d-flex justify-content-around align-items-center my-4" height="50px">
                   <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="<?php echo $materialVideo[$slabNum-1][$j][2]?>" data-target="#myModal">
-                    Visualizar <i class="bi bi-box-arrow-up-right"></i>
+                    Reproducir <i class="bi bi-box-arrow-up-right"></i>
                   </button>
                 </div>
               </div>
@@ -311,9 +339,6 @@
         <?php }?>
       <?php }?>
       </div>
-      
-        <!--Condicional de indicadores-->
-        <?php if((count($materialYoutube) + count($materialPage) + count($materialPdf) + count($materialVideo)) > 3) { ?>
         
           <!--Indicadores Carrusel-->
           <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
@@ -324,10 +349,118 @@
             <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-        <?php } ?>
       </div>
     </div>
   </div>
+  <?php } else {?>
+
+  <!-- Materiales sin carrucel--> 
+  
+  <div class="d-flex flex-row justify-content-around material-display">
+    <!-----------------Imagen------------------>
+
+    <?php if(isset($materialImg[$slabNum-1])) {?>
+
+    <?php for($j = 0;$j<count($materialImg[$slabNum-1]);$j++){?>
+      <div class="d-flex justify-content-center wd30">
+        <div class="wd100">
+          <div class="card mt-4 shadow p-3 mb-5 bg-white rounded overflow-hidden h-px-400" style="">
+            <img class="card-img-top rounded-0" src="<?php echo $materialImg[$slabNum-1][$j][0]?>" alt="Card image cap">
+            <h5 class="card-title text-center mt-4"><?php echo $materialImg[$slabNum-1][$j][1]?></h5>
+            <div class="btn-responsive d-flex justify-content-around align-items-center my-4" height="50px">
+                <button type="button" class="btn btn-primary video-btn" data-link="<?php echo $materialImg[$slabNum-1][$j][3]?>" data-toggle="modal" data-src="<?php echo $materialImg[$slabNum-1][$j][2]?>" data-target="#myModal">
+                  Descargar <i class="bi bi-box-arrow-up-right"></i>
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <?php }?>
+    <?php }?>
+
+    <!--------------Video Youtube------------->
+    <?php if(isset($materialYoutube[$slabNum-1])) {?>
+      <?php for($j = 0;$j<count($materialYoutube[$slabNum-1]);$j++){?>
+        <div class="d-flex justify-content-center wd30">
+          <div class="wd100">
+            <div class="card mt-4 shadow p-3 mb-5 bg-white rounded overflow-hidden h-px-400" style="">
+              <img class="card-img-top rounded-0" src="<?php echo $materialYoutube[$slabNum-1][$j][0]?>" alt="Card image cap">
+              <h5 class="card-title text-center mt-4"><?php echo $materialYoutube[$slabNum-1][$j][1]?></h5>
+              <div class="btn-responsive d-flex justify-content-around align-items-center my-4" height="50px">
+                <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="<?php echo $materialYoutube[$slabNum-1][$j][2]?>" data-target="#myModal">
+                  Reproducir <i class="bi bi-box-arrow-up-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      <?php }?>
+    <?php }?>
+
+    <!-----------------Pagina------------------>
+
+    <?php if(isset($materialPage[$slabNum-1])) {?>
+      <?php for($j = 0;$j<count($materialPage[$slabNum-1]);$j++){?>
+        <div class="d-flex justify-content-center wd30">
+          <div class="wd100">
+            <div class="card mt-4 shadow p-3 mb-5 bg-white rounded overflow-hidden h-px-400" style="">
+              <img class="card-img-top rounded-0" src="<?php echo $materialPage[$slabNum-1][$j][0]?>" alt="Card image cap">
+              <h5 class="card-title text-center mt-4"><?php echo $materialPage[$slabNum-1][$j][1]?></h5>
+              <div class="btn-responsive d-flex justify-content-around align-items-center my-4" height="50px">
+                <a href="<?php echo $materialPage[$slabNum-1][$j][2]?>" class="btn btn-primary" target="_blank">
+                Visitar <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      <?php }?>
+    <?php }?>
+
+    <!-----------------PDF------------------>
+
+    <?php if(isset($materialPdf[$slabNum-1])) {?>
+      <?php for($j = 0;$j<count($materialPdf[$slabNum-1]);$j++){?>
+        <div class="d-flex justify-content-center wd30">
+          <div class="wd100">
+            <div class="card mt-4 shadow p-3 mb-5 bg-white rounded overflow-hidden h-px-400" style="">
+              <img class="card-img-top rounded-0" src="<?php echo $materialPdf[$slabNum-1][$j][0]?>" alt="Card image cap">
+              <h5 class="card-title text-center mt-4"><?php echo $materialPdf[$slabNum-1][$j][1]?></h5>
+              <div class="btn-responsive d-flex justify-content-around align-items-center my-4" height="50px">
+                <a href="<?php echo $materialPdf[$slabNum-1][$j][2]?>" class="btn btn-primary" target="_blank">
+                  Descargar <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      <?php }?>
+    <?php }?>
+
+    <!-----------------Vídeo------------------>
+
+    <?php if(isset($materialVideo[$slabNum-1])) {?>
+
+      <?php for($j = 0;$j<count($materialVideo[$slabNum-1]);$j++){?>
+        <div class="d-flex justify-content-center wd30">
+          <div class="wd100">
+            <div class="card mt-4 shadow p-3 mb-5 bg-white rounded overflow-hidden h-px-400" style="">
+              <img class="card-img-top rounded-0" src="<?php echo $materialVideo[$slabNum-1][$j][0]?>" alt="Card image cap">
+              <h5 class="card-title text-center mt-4"><?php echo $materialVideo[$slabNum-1][$j][1]?></h5>
+              <div class="btn-responsive d-flex justify-content-around align-items-center my-4" height="50px">
+                <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="<?php echo $materialVideo[$slabNum-1][$j][2]?>" data-target="#myModal">
+                  Reproducir <i class="bi bi-box-arrow-up-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      <?php }?>
+    <?php }?>
+  <?php }?>
+    
+  </div>
+</div>
 
 
 
@@ -417,15 +550,14 @@
             <div class="modal-content">
 
               <div class="modal-body">
-
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span class="closing-modal-x" aria-hidden="true">&times;</span>
                 </button>        
+
                 <!-- 16:9 aspect ratio -->
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                <div id="materialCont">
+                    
                 </div>
-                
               </div>
 
             </div>
